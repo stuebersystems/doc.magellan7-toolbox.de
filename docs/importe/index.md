@@ -8,7 +8,7 @@ Wenn Sie selbst Daten nach MAGELLAN übernehmen wollen, stehen Ihnen mehrere Weg
 
 * Mit Hilfe von Microsoft Access können Sie direkt auf die Datenbanktabellen von MAGELLAN zugreifen. Damit haben Sie die Möglichkeit, Daten aus anderen Datenquellen in die entsprechenden Tabellen zu importieren.
 
-* Sie bringen die Daten, die Sie nach MAGELLAN übernehmen wollen in das im Abschnitt [MAGELLAN-Importformat](https://doc.MAGELLAN-import.stueber.de/MagImp/MAGELLAN-importformat.html) beschriebene Format und importieren die Daten mit Hilfe des MAGELLAN-Administrators.
+* Sie bringen die Daten, die Sie nach MAGELLAN übernehmen wollen in das MAGELLAN-Importformat beschriebene Format und importieren die Daten mit Hilfe des MAGELLAN-Administrators.
 
 * Sie nutzen die MAGELLAN-Skripting-Technologie. Dies hat den Vorteil, dass Sie die Datenübernahme genau nach Ihren Wünschen durchführen können. Sie müssen sich jedoch in diesem Fall mit der Programmiersprache der MAGELLAN-Skripte und der Datenstruktur von MAGELLAN beschäftigen.
 
@@ -61,26 +61,26 @@ Die Datei „schueler_sorgebe.import.csv“ kann nur sinnvoll importiert werden,
 
 Importdatei|Beschreibung
 ---|---
-[schulen.import.csv](schnittstellenformat_schulenimportcsv.md)|Enthält die Stammdaten der Schulen
-[betriebe.import.csv](betriebeimportcsv.md)|Enthält die Stammdaten der Betriebe
-[lehrer.import.csv](lehrerimportcsv.md)|Enthält die Stammdaten der Lehrer
-[schueler.import.csv](lehrerimportcsv.md)|Enthält die Stammdaten der Schüler und Bewerber
-[sorgebe.import.csv](sorgebeimportcsv.md)|Enthält die Stammdaten der Sorgeberechtigten
-[verlage.import.csv](verlageimportcsv.md)|Enthält die Stammdaten der Verlage
-[lieferanten.import.csv](lieferantenimportcsv.md)|Enthält die Stammdaten der Lieferanten
-[medien.import.csv](lieferantenimportcsv.md)|Enthält die Stammdaten der Medien
+[schulen.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/schnittstellenformat_schulenimportcsv)|Enthält die Stammdaten der Schulen
+[betriebe.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/betriebeimportcsv)|Enthält die Stammdaten der Betriebe
+[lehrer.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/lehrerimportcsv)|Enthält die Stammdaten der Lehrer
+[schueler.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/lehrerimportcsv)|Enthält die Stammdaten der Schüler und Bewerber
+[sorgebe.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/sorgebeimportcsv)|Enthält die Stammdaten der Sorgeberechtigten
+[verlage.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/verlageimportcsv)|Enthält die Stammdaten der Verlage
+[lieferanten.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/lieferantenimportcsv)|Enthält die Stammdaten der Lieferanten
+[medien.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/lieferantenimportcsv)|Enthält die Stammdaten der Medien
 
 Alle nachfolgenden Dateien verbinden vorab importierte Daten miteinander:
 
 Importdatei|Beschreibung
 ---|---
-[exemplare.import.csv](exemplareimportcsv.md)|Enthält die Exemplardaten zu den Medien<br/>Bedingung:<br/> Import der medien.import.csv
-[klassen.import.csv](klassenimportcsv.md)|Enthält die Stamm- und Zeitraumdaten der Klassen<br/>Bedingung: <br/>Vorhandensein der Zeiträume und Lehrer (Verweis auf Klassenleiter) in MAGELLAN.
-[schueler_laufbahn.import.csv](schuelerlaufbahn_importcsv.md) |Enthält die Laufbahndaten der Schüler <br/>Weitere Bedingung: <br/>Import der klassen.import.csv und schueler.import.csv
-[schueler_fachdaten.import.csv](schuelerfachdatenimportcsv.md) |Enthält die Fachdaten der Schüler<br/>Weitere Bedingung:<br/> Import der klassen.import.csv, schueler.import.csv und schueler_laufbahn.import.csv
-[schueler_sorgebe.import.csv](schuelersorgebeimportcsv.md)|Enthält die Zuordnung der Sorgeberechtigten zu den Schülern<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und sorgebe.import.csv
-[schueler_schulen.import.csv](schuelerschulenimportcsv.md)|Enthält die bereits besuchten Schulen der Schüler (Stichwort: Herkunftsschulen)<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und schulen.import.csv
-[schueler_ausbildung.import.csv](schuelerausbildungimportcsv.md)|Enthält die Ausbildungsdaten der Schüler<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und betriebe.import.csv
+[exemplare.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/exemplareimportcsv)|Enthält die Exemplardaten zu den Medien<br/>Bedingung:<br/> Import der medien.import.csv
+[klassen.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/klassenimportcsv)|Enthält die Stamm- und Zeitraumdaten der Klassen<br/>Bedingung: <br/>Vorhandensein der Zeiträume und Lehrer (Verweis auf Klassenleiter) in MAGELLAN.
+[schueler_laufbahn.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/schuelerlaufbahn_importcsv) |Enthält die Laufbahndaten der Schüler <br/>Weitere Bedingung: <br/>Import der klassen.import.csv und schueler.import.csv
+[schueler_fachdaten.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/schuelerfachdatenimportcsv) |Enthält die Fachdaten der Schüler<br/>Weitere Bedingung:<br/> Import der klassen.import.csv, schueler.import.csv und schueler_laufbahn.import.csv
+[schueler_sorgebe.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/schuelersorgebeimportcsv)|Enthält die Zuordnung der Sorgeberechtigten zu den Schülern<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und sorgebe.import.csv
+[schueler_schulen.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/schuelerschulenimportcsv)|Enthält die bereits besuchten Schulen der Schüler (Stichwort: Herkunftsschulen)<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und schulen.import.csv
+[schueler_ausbildung.import.csv](https://doc.magellan7-ds.stueber.de/importe/MagImp/schuelerausbildungimportcsv)|Enthält die Ausbildungsdaten der Schüler<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und betriebe.import.csv
 
 !!! warning "Wichtig"
 

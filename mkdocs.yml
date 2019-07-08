@@ -389,19 +389,19 @@ nav:
       - Vagabonds: datenstruktur/ansichten/Vagabonds.md
 - MAGELLAN-Importformat:
   - Einführung: importe/index.md
-    - schulen.import.csv: importe/MagImp/schnittstellenformat_schulenimportcsv.md
-    - betriebe.import.csv: importe/MagImp/betriebeimportcsv.md
-    - lehrer.import.csv: importe/MagImp/lehrerimportcsv.md
-    - sorgebe.import.csv: importe/MagImp/sorgebeimportcsv.md
-    - verlage.import.csv: importe/MagImp/verlageimportcsv.md
-    - lieferanten.import.csv: importe/MagImp/lieferantenimportcsv.md
-    - medien.import.csv: importe/MagImp/medienimportcsv.md
-    - exemplare.import.csv: importe/MagImp/exemplareimportcsv.md
-    - klassen.import.csv: importe/MagImp/klassenimportcsv.md
-    - schueler.import.csv: importe/MagImp/schuelerimportcsv.md
-    - schueler_laufbahn.import.csv: importe/MagImp/schuelerlaufbahn_importcsv.md
-    - schueler_fachdaten.import.csv: importe/MagImp/schuelerfachdatenimportcsv.md
-    - schueler_sorgebe.import.csv]: importe/MagImp/schuelersorgebeimportcsv.md
-    - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
-    - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
-    - Importieren mit dem Importassistenten: importe/MagImp/importieren_mit_dem_importassistenten.md
+  - schulen.import.csv: importe/MagImp/schnittstellenformat_schulenimportcsv.md
+  - betriebe.import.csv: importe/MagImp/betriebeimportcsv.md
+  - lehrer.import.csv: importe/MagImp/lehrerimportcsv.md
+  - sorgebe.import.csv: importe/MagImp/sorgebeimportcsv.md
+  - verlage.import.csv: importe/MagImp/verlageimportcsv.md
+  - lieferanten.import.csv: importe/MagImp/lieferantenimportcsv.md
+  - medien.import.csv: importe/MagImp/medienimportcsv.md
+  - exemplare.import.csv: importe/MagImp/exemplareimportcsv.md
+  - klassen.import.csv: importe/MagImp/klassenimportcsv.md
+  - schueler.import.csv: importe/MagImp/schuelerimportcsv.md
+  - schueler_laufbahn.import.csv: importe/MagImp/schuelerlaufbahn_importcsv.md
+  - schueler_fachdaten.import.csv: importe/MagImp/schuelerfachdatenimportcsv.md
+  - schueler_sorgebe.import.csv]: importe/MagImp/schuelersorgebeimportcsv.md
+  - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
+  - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
+  - Importieren mit dem Importassistenten: importe/MagImp/importieren_mit_dem_importassistenten.md

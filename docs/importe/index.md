@@ -92,32 +92,33 @@ Importdatei|Beschreibung
 Jede dieser Dateien muss als CSV-Datei aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch Semikolon getrennt und mit Anführungszeichen abgegrenzt.
 
 Die Schülerdatei kann z.B. folgenden Aufbau haben
-„Nachname“;„Vorname“;„Anrede“;„Geschlecht“;„Strasse“;
 
-* `„Müller“;„Hans“;„H“;„m“;„Mühlenweg 11“`
-* `„Meier“;„Petra“;„F“;„w“;„Mühlenweg 12“`
+`„Nachname“;„Vorname“;„Anrede“;„Geschlecht“;„Strasse“;` <br/>
+ `„Müller“;„Hans“;„H“;„m“;„Mühlenweg 11“`<br/>
+ `„Meier“;„Petra“;„F“;„w“;„Mühlenweg 12“`
 
 Die Reihenfolge der Felder spielt dabei keine Rolle. Die Semantik der Felder wird durch die Kopfzeile bestimmt. Beispielsweise kann auch eine Schülerdatei mit folgendem Aufbau eingelesen werden.
-„Strasse“;„Geschlecht“;„Vorname“;„Nachname“;„Anrede“
-* <FONT FACE="Courier New">„Mühlenweg 11“;„m“;„Müller“;„Hans“;„H“
-* <FONT FACE="Courier New">„Mühlenweg 12“;„w“;„Meier“;„Petra“;„F“</FONT>
 
-Die Felder entsprechen dem sog. System Data Format (SDF), d.h. bei einem Semikolon, Komma, Sonderzeichen oder einem Leerzeichen im String wird der String in Anführungszeichen gesetzt, z.B. die Strasse "Mühlenweg 11" wird
-* <FONT FACE="Courier New">;“Mühlenweg 11“;...</FONT>
-und nicht
-* <FONT FACE="Courier New">;Mühlenweg 11;...</FONT>
+`„Strasse“;„Geschlecht“;„Vorname“;„Nachname“;„Anrede“`<br/>
+`„Mühlenweg 11“;„m“;„Müller“;„Hans“;„H“`<br/>
+`„Mühlenweg 12“;„w“;„Meier“;„Petra“;„F“`
+
+Die Felder entsprechen dem sog. System Data Format (SDF), d.h. bei einem Semikolon, Komma, Sonderzeichen oder einem Leerzeichen im String wird der String in Anführungszeichen gesetzt, z.B. die Strasse "Mühlenweg 11" wird<br/><br/>
+`;“Mühlenweg 11“;...`<br/>
+und nicht<br/>
+`;Mühlenweg 11;...`
 
 geschrieben.
 
-Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeichen anzugeben. Wollen Sie z.B. “Hallbach“ einlesen, so müssen Sie als Inhalt
-* <FONT FACE="Courier New">;““Hallbach““;...</FONT>
+Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeichen anzugeben. Wollen Sie z.B. “Hallbach“ einlesen, so müssen Sie als Inhalt<br/>
+`;““Hallbach““;...`
 
 angeben.
 Welche Felder pro Datei eingelesen werden, ist den nachfolgenden Abschnitten pro Datei zu entnehmen.
 
-!!! info "Hinweis"
+!!! warning "Wichtig"
 
-   Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden. Wir erlauben in den Feldern, die mit dem Datentyp M für Memofeld gekennzeichnet sind Zeilenumbrüche in Form der Notation: \n. Beim Import wird diese Notation in einen echten Zeilenumbruch umgewandelt.
+    Zeilenumbrüche sind in einer CSV-Datei nicht erlaubt. Das Datenformat bestimmt jede Zeile als einen Datensatz. Ein Umbruch mitten in der Zeile kann nicht verarbeitet werden. Wir erlauben in den Feldern, die mit dem Datentyp M für Memofeld gekennzeichnet sind Zeilenumbrüche in Form der Notation: \n. Beim Import wird diese Notation in einen echten Zeilenumbruch umgewandelt.
 
 ### Datentypen
 
@@ -126,20 +127,20 @@ Bei der Beschreibung finden folgende Datentypen Verwendung
 Typ|Beschreibung
 ---|---
 A|Textfeld mit maximaler Länge (Textfeld)
-D |Datumsangabe , Format: TT.MM.JJJJ (Datumsfeld) </td>
+D |Datumsangabe , Format: TT.MM.JJJJ (Datumsfeld)
 I |Ganze Zahl (32-Bit-Integer
 L |Logisches Feld: Textfeld der Größe 1 mit den möglichen Werten "J" oder "N"
 M |Textfeld mit variabler Länge (Memofeld)
-N |Kommazahl (Numeric) z.B. „2,5“ oder „2.5“	</td>
+N |Kommazahl (Numeric) z.B. „2,5“ oder „2.5“
 S |Ganze Zahl (16-Bit-Integer)
 
 Einige Felder haben auch eine bestimmte Funktion in der Datei und werden als Zusatz zum Typ dargestellt. Diese Funktion wird ebenfalls durch ein zusätzliches Kürzel gekennzeichnet.
 
 Typ|Beschreibung
 ---|---
-P|Pflichtfeld. Es muss mindestens pro Datensatz gefüllt sein, damit der Datensatz importiert werden kann. </td>
+P|Pflichtfeld. Es muss mindestens pro Datensatz gefüllt sein, damit der Datensatz importiert werden kann.
 P2 |Sekundärpflichtfelder. Diese sind für den Import insoweit relevant, dass wir Felder mit P und P2 berücksichtigen, wenn wir überprüfen, ob ein Datensatz bereits existiert. Für den Import selbst, sind Eingaben in P2 Felder dann nicht relevant. Relevant wird es, wenn Verweise auf Tabellen mit P2 Feldern existieren. Denn dann kann ein Import dieser Verweise nur gewährleistet werden, wenn P1 und P2 Felder übereinstimmen.
-V |Verweis. Gibt an, dass der eigentliche Stammsatz in einer anderen Tabelle liegt und hier nur der Verweis darauf gespeichert ist. Dies kann eine Zahl (ID) sein, oder ein Textkürzel. </td>
+V |Verweis. Gibt an, dass der eigentliche Stammsatz in einer anderen Tabelle liegt und hier nur der Verweis darauf gespeichert ist. Dies kann eine Zahl (ID) sein, oder ein Textkürzel.
 
 !!! warning "Wichtig"
 

@@ -389,7 +389,6 @@ nav:
       - Vagabonds: datenstruktur/ansichten/Vagabonds.md
 - MAGELLAN-Importformat:
   - Einführung: importe/index.md
-    - Allgemeines: importe/MagImp/magellan-importformat.md
     - schulen.import.csv: importe/MagImp/schnittstellenformat_schulenimportcsv.md
     - betriebe.import.csv: importe/MagImp/betriebeimportcsv.md
     - lehrer.import.csv: importe/MagImp/lehrerimportcsv.md

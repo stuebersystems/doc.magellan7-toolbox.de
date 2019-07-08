@@ -387,10 +387,9 @@ nav:
       - StudentAchievements: datenstruktur/ansichten/StudentAchievements.md
       - StudentsComplexReports: datenstruktur/ansichten/StudentsComplexReports.md
       - Vagabonds: datenstruktur/ansichten/Vagabonds.md
-- Importe:
+- MAGELLAN-Importformat:
   - Einführung: importe/index.md
-  - MAGELLAN-Importformat: 
-    - Einführung: importe/MagImp/magellan-importformat.md
+    - Allgemeines: importe/MagImp/magellan-importformat.md
     - schulen.import.csv: importe/MagImp/schnittstellenformat_schulenimportcsv.md
     - betriebe.import.csv: importe/MagImp/betriebeimportcsv.md
     - lehrer.import.csv: importe/MagImp/lehrerimportcsv.md

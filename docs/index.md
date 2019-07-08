@@ -34,26 +34,3 @@ MAGELLAN 7 kann Daten aus vielen gängigen Fremdprogrammen übernehmen. Die verf
 
 * [Einführung](importe/index.md)
 * [Magellan-Importformat](importe/MagImp/magellan-importformat.md)
-* [BBS-Planung](importe/bbsPlan/bbs-planung.md)
-* [BBZ-SEKI](importe/bbzseki/bbzseki.md)
-* [Bibliomatik](importe/Bibliomatik/bibliomatik.md)
-* [BUSS](importe/BUSS/buss.md)
-* [HERA Schuldaten](importe/HERA/heraschuldaten.md)
-* [Danis](importe/Danis/danis.md)
-* [IBIS](importe/IBIS/ibis.md)
-* [ISIS](importe/ISIS/isis.md)
-* [ISL-Schule](importe/ISL-Schule/isl-schule.md)
-* [LUSD (Hessen)](importe/LUSD/lusd-hessen.md)
-* [Omnia](importe/Omnia/omnia.md)
-* [Ostertun](importe/Ostertun/ostertun.md)
-* [SchoolExpert](importe/SchoolExpert/schoolexpert.md)
-* [SchuelerOnline](importe/schueleronline/schueleronline.md)
-* [SIBANK](importe/SIBANK/sibank.md)
-* [SPlan](importe/SPLAN/splan.md)
-* [WinSchool](importe/WinSchool/winschool.md)
-* [WinSV](importe/WinSV/winsv.md)
-
-
-
-
-

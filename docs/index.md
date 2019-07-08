@@ -1,22 +1,22 @@
 # Über diese Dokumentation
 
-Dies ist die Dokumentation zur Datenstruktur und Importschnittstelle von [MAGELLAN 7](https://magellan.stueber.de).
+Dies ist die Dokumentation zur Datenstruktur und Importschnittstelle von [MAGELLAN 7](https://doc.magellan7.stueber.de/).
 
 Diese Dokumentation ist unterteilt in die Bereiche:
 
-* [Datenstruktur](datenstruktur/index.md)
-* [Importschnittstelle](importe/index.md)
+* [Datenstruktur](https://doc.magellan7-ds.stueber.de/datenstruktur/)
+* [Importschnittstelle](https://doc.magellan7-ds.stueber.de/importe/)
 
 Weitere Dokumentationen finden Sie unter nachfolgenden Links:
 
-* [MAGELLAN 7](https://doc.magellan7.stueber.de)
-* [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de)
+* [MAGELLAN 7](https://doc.MAGELLAN7.stueber.de)
+* [MyMAGELLAN 7](https://doc.myMAGELLAN7.stueber.de)
 * [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
 * [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)
 
 ## Die Datenstruktur
 
-MAGELLAN 7 basiert auf einer relationalen SQL-Datenbank. Die Datenstruktur dieser Datenbank wird hier umfasssend beschrieben wird die. 
+MAGELLAN 7 basiert auf einer relationalen SQL-Datenbank. Die Datenstruktur dieser Datenbank wird hier umfassend beschrieben.
 
 In folgenden Situationen können diese Informationen hilfreich sein:
 
@@ -30,7 +30,6 @@ Bitte beachten Sie, dass die in diesen Unterlagen enthaltenen Angaben und Daten 
 
 # Die Importschnittstelle
 
-MAGELLAN 7 kann Daten aus vielen gängigen Fremdprogrammen übernehmen. Die verfügbaren Importverfahren werden hier beschrieben.
+MAGELLAN 7 kann Daten aus entsprechend vorbereiteten CSV-Dateien übernehmen. Das Importverfahren wird hier beschrieben.
 
-* [Einführung](importe/index.md)
-* [Magellan-Importformat](importe/MagImp/magellan-importformat.md)
+* [MAGELLAN-Importformat]([importe/index.md](https://doc.MAGELLAN7-ds.stueber.de/importe/))

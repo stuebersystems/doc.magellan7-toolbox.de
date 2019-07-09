@@ -22,7 +22,11 @@ Sie haben die Möglichkeit, jede Importdatei einzeln zu importieren oder einen s
 
 ### Batch-Import
 
-Der Batch-Import stellt eine Möglichkeit dar, das Verzeichnis in dem die Importdateien liegen, anzuge-ben und den restlichen Import automatisiert durchlaufen zu lassen. Voraussetzung hierfür ist, dass die Importdateien entsprechend der Namenskonvention (z.B. schueler.import.csv) vorliegen. Der Batch-Import kann, je nach Datenmenge und Anzahl der Importdateien die Sie importieren möchten, eine gewisse Zeit in Anspruch nehmen.<br/>Die Möglichkeit der Datenprüfung ist bei einem Batch-Import nicht gegeben, da einige Daten auf andere Verweisen und die Prüfung aufgrund der fehlenden Einträge – da bei einer Prüfung nicht importiert wird – zu Fehlmeldungen führen würde.<br/>Wenn Sie sich sicher sind, dass Ihre Importdateien korrekt sind, oder den Import einfach mal austesten möchten und entsprechend **Sicherungen** ihrer MAGELLAN Datenbank gemacht haben, können Sie den Batch-Import nutzen.
+Der Batch-Import stellt eine Möglichkeit dar, das Verzeichnis in dem die Importdateien liegen, anzuge-ben und den restlichen Import automatisiert durchlaufen zu lassen. Voraussetzung hierfür ist, dass die Importdateien entsprechend der Namenskonvention (z.B. schueler.import.csv) vorliegen. Der Batch-Import kann, je nach Datenmenge und Anzahl der Importdateien die Sie importieren möchten, eine gewisse Zeit in Anspruch nehmen.
+
+Die Möglichkeit der Datenprüfung ist bei einem Batch-Import nicht gegeben, da einige Daten auf andere Verweisen und die Prüfung aufgrund der fehlenden Einträge – da bei einer Prüfung nicht importiert wird – zu Fehlmeldungen führen würde.
+
+Wenn Sie sich sicher sind, dass Ihre Importdateien korrekt sind, oder den Import einfach mal austesten möchten und entsprechend **Sicherungen** ihrer MAGELLAN Datenbank gemacht haben, können Sie den Batch-Import nutzen.
 
 ### Single-Import
 
@@ -36,8 +40,11 @@ In der Auswahl der Importdaten erhalten Sie einen Überblick welche Daten nach M
 
 ![Abbildung 4: Auswahl der Importdaten](/assets/images/importe/magimp-3.png)
 
-Im unteren Bereich befinden sich Importdaten, die aufeinander aufbauen, entweder auf Daten, die sich im oberen Bereich befinden oder auf Daten, die sich im gleichen Bereich befinden. Die Reihenfolge der Anordnung gibt auch bereits Auskunft über die empfohlene Importreihenfolge.<br/>
-Eine Besonderheit stellen hier Medien und Medienexemplare dar. Medienexemplare erfordern den vorigen Import der Medien, aber keiner weiteren Daten.<br/>Wenn die Importdatei der Namenskonvention entspricht (z.B. betriebe.import.csv), dann erkennt der Importassistent am Namen um welche Importdaten es sich handelt und wählt für Sie entsprechend vor
+Im unteren Bereich befinden sich Importdaten, die aufeinander aufbauen, entweder auf Daten, die sich im oberen Bereich befinden oder auf Daten, die sich im gleichen Bereich befinden. Die Reihenfolge der Anordnung gibt auch bereits Auskunft über die empfohlene Importreihenfolge.
+
+Eine Besonderheit stellen hier Medien und Medienexemplare dar. Medienexemplare erfordern den vorigen Import der Medien, aber keiner weiteren Daten.
+
+Wenn die Importdatei der Namenskonvention entspricht (z.B. betriebe.import.csv), dann erkennt der Importassistent am Namen um welche Importdaten es sich handelt und wählt für Sie entsprechend vor
 
 ## Schritt 4: Auswahl der Importparameter
 
@@ -75,5 +82,6 @@ Es wird geprüft, ob ein der Datensatz mit angegebenem Wert in einer Schlüssel-
 
 ![Abbildung 7: Prüfung von zu importierenden Betriebedaten](/assets/images/importe/magimp-6.png)
 
-In der obigen Abbildung wurden Betriebedaten für den Import geprüft. Der Importassistent hat in einem Datensatz (Zeile 1500) einen Fehler im Feld „PLZ“ gefunden. Die PLZ enthält den Wert „1976cc“ und ist damit länger als eine PLZ sein dürfte (5 Zeichen).<br/> 
+In der obigen Abbildung wurden Betriebedaten für den Import geprüft. Der Importassistent hat in einem Datensatz (Zeile 1500) einen Fehler im Feld „PLZ“ gefunden. Die PLZ enthält den Wert „1976cc“ und ist damit länger als eine PLZ sein dürfte (5 Zeichen).
+
 Bei einem Import würde der Betriebe-Datensatz importiert werden, lediglich das Feld „PLZ“ wäre in Magellan für diesen Betrieb nicht gefüllt.

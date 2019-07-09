@@ -76,7 +76,7 @@ Bemerkung| Verweis auf das Schlüsselverzeichnis "Arbeitsaemter" (Kürzel)“
 **Feldname**| Status
 Typ| A
 Größe| 1
-Bemerkung| Mögliche Werte:<br/>N = inaktiv<br/>J = aktiv
+Bemerkung| Mögliche Werte: <br/> N = inaktiv<br/>J = aktiv
 **Feldname**| Bemerkung
 Typ| M
 Größe| 255
@@ -111,7 +111,6 @@ Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ih
  Arbeitsamt
  Status
 Bemerkung
-
 
 !!! warning "Wichtig"
 

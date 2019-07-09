@@ -404,4 +404,4 @@ nav:
   - schueler_sorgebe.import.csv]: importe/MagImp/schuelersorgebeimportcsv.md
   - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
   - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
-  - Importieren mit dem Importassistenten: importe/MagImp/importieren_mit_dem_importassistenten.md
+  - Importieren: importe/MagImp/importieren_mit_dem_importassistenten.md

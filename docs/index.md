@@ -1,6 +1,6 @@
 # Über diese Dokumentation
 
-Dies ist eine weiterführende Dokumentation der Datenstruktur, zur Nutzung von Skripten und dem Importformat von [MAGELLAN 7](https://doc.magellan7.stueber.de/).
+Dies ist eine weiterführende Dokumentation zur Datenstruktur, zur Nutzung von Skripten und dem Importformat von [MAGELLAN 7](https://doc.magellan7.stueber.de/).
 
 Diese Dokumentation ist unterteilt in die Bereiche:
 

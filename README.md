@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/sbc5n5u7db1pepjy?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-ds-de)
 
-# MAGELLAN 7 Datenstruktur
+# MAGELLAN 7 Toolbox
 
 Dies ist die deutsche Dokumentation zur Datenstruktur und Importschnittstelle von [MAGELLAN 7](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
 
@@ -24,27 +24,27 @@ Dies ist die deutsche Dokumentation zur Datenstruktur und Importschnittstelle vo
 
 Dieses Repository ist ein Git-Repository. Um das Repository auf deinem lokalen Computer zu klonen, benötigst Du einen Git-Client. Entweder Du installierst Dir [Git für Windows](https://gitforwindows.org/) und arbeitest mit der Eingabeaufforderung, oder Du installierst Dir eine der zahlreichen GUIs. Zu empfehlen wären [GitHub Desktop](https://desktop.github.com) oder [SourceTree](https://www.sourcetreeapp.com).
 
-1. Erstelle einen lokalen Ordner für die Dokumentation, z.B. `c:\docs\magellan-ds`.
+1. Erstelle einen lokalen Ordner für die Dokumentation, z.B. `c:\docs\magellan-toolbox`.
 
-2. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\magellan-ds`.
+2. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\magellan-toolbox`.
 
-3. Tippe den Befehl `git clone https://github.com/stuebersystems/doc.magellan7-ds.de.git` ein, um das Repository zu klonen.
+3. Tippe den Befehl `git clone https://github.com/stuebersystems/doc.magellan7-toolboxde..git` ein, um das Repository zu klonen.
 
 ## Repository als Zip-Archiv herunterladen
 
 Willst du mit Git erstmal nichts zu tun haben, kannst Du das Repository auch als Zip-Archiv herunterladen:
 
-1. Öffne die URL `https://github.com/stuebersystems/doc.magellan7-ds.de` in deinem Webbrowser
+1. Öffne die URL `https://github.com/stuebersystems/doc.magellan7-toolbox.de` in deinem Webbrowser
 
 2. Klicke auf die Schaltfläche `Clone or download` und dann auf `Download ZIP`.
 
-3. Entpacke das Zip-Archiv in einen lokalen Ordner Deiner Wahl, z.B. `c:\docs\magellan-ds`.
+3. Entpacke das Zip-Archiv in einen lokalen Ordner Deiner Wahl, z.B. `c:\docs\magellan-toolbox`.
 
 ## Mit MkDocs arbeiten
 
 Du hast Python und das Package MkDocs installiert, Du hast dieses Repository geklont oder als Zip-Archiv heruntergeladen. Jetzt kannst Du die Dokumentation lokal auf deinem Rechner generieren:
 
-1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\magellan-ds`.
+1. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\magellan-toolbox`.
 
 2. Tippe den Befehl `mkdocs build` ein. Die Dokumentation wird neu generiert.
 

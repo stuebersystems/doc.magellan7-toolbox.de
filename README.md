@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/sbc5n5u7db1pepjy?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-ds-de)
+[![Build status](https://ci.appveyor.com/api/projects/status/b1bep2tc5lmtrbh0?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-toolbox-de)
 
 # MAGELLAN 7 Toolbox
 

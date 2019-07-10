@@ -28,7 +28,7 @@ Dieses Repository ist ein Git-Repository. Um das Repository auf deinem lokalen C
 
 2. Starte die Eingabeaufforderung und wechsle in den Ordner `c:\docs\magellan-toolbox`.
 
-3. Tippe den Befehl `git clone https://github.com/stuebersystems/doc.magellan7-toolboxde..git` ein, um das Repository zu klonen.
+3. Tippe den Befehl `git clone https://github.com/stuebersystems/doc.magellan7-toolbox.de.git` ein, um das Repository zu klonen.
 
 ## Repository als Zip-Archiv herunterladen
 

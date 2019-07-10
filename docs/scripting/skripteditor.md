@@ -2,7 +2,7 @@
 
 Der MAGELLAN-Skripteditor ist das Werkzeug, mit dem Sie Skripte editieren oder neu erstellen können.
 
-![Der Skripteditor](/assets/images/scriptingskripteditor.png)
+![Der Skripteditor](/assets/images/scripting/skripteditor.png)
 
 ## Starten des Editors
 
@@ -27,7 +27,7 @@ Der Quellcode-Teil enthält den eigentlichen Skriptcode. Damit sind die Proramma
 
 Der Interface-Teil dagegen dient als Bindeglied zwischen MAGELLAN und dem Skripteditor. Hier wird die Schnittstelle zwischen MAGELLAN und dem Skript definiert, d.h. es werden Konstanten und zum Teil auch Funktionen deklariert, die später von MAGELLAN automatisch zur Verfügung gestellt werden.
 
-![2 Der Skripteditor mit dem Interface-Teil des geöffnetem Skript in der Ansicht “Interface-Emulation“](/assets/images/scriptinginterface-emulation.png)
+![2 Der Skripteditor mit dem Interface-Teil des geöffnetem Skript in der Ansicht “Interface-Emulation“](/assets/images/scripting/interface-emulation.png)
 
 Betrachten wir uns beispielsweise den Interface-Teil des bereits erwähnten Importskripts für das Einschulen von Schülern. Sie finden dort die Deklaration von diversen Variablen des Objektes TSchueler. Dies sind genau jene Variablen, die durch den MAGELLAN-Administrator beim Aufruf des Einschulens von Schülern zur Verfügung gestellt werden, d.h. die Angaben werden automatisch ermittelt und übergeben.
 
@@ -43,7 +43,7 @@ Die Trennung zwischen eigentlichem Quellcode und der Interface-Definition spiege
 
 Wenn Sie Lust haben eigene Änderungen vorzunehmen, dann probieren Sie es einfach aus. Der beste Einstieg ist immer, dem aktuellen Skript ein paar syntaktische Fehler zu spendieren, um dann zu beobachten, wie der Skripteditor darauf reagiert.
 
-![Syntaxfehler werden direkt im Skripteditor markiert](/assets/images/scriptingskripteditor-fehler.png)
+![Syntaxfehler werden direkt im Skripteditor markiert](/assets/images/scripting/skripteditor-fehler.png)
 
 Tippen Sie z.B. ein paar Sonderzeichen ein oder eine unsinnige Buchstabenfolge wie in der Abbildung. Klicken Sie anschließend im Menü ```Extras``` auf ```Skript compilieren```.
 

@@ -227,168 +227,27 @@ NUM =
 
 Die folgenden Worte sind reserviert und können nicht beliebig im Skript verwendet werden. So dürfen Sie beispielsweise keine Variable deklarieren, die BEGIN heißt.
 
-<table class="table">
-<caption></caption>
-<thead>
-<tr>
-<th colspan= 5 >Reservierte Worte</th>
-</tr>
-</thead>
-<tbody>
-<tr>
- <th>A</th>
-    <td>and</td>
-     <td>array</td>
-     <td>as</td>
-     <td>  </td>
-     <td>  </td>
-</tr>
-<tr>
-  <th> B</th>
-     <td>begin</td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-     <td>  </td>
-</tr>
-<tr>
-    <th> C</th>
-     <td>case</td>
-     <td>class</td>
-      <td>const</td>
-      <td>const</td>
-      <td>constructor</td>
-</tr>
-<tr>
-    <th> D</th>
-     <td>destructor</td>
-     <td>div </td>
-     <td>do </td>
-     <td> downto</td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> E</th>
-     <td>else</td>
-     <td>end</td>
-     <td>except </td>
-     <td> </td>
-     <td> </td>
-</tr>    
-<tr>
-    <th> F</th>
-     <td>finally </td>
-     <td> for</td>
-     <td> forward</td>
-     <td> function</td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> I</th>
-     <td>if </td>
-     <td> inherited</td>
-     <td> is</td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> L</th>
-     <td>label </td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> M</th>
-     <td>mod </td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> N</th>
-     <td> nil</td>
-     <td> not</td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> O</th>
-     <td>of </td>
-     <td> or</td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> P</th>
-     <td>procedure </td>
-     <td> property</td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> R</th>
-     <td> raise</td>
-     <td> record</td>
-     <td>repeat </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> S</th>
-     <td>string </td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-     <td> </td>
-</tr> 
-<tr>
-    <th> T</th>
-     <td> then</td>
-     <td>to </td>
-     <td>try </td>
-     <td> type</td>
-     <td> </td>
-</tr> 
-<tr> 
-    <th> U</th>
-     <td> until</td>
-     <td>  </td>
-     <td>  </td>
-     <td>  </td>
-     <td> </td>
-</tr> 
-<tr> 
-    <th> V</th>
-     <td> var</td>
-     <td>  </td>
-     <td>  </td>
-     <td>  </td>
-     <td> </td>
-</tr> 
-<tr> 
-    <th>W</th>
-     <td>while</td>
-     <td>  </td>
-     <td>  </td>
-     <td>  </td>
-     <td> </td>
-</tr> 
-<tr> 
-    <th>X</th>
-     <td>xor</td>
-     <td>  </td>
-     <td>  </td>
-     <td>  </td>
-     <td> </td>
-</tr> 
-</tbody>
-</table>
+Buchstabe|Reservierter Begriff
+--|--
+A| and   array   as
+B|begin  
+C|case   class   const   const   constructor
+D|destructor   div    do     downto
+E|else   end   except
+F|finally     for    forward    function
+I|if     inherited    is
+L|label
+M|mod
+N| nil    not  
+O|of     or  
+P|procedure     property  
+R| raise    record   repeat
+S|string
+T| then   to    try     type
+U| until  
+V| var  
+W|while  
+X|xor  
 
 ## Besonderheiten
 
@@ -400,7 +259,7 @@ Die Syntax von DelphiWebScript unterscheidet sich in einigen Punkten von einem D
 
 Ein Delphi-Programm hat die folgende Struktur:
 
-```
+```dws
 
 program ProgramName;
 
@@ -417,7 +276,7 @@ Ein DelphiWebScript hat keine Struktur. Man kann Deklarationen und Instruktionen
 
 Beispiel:
 
-```
+```dws
 var i: Integer = 2;
 type TPoint = record x, y: Integer; end;
 type TRect = record x, y, w, h: Integer end;
@@ -435,7 +294,8 @@ Proc(x);
 Sie können innerhalb einer Prozedur-Deklaration keine Deklaration platzieren.
 
 **Beispiel:**
-```
+
+```dws
 // FALSCH
 procedure Proc(x: Integer);
 type
@@ -443,7 +303,7 @@ TMyRec = record a, b: string end;
 begin end;
 ```
 
-```
+```dws
 // RICHTIG
 procedure Proc(x: Integer);
 begin
@@ -454,12 +314,13 @@ end;
 Dafür kann man Variablen auch innerhalb eines Blocks (BEGIN..END) deklarieren. Die Deklaration ist nur innerhalb dieses Blocks und inner- halb der entsprechenden Unterblöcke sichtbar.
 
 **Beispiel:**
-```
-var i: Integer; 
+
+```dws
+var i: Integer;
 if i = 0 then begin
 var j: Integer;
 j := 2;
-while j > 0 do 
+while j > 0 do
 begin
 var k: Integer;
 k := 2;
@@ -491,10 +352,11 @@ DelphiWebScript unterstützt keine Mengentypen und keine Aufzählungstypen.
 
 #### Case-Anweisung
 
-In DelphiWebSkript können Sie innerhalb einer CASE-Anweisung alle Datentypen verwenden: 
+In DelphiWebSkript können Sie innerhalb einer CASE-Anweisung alle Datentypen verwenden:
 
 **Beispiel:**
-```
+
+```dws
 var s: string;
 
 s := 'Alpha';
@@ -511,7 +373,7 @@ Sie können eine Variable mit einer modifizierten VAR-Anweisung initialisieren:
 
 **Beispiel:**
 
- ```
+```dws
 var s: Integer = 2;
 var str: String = 'Hello' + IntToStr(s);
 var i: Integer = 12;
@@ -521,7 +383,7 @@ Eine Initialisierung entspricht einer Deklaration gefolgt von einer Zuweisung. S
 
 **Beispiel:**
 
- ```
+```dws
 var i: Integer = 12;
 //…entspricht…
 var i: Integer; i := 12;

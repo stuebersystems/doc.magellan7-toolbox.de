@@ -74,7 +74,7 @@ Weitere Informationen zum Schlüsselverzeichnis „Verordnungen“ finden Sie im
 
 !!! info "Hinweis"
 
-    Eine Übersicht über alle Berechnungs- und Fachwahlskripte finden Sie in der Dokumentation Landesanpassungen unter  [**http://doc.la.stueber.de/**](http://doc.la.stueber.de/)  im Abschnitt [**Alle Skripte im Überblick**](https://doc.la.stueber.de/skriptueberblick/).       
+    Eine Übersicht über alle Berechnungs- und Fachwahlskripte finden Sie in der Dokumentation Landesanpassungen unter  [http://doc.la.stueber.de/](http://doc.la.stueber.de/)  im Abschnitt [Alle Skripte im Überblick](https://doc.la.stueber.de/skriptueberblick/).       
 
 Beschreibung des Skriptnamens: [Land] APO [Jahr].dwsSkripte mit derartigen Dateinamen definieren eine Abiturverordnung für ein bestimmtes Bundesland. Die Jahreszahl entspricht dem Veröffentlichungsjahr der Verordnung.
 

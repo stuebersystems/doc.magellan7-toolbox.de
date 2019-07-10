@@ -1,13 +1,14 @@
 # Änderungen
 
+## Archiv
 
-## MAGELLAN 6.5.x
+### MAGELLAN 6.5.x
 
 Mit der MAGELLAN-Version 6.5 wurde der Skriptingmechanismus auf eine neue Version aktualisiert.
 Darüber hinaus haben wir Korrekturen vorgenommen, da unter bestimmten Umständen Skripte im Netzwerk nicht
 korrekt ausgeführt wurden.
 
-### Verbindungsaufruf bei ODBC_Skripten
+#### Verbindungsaufruf bei ODBC_Skripten
 
 Wenn Sie in Ihren Skripten die ODBC_ Aufrufe verwenden, dann müssen Sie die Anbindung an die MAGELLAN Datenbank wie folgt ändern.
 
@@ -20,7 +21,7 @@ con_Magellan := odbc_ConnectToFirebird(Server, Protocol, MagellanDatabase, Magel
 
 Tragen Sie dazu den Server als IP oder Hostname und das Protocol als Zahl ein, z.B. im Skripteditor in der .int Datei, passend zu den anderen Connect Variablen.
 
-### Datentypen
+#### Datentypen
 
 Datentypen werden in der neuen Version strikter behandelt. Somit muss man sorgfältiger bei der Angabe der Datentypen für lokale Variablen sein, dass diese auch mit dem auszulesenden Datenbankfeld übereinstimmen.
 
@@ -64,7 +65,7 @@ Oder Sie ändern die Datenbankabfrage der Note auf Integer:
 
 Entsprechend was erreicht werden soll, bzw. wie der Wert im Skript weiterhin genutzt wird, eignet sich eine der beiden Varianten.
 
-#### DateTime
+##### DateTime
 
 Der Skriptmechanismus kennt kein DateTime Datentyp. Lokale Variablen sollten vom Datentyp Float oder Variant deklariert werden.
 

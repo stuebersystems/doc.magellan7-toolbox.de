@@ -10,9 +10,9 @@ Um den MAGELLAN Skripteditor zu starten, gehen Sie in den Windows-Explorer und s
 
 Betriebssystem|Pfad
 --|--
-Windows Vista|C:\Program Files\Stueber Systems\MAGELLAN 6
-Windows Windows 7 (32-bit)|C:\Programme\Stueber Systems\MAGELLAN 6
-Windows Server 2008/Windows 7 (64-bit)|C:\Program Files (x86)\Stueber Systems\MAGELLAN 6
+Windows Vista|C:\Program Files\Stueber Systems\MAGELLAN 7
+Windows Windows 7 (32-bit)|C:\Programme\Stueber Systems\MAGELLAN 7
+Windows Server 2008/Windows 7 (64-bit)|C:\Program Files (x86)\Stueber Systems\MAGELLAN 7
 
 Sie können nun ein MAGELLAN-Skript auswählen, indem Sie im Menü ```Datei``` auf ```Öffnen``` klicken. Der Skripteditor versucht automatisch das gerade aktuelle Skripteverzeichnis anzuzeigen, so dass Sie sofort alle verfügbaren Skripte angezeigt bekommen.
 

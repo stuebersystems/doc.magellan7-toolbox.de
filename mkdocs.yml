@@ -405,3 +405,11 @@ nav:
   - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
   - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
   - Importieren: importe/MagImp/importieren_mit_dem_importassistenten.md
+- MAGELLAN-Scripting:
+  - Einführung: scripting/index.md
+  - Skripteditor: scripting/skripteditor.md
+  - Skriptsprache: scripting/skriptsprache.md
+  - Skriptkategorien: scripting/skriptkategorien.md
+  - Bibliotheken: scripting/bibliotheken.md
+  - Änderungen: scripting/aenderungen.md
+ 

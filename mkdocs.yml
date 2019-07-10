@@ -2,14 +2,14 @@
 site_name: MAGELLAN 7 TOOLBOX
 site_description: 'MAGELLAN 7 TOOLBOX'
 site_author: 'STÜBER SYSTEMS GmbH'
-site_url: 'https://doc.magellan7-ds.stueber.de'
+site_url: 'https://doc.magellan7-toolbox.stueber.de'
 
 # Copyright
 copyright: © 2019 STÜBER SYSTEMS GmbH
 
 # Repository
 repo_name: 'Auf GitHub'
-repo_url: 'https://github.com/stuebersystems/doc.magellan7-ds.de'
+repo_url: 'https://github.com/stuebersystems/doc.magellan7-toolbox.de'
 
 # Theming
 theme: 
@@ -49,7 +49,7 @@ markdown_extensions:
 nav:
 - Allgemein:
   - Einführung: index.md
-- Datenstruktur:
+- MAGELLAN Datenstruktur:
   - Einführung: datenstruktur/index.md
   - Struktur: datenstruktur/die-struktur.md
   - Abkürzungen: datenstruktur/die-struktur/abkuerzungen.md

@@ -1,6 +1,6 @@
 # Über diese Dokumentation
 
-Dies ist die Dokumentation der Datenstruktur von MAGELLAN 7. 
+Dies ist die Dokumentation der Datenstruktur von MAGELLAN 7.
 
 Das Dokumentationsportal von STÜBER SYSTEMS finden Sie in unter [doc.stueber.de](http://doc.stueber.de).
 
@@ -15,4 +15,3 @@ In folgenden Situationen können diese Informationen hilfreich sein:
 * Sie möchten einen detaillierten Überblick darüber haben, welche Daten wo und wie in MAGELLAN gespeichert werden.
 
 Bitte beachten Sie, dass die in diesen Unterlagen enthaltenen Angaben und Daten ohne vorherige Ankündigung geändert werden können.
-

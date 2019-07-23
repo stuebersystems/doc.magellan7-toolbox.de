@@ -4,7 +4,7 @@ Dies ist eine weiterführende Dokumentation zur Datenstruktur, zur Nutzung von S
 
 Diese Dokumentation ist unterteilt in die Bereiche:
 
-* [MAGELLAN Datenstruktur](/datenstruktur/index.md)
+* [MAGELLAN Datenstruktur](datenstruktur/index.md)
 * [MAGELLAN Importformat](/importe/index.md)
 * [MAGELLAN Scripting](/scripting/index.md)
 

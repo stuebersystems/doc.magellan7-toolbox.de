@@ -306,12 +306,10 @@ Titel|Inhalt
 **Beschreibung** | Schreibt den Inhalt eines Buffers in eine Datei. Existiert die Datei bereits, so wird sie überschrieben.
 **Funktion** | sdtf_CreateBuffer
 **Syntax** | sdtf_CreateBuffer: Integer;
-**Beschreibung** | Erzeugt einen neuen und leeren Buffer zur weiteren Bearbeitung. Das Handle zum Buffer wird als
-**Funktion**sergebnis zurückgeliefert.
+**Beschreibung** | Erzeugt einen neuen und leeren Buffer zur weiteren Bearbeitung. Das Handle zum Buffer wird als Funktionsergebnis zurückgeliefert.
 **Funktion** | sdtf_DestroyBuffer
 **Syntax** | sdtf_DestroyBuffer(Buffer: Integer);
-**Beschreibung** | Erzeugt einen neuen und leeren Buffer zur weiteren Bearbeitung. Das Handle zum Buffer wird als
-**Funktion**sergebnis zurückgeliefert.
+**Beschreibung** | Erzeugt einen neuen und leeren Buffer zur weiteren Bearbeitung. Das Handle zum Buffer wird als Funktionsergebnis zurückgeliefert.
 **Funktion** | sdtf_GetBufferLineCount
 **Syntax** | sdtf_GetBufferLineCount(Buffer: Integer): Integer;
 **Beschreibung** | Liefert die Anzahl der Textzeilen im Buffer zurück.

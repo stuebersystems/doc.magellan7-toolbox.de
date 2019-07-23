@@ -15,6 +15,7 @@ Die Skripte in MAGELLAN kann man daher gut in Kategorien zusammenfassen:
 ## Kategorie „Administration“
 
 Die Kategorie „Administration“ umfasst alle Skripte, die aus dem MAGELLAN-Administrator heraus aufgerufen werden können.
+
 -|Skripte der Kategorie „Administration“
 -|-
 Skriptname |**Datenbank löschen.dws**
@@ -55,7 +56,7 @@ Beschreibung |Dieses Skript wird beim Durchlaufen des Dialogfensters „Schüler
 
 Die Kategorie „Datenabgleich“ umfasst alle Skripte, die zum Abgleich von Daten zwischen MAGELLAN und daVinci, zwischen MAGELLAN und dem MAGELLAN Data Warehouse oder einfach nur zwischen Tabellen innerhalb von MAGELLAN benötigt werden.
 
--| Skripte derKategorie „Datenabgleich“
+-| Skripte der Kategorie „Datenabgleich“
 -|-
 Skriptname |**Importiere SDTF.dws**
 Beschreibung |Dieses Skript wird beim Import einer Schuldatentransferdatei nach MAGELLAN im Programm für den MAGELLAN-Datenaustausch (MagSDTFSync.exe) aufgerufen

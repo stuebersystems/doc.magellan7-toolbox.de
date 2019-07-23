@@ -1,6 +1,6 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/b1bep2tc5lmtrbh0?svg=true)](https://ci.appveyor.com/project/stueber/doc-magellan7-toolbox-de)
 
-# MAGELLAN 7 Toolbox
+# [MAGELLAN 7 Toolbox](https://doc.magellan7-toolbox.stueber.de)
 
 Dies ist die deutsche Dokumentation zu Datenstruktur, Importschnittstelle und Scripting von [MAGELLAN 7](https://magellan.stueber.de). Die Dokumentation ist Open Source und wir haben sie mit [MkDocs](https://www.mkdocs.org) und [Material for MkDocs](https://squidfunk.github.io/mkdocs-material) realisiert. Push-Requests im master-branch werden in [AppVeyor](https://www.appveyor.com) getriggert, so dass jede Änderung automatisch veröffentlicht wird.
 

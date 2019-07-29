@@ -93,6 +93,7 @@
 | SchulpflichtErfuellt          | L   | -     | -        | -                                        |
 | Bafoeg                        | L   | -     | -        | -                                        |
 | BafoegBis                     | D   | -     | -        | -                                        |
+| Foerderzentrum                | I   | -     | V        | Verweis auf Tabelle **Schulen**          |
 | Integrationsschueler          | L   | -     | -        | -                                        |
 | Gastschueler                  | L   | -     | -        | -                                        |
 | GastschulgeldUeberwiesen      | L   | -     | -        | -                                        |
@@ -105,7 +106,7 @@
 | Betreuung                     | S   | -     | -        | **Mögliche Werte:**<br/>0 = Heim<br/>1 = Hort<br/>2 =Internat |
 | BetreuungAdresse              | I   | -     | V        | Verweis auf Tabelle **Adressen**         |
 | MittagessenTeilnahme          | L   | -     | -        | -                                        |
-| GanztagBetrieb                | L   | -     | -        | -                                        |
+| Ganztagbetrieb                | L   | -     | -        | -                                        |
 | GanztagbetriebGebunden        | S   | -     | -        | **Mögliche Werte:**<br/>0 = Früh mit Ferien<br/>1 = Früh und spät mit Ferien<br/>2 = Spät und Ferien<br/>3 = Nur Ferienbetreuung |
 | GanztagbetriebOffen           | S   | -     | -        | Mögliche Werte:<br/>0 = Früh<br/>1 = Nachmittags<br/>2 = Früh und nachmittags<br/>3 = Nachmittags und spät<br/>4 = Früh, nachmittags und spät<br/>5 = Nur Ferienbetreuung |
 | BewerbungAm                   | D   | -     | -        | -                                        |

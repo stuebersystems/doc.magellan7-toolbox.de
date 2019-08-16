@@ -10,7 +10,7 @@ Diese Dokumentation ist unterteilt in die Bereiche:
 
 Weitere Dokumentationen finden Sie unter nachfolgenden Links:
 
-* [MAGELLAN 7](https://doc.MAGELLAN7.stueber.de)
-* [MyMAGELLAN 7](https://doc.myMAGELLAN7.stueber.de)
+* [MAGELLAN 7](https://doc.magellan7.stueber.de)
+* [MyMAGELLAN 7](https://doc.mymagellan7.stueber.de)
 * [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
 * [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)

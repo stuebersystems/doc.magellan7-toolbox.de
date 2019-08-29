@@ -6,7 +6,7 @@ Eine Ausnahme stellt der Import der Schüler-Stammdaten dar, bei dem eine Aktual
 
 Durch eine Übereinstimmung des Wertes im Feld **GUIDExtern**, wird der entsprechende Datensatz nicht eingefügt, sondern ein bestehender Datensatz in der MAGELLAN Datenbank aktualisiert.
 
-Somit erhalten Sie die Möglichkeit zwischen einem Fremdprogramm und MAGELLAN unter Verwendung einer 36-stelligen GUID (Bsp.: 0D27F45C-E53D-4E81-AC0A-19D0B1BFA798)  bestehende Schüler-Stammdaten wiederholt zu aktualisieren.
+Somit erhalten Sie die Möglichkeit zwischen einem Fremdprogramm und MAGELLAN unter Verwendung einer 36-stelligen GUID (Bsp.: 0D27F45C-E53D-4E81-AC0A-19D0B1BFA798) bestehende Schüler-Stammdaten wiederholt zu aktualisieren.
 
 Einschränkung: Der Status des Schülers kann nicht verändert werden.
 
@@ -20,242 +20,222 @@ Es kann maximal nur ein Schüler/Bewerber die IDIntern eines anderen innehaben. 
 
 Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
-Feld|Anmerkung
----|---
-**Feldname**| GUIDExtern
-Typ| A
-Größe| 36
-Bemerkung| Zum Speichern einer 36-stelligen GUID (Ermöglicht durch Abgleich das Update des entsprechenden Datensatzes)
-**Feldname**| Vorname
-Typ| A P
-Größe| 30
-Bemerkung|-
-**Feldname**| Nachname
-Typ| A P
-Größe| 50
-Bemerkung|-
-**Feldname**| Status
-Typ| A P
-Größe| 1
-Bemerkung| Mögliche Werte: <br/>B = Bewerber<br/>S = Schüler<br/>SB = Schueler/Bewerber*<br/>(siehe Erläuterungen oben)<br/>A = Abgänger
-**Feldname**| Geburtsdatum
-Typ| D P
-Größe| -
-Bemerkung| -
-**Feldname**| Anrede
-Typ| A
-Größe| 3
-Bemerkung| Mögliche Werte: <br/>F = Frau<br/>H = Herr<br/>FD= Frau Dr.<br/>HD = Herr Dr.<br/>FP = Frau Prof.<br/>HP = Herr Prof.<br/>FPD = Frau Prof. Dr.<br/>HPD = Herr Prof. Dr.<br/><br/>MS = Ms.<br/><br/>MRS = Mrs.<br/>MR = Mr.
-**Feldname**| Geschlecht
-Typ| A
-Größe| 1
-Bemerkung| Mögliche Werte: <br/>W = weiblich<br/>M = männlich
-**Feldname**| Geburtsort
-Typ| A
-Größe| 100
-Bemerkung| -
-**Feldname**| Geburtsland
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
-**Feldname**| Geburtsname
-Typ| A
-Größe| 30
-Bemerkung|-
-**Feldname**| Strasse
-Typ| A
-Größe| 100
-Bemerkung| -
-**Feldname**| Land
-Typ| A
-Größe| 3
-Bemerkung| Landeskennzeichen z.B. „D“
-**Feldname**| PLZ
-Typ| A
-Größe| 10
-Bemerkung|Postleitzahl
-**Feldname**| Ort
-Typ| A
-Größe| 100
-Bemerkung| Ort
-**Feldname**| Ortsteil
-Typ| A
-Größe| 100
-Bemerkung|-
-**Feldname**| Gemeinde
-Typ| A V
-Größe| 8
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Gemeinden“ (Postleitzahlen)
-**Feldname**| Telefon
-Typ| A
-Größe| 30
-Bemerkung| -
-**Feldname**| Telefax
-Typ| A
-Größe| 30
-Bemerkung| -
-**Feldname**| Mobil
-Typ| A
-Größe| 30
-Bemerkung|-
-**Feldname**| EMail
-Typ| A
-Größe| 100
-Bemerkung| -
-**Feldname**| Wohnform
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Wohnformen“ (Kuerzel)
-**Feldname**| Wohnform
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Wohnformen“ (Kuerzel)
-**Feldname**| NichtDeutscheHerkunft
-Typ| L
-Größe| 1
-Bemerkung| -
-**Feldname**| Staatsangeh1
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
-**Feldname**| Staatsangeh2
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
-**Feldname**| Muttersprache
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Muttersprachen“ (Kuerzel)
-**Feldname**| Verkehrssprache
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Muttersprachen“ (Kuerzel)
-**Feldname**| Sprachgruppe
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Sprachgruppen“ (Kuerzel)
-**Feldname**| SopaedFoerderung
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „SopaedFoerderungen“ (Kuerzel)
-**Feldname**| Konfession
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Konfessionen“ (Kuerzel)
-**Feldname**| RelWunsch
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „RelWuensche“ (Kuerzel)
-**Feldname**| RelTeilnahme
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „RelTeilnahmen“ (Kuerzel)
-**Feldname**| RelGrund
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „RelGruende“ (Kuerzel)
-**Feldname**| RelAbmeldungVon
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| RelAbmeldungBis
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| Umschulung
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Umschulungsmerkmale“ (Kuerzel)
-**Feldname**| Personalnr
-Typ| A
-Größe| 15
-Bemerkung| Personalnummer
-**Feldname**| Behinderung
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Behinderungsarten“ (Kuerzel)
-**Feldname**| Krankenkasse
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Krankenkassen“ (Kuerzel)
-**Feldname**| Versicherungsart
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Versicherungsarten“ (Kuerzel)
-**Feldname**| Fahrschueler
-Typ| L
-Größe| -
-Bemerkung| -
-**Feldname**| Fahrstrecke
-Typ| A
-Größe| 50
-Bemerkung|
-**Feldname**| FahrstreckeKM
-Typ| N
-Größe| -
-Bemerkung| -
-**Feldname**| Einstiegsstelle
-Typ| A
-Größe| 50
-Bemerkung|
-**Feldname**| Verkehrsmittel
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Verkehrsmittel“ (Kuerzel)
-**Feldname**| Fahrgeld
-Typ| A
-Größe| 18
-Bemerkung|-
-**Feldname**| FahrgeldbewVon
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| FahrgeldbewBis
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| Fahrkarte
-Typ| A V
-Größe| 10
-Bemerkung| Verweis auf das Schlüsselverzeichnis „Fahrkarten“ (Kuerzel)
-**Feldname**| FahrkarteGueltigVon
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| FahrkarteGueltigBis
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| KFZ
-Typ| A
-Größe| 15
-Bemerkung| KFZ-Kennzeichen des Schülers
-**Feldname**| Aussiedler
-Typ| L
-Größe| -
-Bemerkung| -
-**Feldname**| AussiedlerSeit
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| Auslaender
-Typ| L
-Größe| -
-Bemerkung| -
-**Feldname**| AuslaenderSeit
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| InDeutschlandSeit
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| AufenthaltserlaubnisBis
-Typ| D
-Größe| 10
-Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| SchulpflichtErfuellt
-Typ| L
+Feld         | Anmerkung
+------------ | ---------
+**Feldname** | GUIDExtern
+Typ          | A
+Größe        | 36
+Bemerkung    | Zum Speichern einer 36-stelligen GUID (Ermöglicht durch Abgleich das Update des entsprechenden Datensatzes)
+**Feldname** | Vorname
+Typ          | A P
+Größe        | 30
+Bemerkung    | -
+**Feldname** | Nachname
+Typ          | A P
+Größe        | 50
+Bemerkung    | -
+**Feldname** | Status
+Typ          | A P
+Größe        | 1
+Bemerkung    | Mögliche Werte: <br/>B = Bewerber<br/>S = Schüler<br/>SB = Schueler/Bewerber*<br/>(siehe Erläuterungen oben)<br/>A = Abgänger
+**Feldname** | Geburtsdatum
+Typ          | D P
+Größe        | -
+Bemerkung    | -
+**Feldname** | Anrede
+Typ          | A
+Größe        | 3
+Bemerkung    | Mögliche Werte: <br/>F = Frau<br/>H = Herr<br/>FD= Frau Dr.<br/>HD = Herr Dr.<br/>FP = Frau Prof.<br/>HP = Herr Prof.<br/>FPD = Frau Prof. Dr.<br/>HPD = Herr Prof. Dr.<br/><br/>MS = Ms.<br/><br/>MRS = Mrs.<br/>MR = Mr.
+**Feldname** | Geschlecht
+Typ          | A
+Größe        | 1
+Bemerkung    | Mögliche Werte: <br/>W = weiblich<br/>M = männlich<br/>D = divers
+**Feldname** | Geburtsort
+Typ          | A
+Größe        | 100
+Bemerkung    | -
+**Feldname** | Geburtsland
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
+**Feldname** | Geburtsname
+Typ          | A
+Größe        | 30
+Bemerkung    |-
+**Feldname** | Strasse
+Typ          | A
+Größe        | 100
+Bemerkung    | -
+**Feldname** | Land
+Typ          | A
+Größe        | 3
+Bemerkung    | Landeskennzeichen z.B. „D“
+**Feldname** | PLZ
+Typ          | A
+Größe        | 10
+Bemerkung    | Postleitzahl
+**Feldname** | Ort
+Typ          | A
+Größe        | 100
+Bemerkung    | Ort
+**Feldname** | Ortsteil
+Typ          | A
+Größe        | 100
+Bemerkung    | -
+**Feldname** | Gemeinde
+Typ          | A V
+Größe        | 8
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Gemeinden“ (Postleitzahlen)
+**Feldname** | Telefon
+Typ          | A
+Größe        | 30
+Bemerkung    | -
+**Feldname** | Telefax
+Typ          | A
+Größe        | 30
+Bemerkung    | -
+**Feldname** | Mobil
+Typ          | A
+Größe        | 30
+Bemerkung    |-
+**Feldname** | EMail
+Typ          | A
+Größe        | 100
+Bemerkung    | -
+**Feldname** | Wohnform
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Wohnformen“ (Kuerzel)
+**Feldname** | NichtDeutscheHerkunft
+Typ          | L
+Größe        | 1
+Bemerkung    | -
+**Feldname** | Staatsangeh1 / Staatsangeh2
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
+**Feldname** | Muttersprache / Verkehrssprache
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Muttersprachen“ (Kuerzel)
+**Feldname** | Sprachgruppe
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Sprachgruppen“ (Kuerzel)
+**Feldname** | Konfession
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Konfessionen“ (Kuerzel)
+**Feldname** | RelWunsch
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „RelWuensche“ (Kuerzel)
+**Feldname** | RelTeilnahme
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „RelTeilnahmen“ (Kuerzel)
+**Feldname** | RelGrund
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „RelGruende“ (Kuerzel)
+**Feldname** | RelAbmeldungVon
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | RelAbmeldungBis
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | Umschulung
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Umschulungsmerkmale“ (Kuerzel)
+**Feldname** | Personalnr
+Typ          | A
+Größe        | 15
+Bemerkung    | Personalnummer
+**Feldname** | Krankenkasse
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Krankenkassen“ (Kuerzel)
+**Feldname** | Versicherungsart
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Versicherungsarten“ (Kuerzel)
+**Feldname** | Fahrschueler
+Typ          | L
+Größe        | -
+Bemerkung    | -
+**Feldname** | Fahrstrecke
+Typ          | A
+Größe        | 50
+Bemerkung    |
+**Feldname** | FahrstreckeKM
+Typ          | N
+Größe        | -
+Bemerkung    | -
+**Feldname** | Einstiegsstelle
+Typ          | A
+Größe        | 50
+Bemerkung    |
+**Feldname** | Verkehrsmittel
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Verkehrsmittel“ (Kuerzel)
+**Feldname** | Fahrgeld
+Typ          | A
+Größe        | 18
+Bemerkung    | -
+**Feldname** | FahrgeldbewVon
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | FahrgeldbewBis
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | Fahrkarte
+Typ          | A V
+Größe        | 10
+Bemerkung    | Verweis auf das Schlüsselverzeichnis „Fahrkarten“ (Kuerzel)
+**Feldname** | FahrkarteGueltigVon
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | FahrkarteGueltigBis
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | KFZ
+Typ          | A
+Größe        | 15
+Bemerkung    | KFZ-Kennzeichen des Schülers
+**Feldname** | Aussiedler
+Typ          | L
+Größe        | -
+Bemerkung    | -
+**Feldname** | AussiedlerSeit
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | Auslaender
+Typ          | L
+Größe        | -
+Bemerkung    | -
+**Feldname** | AuslaenderSeit
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | InDeutschlandSeit
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | AufenthaltserlaubnisBis
+Typ          | D
+Größe        | 10
+Bemerkung    | In der Form TT.MM.JJJJ
+**Feldname** | SchulpflichtErfuellt
+Typ          | L
 Größe| -
 Bemerkung| -
 **Feldname**| Bafoeg
@@ -306,7 +286,7 @@ Bemerkung| Verweis auf das Schlüsselverzeichnis „Unterstuetzungen“ (Kuerzel
 Typ| D
 Größe| 10
 Bemerkung| In der Form TT.MM.JJJJ
-**Feldname**| Bewerbungsziel1 <br/>Bewerbungsziel2<br/> Bewerbungsziel3<br/>Bewerbungsziel4
+**Feldname**| Bewerbungsziel1<br/>Bewerbungsziel2<br/>Bewerbungsziel3<br/>Bewerbungsziel4
 Typ| A V
 Größe| 10
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Bewerbungsziele“ (Kuerzel)
@@ -322,7 +302,7 @@ Bemerkung| -
 Typ| N
 Größe| -
 Bemerkung| -
-**Feldname**| Fremdsprache1<br/>Fremdsprache2<br/>Fremdsprache3<br/>Fremdsprache4
+**Feldname**| Fremdsprache1 / Fremdsprache2 / Fremdsprache3 / Fremdsprache4
 Typ| A
 Größe| 10
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Faecher“ (Kuerzel)
@@ -390,15 +370,15 @@ Bemerkung| Abgangsdatum in der Form TT.MM.JJJJ
 Typ| M
 Größe| 255
 Bemerkung| -
-**Feldname**| MerkmalA1<br/>MerkmalA2<br/>MerkmalA3<br/>MerkmalA4<br/>MerkmalA5<br/>MerkmalA6
+**Feldname**| MerkmalA1 / MerkmalA2 / MerkmalA3 / MerkmalA4 / MerkmalA5 / MerkmalA6
 Typ| A V
 Größe| 10
 Bemerkung| Verweis auf das Schlüsselverzeichnis „KlassenMerkmale“ (Kuerzel) <br/>Freies Merkmal
-**Feldname**| MerkmalB1<br/>MerkmalB2<br/>MerkmalB3<br/>MerkmalB4
+**Feldname**| MerkmalB1 / MerkmalB2 / MerkmalB3 / MerkmalB4
 Typ| A
 Größe| 15
 Bemerkung| Freies Textmerkmal
-**Feldname**| MerkmalD1<br/>MerkmalD2<br/>MerkmalD3<br/>MerkmalD4
+**Feldname**| MerkmalD1 / MerkmalD2 / MerkmalD3 / MerkmalD4
 Typ| D
 Größe| 10
 Bemerkung| Freies Datumsmerkmal in der Form TT.MM.JJJJ
@@ -452,7 +432,6 @@ NichtDeutscheHerkunft
 Muttersprache
 Verkehrssprache
 Sprachgruppe
-SopaedFoerderung
 Konfession
 RelWunsch
 RelTeilnahme
@@ -461,7 +440,6 @@ RelAbmeldungVon
 RelAbmeldungBis
 Umschulung
 Personalnr
-Behinderung
 Krankenkasse
 Versicherungsart
 Fahrschueler

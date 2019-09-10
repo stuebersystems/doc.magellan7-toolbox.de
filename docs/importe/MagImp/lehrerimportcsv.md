@@ -37,7 +37,7 @@ KFZ2| A| 15 |KFZ-Kennzeichen 2
 Kategorie |A V| 10| Verweis auf das Schlüsselverzeichnis „Lehrerkategorien“ (Kuerzel)
 Staatsangeh |A V |10| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
 Konfession |A V| 10 |Verweis auf das Schlüsselverzeichnis „Konfessionen“ (Kuerzel)
-Bevollmaechtigung| A V| 10| Verweis auf das Schlüsselverzeichnis „Bevollmaechtigun-gen“ (Kuerzel)
+Bevollmaechtigung| A V| 10| Verweis auf das Schlüsselverzeichnis „Bevollmaechtigungen“ (Kuerzel)
 Personalnr |A |15 |Personalnummer
 Statistiknr| A |15 |Statistiknummer
 ZugangDatum |D |10 |Zugangsdatum in der Form TT.MM.JJJJ

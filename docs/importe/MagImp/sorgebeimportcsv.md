@@ -10,11 +10,12 @@ Größe| -
 Bemerkung|  Bitte derzeit nicht verwenden
 **Feldname**|  Vorname
 Typ|  A P
-Größe| 30
+Größe| 100
 Bemerkung| -
 **Feldname**|  Nachname
 Typ|  A P
 Bemerkung| -
+Größe| 100
 **Feldname**|  Anrede
 Typ|  A
 Größe| 3
@@ -61,27 +62,27 @@ Größe| 50
 Bemerkung| -
 **Feldname**|  Geburtsland
 Typ|  A V
-Größe| 10
+Größe| 20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“
 **Feldname**|  Staatsangeh1
 Typ|  A V
-Größe| 10
+Größe| 20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“
 **Feldname**|  Staatsangeh2
 Typ|  A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“
 **Feldname**|  Muttersprache
 Typ|  A V
-Größe| 10
+Größe| 20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Muttersprachen“
 **Feldname**|  Verkehrssprache
 Typ|  A V
-Größe| 10
+Größe| 20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Muttersprachen“
 **Feldname**|  Funktion1 –<br/>Funktion8
 Typ|  A
-Größe| 1
+Größe| 20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „SorgebeFunktionen"
 **Feldname**|  Status2
 Typ|  A

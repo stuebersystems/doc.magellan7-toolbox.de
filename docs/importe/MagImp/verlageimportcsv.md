@@ -18,7 +18,7 @@ Größe| 50
 Bemerkung| -
 **Feldname**|  Name2
 Typ|  A
-Größe| 50
+Größe| 30
 Bemerkung| -
 **Feldname**|  Strasse
 Typ|  A

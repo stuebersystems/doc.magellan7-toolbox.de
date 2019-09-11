@@ -8,13 +8,17 @@ Feld|Anmerkung
 Typ| I P
 Größe| -
 Bemerkung| Bitte derzeit nicht verwenden
+**Feldname**|  Kuerzel
+Typ|  A P
+Größe| 15
+Bemerkung|  Lieferantenkürzel
 **Feldname**| Name1
 Typ| A
 Größe| 50
 Bemerkung| -
 **Feldname**| Name2
 Typ| A
-Größe| 50
+Größe| 30
 Bemerkung| -
 **Feldname**| Strasse
 Typ| A
@@ -76,6 +80,7 @@ Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ih
 ### Spaltenköpfe für lieferanten.import.csv, Stand: 30.06.2017
 
  IDExtern
+ Kuerzel
  Name1
  Name2
  Strasse

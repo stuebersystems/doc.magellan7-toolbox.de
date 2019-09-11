@@ -104,39 +104,39 @@ Größe| 100
 Bemerkung| -
 **Feldname**| Abteilung
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Abteilungen“ (Kuerzel)
 **Feldname**| Schulform
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Schulformen“ (Kuerzel)
 **Feldname**| Schulart
 Typ| A V
-Größe|  10
+Größe|  20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Schularten“ (Kuerzel)
 **Feldname**| Organisation
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Organisationen“ (Kuerzel)
 **Feldname**| Behinderung
 Typ| A V
-Größe|  10
+Größe|  20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Behinderungsarten“ (Kuerzel)
 **Feldname**| Beruf
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Berufe“ (Kuerzel)
 **Feldname**| Bildungsgang
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Bildungsgaenge“ (Kuerzel)
 **Feldname**| Integration
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Integrationsmerkmale“ (Kuerzel)
 **Feldname**| Berufsfeld
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Berufsfelder“ (Kuerzel)
 **Feldname**| Einzelintegration
 Typ| L
@@ -156,7 +156,7 @@ Größe| -
 Bemerkung| -
 **Feldname**| Schulstelle
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Schulstellen“ (Kuerzel)
 **Feldname**| Bemerkung
 Typ| M
@@ -164,7 +164,7 @@ Größe|  255
 Bemerkung| -
 **Feldname**| Foerderung
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Foerderungen“ (Kuerzel)
 **Feldname**| Klassenleiter1IDExtern
 Typ| I V
@@ -172,7 +172,7 @@ Größe| -
 Bemerkung|  Bitte derzeit nicht verwenden!
 **Feldname**| Klassenleiter1Kuerzel
 Typ| A V
-Größe| 10
+Größe| 6
 Bemerkung| Verweis auf „Lehrer“ (Kuerzel)
 **Feldname**| Klassenleiter2IDExtern
 Typ| I V
@@ -180,7 +180,7 @@ Größe| -
 Bemerkung|  Bitte derzeit nicht verwenden!
 **Feldname**| Klassenleiter2Kuerzel
 Typ| A V
-Größe| 10
+Größe| 6
 Bemerkung| Verweis auf „Lehrer“ (Kuerzel)
 **Feldname**| Jahrgang
 Typ| S  
@@ -192,7 +192,7 @@ Größe|  10
 Bemerkung|  Verweis auf das Schlüsselverzeichnis „Klassenstufen“ (Kuerzel)
 **Feldname**| MerkmalA1<br/>MerkmalA2<br/>MerkmalA3<br/>MerkmalA4<br/>MerkmalA5<br/>MerkmalA6
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „KlassenMerkmale“ (Kuerzel) <br/>Freies Merkmal
 **Feldname**| MerkmalB1<br/>MerkmalB2<br/>MerkmalB3<br/>MerkmalB4
 Typ| A
@@ -200,7 +200,7 @@ Größe| 1
 Bemerkung| -
 **Feldname**| MerkmalS1<br/>MerkmalS2<br/>MerkmalS3<br/>  MerkmalS4
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „KlassenMerkmale“ (Kuerzel)  Statistikmerkmal
 
 ## Spaltenköpfe zur Vorlage für Importdateien

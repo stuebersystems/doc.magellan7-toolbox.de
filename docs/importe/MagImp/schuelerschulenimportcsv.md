@@ -5,21 +5,21 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 Feldname| Typ| Größe| Bemerkung
 --|--|--|--
 SchuelerIDExtern |I V P||  Bitte derzeit nicht verwenden!
-SchuelerVorname |A V P| 30|
-SchuelerNachname |A V P |50|
+SchuelerVorname |A V P| 100|
+SchuelerNachname |A V P |100|
 SchuelerGeburtsdatum |D V P |10| 
 SchuleIDExtern |I V P  ||Bitte dereit nicht verwenden!
 SchuleKuerzel |A V P |10| Verweis auf „Schulen“ (Kuerzel)
-Schulform |A V| 10 |Verweis auf das Schlüsselverzeichnis „SchulformenHerkunft“ (Kuerzel)
-Schulart |A V |10| Verweis auf das Schlüsselverzeichnis „SchulartenHerkunft“ (Kuerzel)
+Schulform |A V| 20 |Verweis auf das Schlüsselverzeichnis „SchulformenHerkunft“ (Kuerzel)
+Schulart |A V |20| Verweis auf das Schlüsselverzeichnis „SchulartenHerkunft“ (Kuerzel)
 Von |D | 10| Herkunftsschule von In der Form TT.MM.JJJJ
 Bis |D  |10 |Herkunftsschule bis In der Form TT.MM.JJJJ
 LetzteKlasse| A |15 |Zuletzt besuchte Klasse der Schule
 Klassenleiter|A |50 |Klassenleiter der letzten Klasse
-Abschluss |A V| 10| Verweis auf das Schlüsselverzeichnis „AbschluesseExtern“ (Kuerzel)
-Herkunft |A V |10| Verweis auf das Schlüsselverzeichnis „Herkunftsarten“ (Kuerzel)
-Unterlagen |A V |10| Verweis auf das Schlüsselverzeichnis „Herkunftsunterla-gen“ (Kuerzel)
-Klassenstufe |A V |10| Verweis auf das Schlüsselverzeichnis „Klassenstufen“ (Kuerzel)
+Abschluss |A V| 20| Verweis auf das Schlüsselverzeichnis „AbschluesseExtern“ (Kuerzel)
+Herkunft |A V |20| Verweis auf das Schlüsselverzeichnis „Herkunftsarten“ (Kuerzel)
+Unterlagen |A V |20| Verweis auf das Schlüsselverzeichnis „Herkunftsunterla-gen“ (Kuerzel)
+Klassenstufe |A V |20| Verweis auf das Schlüsselverzeichnis „Klassenstufen“ (Kuerzel)
 
 ## Spaltenköpfe zur Vorlage für Importdateien
 

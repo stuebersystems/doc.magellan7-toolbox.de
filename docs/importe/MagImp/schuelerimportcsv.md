@@ -28,11 +28,11 @@ Größe        | 36
 Bemerkung    | Zum Speichern einer 36-stelligen GUID (Ermöglicht durch Abgleich das Update des entsprechenden Datensatzes)
 **Feldname** | Vorname
 Typ          | A P
-Größe        | 30
+Größe        | 100
 Bemerkung    | -
 **Feldname** | Nachname
 Typ          | A P
-Größe        | 50
+Größe        | 100
 Bemerkung    | -
 **Feldname** | Status
 Typ          | A P
@@ -56,7 +56,7 @@ Größe        | 100
 Bemerkung    | -
 **Feldname** | Geburtsland
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
 **Feldname** | Geburtsname
 Typ          | A
@@ -104,7 +104,7 @@ Größe        | 100
 Bemerkung    | -
 **Feldname** | Wohnform
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Wohnformen“ (Kuerzel)
 **Feldname** | NichtDeutscheHerkunft
 Typ          | L
@@ -112,31 +112,31 @@ Größe        | 1
 Bemerkung    | -
 **Feldname** | Staatsangeh1 / Staatsangeh2
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
 **Feldname** | Muttersprache / Verkehrssprache
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Muttersprachen“ (Kuerzel)
 **Feldname** | Sprachgruppe
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Sprachgruppen“ (Kuerzel)
 **Feldname** | Konfession
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Konfessionen“ (Kuerzel)
 **Feldname** | RelWunsch
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „RelWuensche“ (Kuerzel)
 **Feldname** | RelTeilnahme
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „RelTeilnahmen“ (Kuerzel)
 **Feldname** | RelGrund
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „RelGruende“ (Kuerzel)
 **Feldname** | RelAbmeldungVon
 Typ          | D
@@ -148,7 +148,7 @@ Größe        | 10
 Bemerkung    | In der Form TT.MM.JJJJ
 **Feldname** | Umschulung
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Umschulungsmerkmale“ (Kuerzel)
 **Feldname** | Personalnr
 Typ          | A
@@ -156,11 +156,11 @@ Größe        | 15
 Bemerkung    | Personalnummer
 **Feldname** | Krankenkasse
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Krankenkassen“ (Kuerzel)
 **Feldname** | Versicherungsart
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Versicherungsarten“ (Kuerzel)
 **Feldname** | Fahrschueler
 Typ          | L
@@ -180,7 +180,7 @@ Größe        | 50
 Bemerkung    |
 **Feldname** | Verkehrsmittel
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Verkehrsmittel“ (Kuerzel)
 **Feldname** | Fahrgeld
 Typ          | A
@@ -196,7 +196,7 @@ Größe        | 10
 Bemerkung    | In der Form TT.MM.JJJJ
 **Feldname** | Fahrkarte
 Typ          | A V
-Größe        | 10
+Größe        | 20
 Bemerkung    | Verweis auf das Schlüsselverzeichnis „Fahrkarten“ (Kuerzel)
 **Feldname** | FahrkarteGueltigVon
 Typ          | D
@@ -268,7 +268,7 @@ Größe| 10
 Bemerkung| In der Form TT.MM.JJJJ
 **Feldname**| Foerderung
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Foerderungen“ (Kuerzel)
 **Feldname**| Foerdernr
 Typ| A
@@ -280,7 +280,7 @@ Größe| -
 Bemerkung|-
 **Feldname**| Unterstuetzung
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Unterstuetzungen“ (Kuerzel)
 **Feldname**| BewerbungAm
 Typ| D
@@ -288,7 +288,7 @@ Größe| 10
 Bemerkung| In der Form TT.MM.JJJJ
 **Feldname**| Bewerbungsziel1<br/>Bewerbungsziel2<br/>Bewerbungsziel3<br/>Bewerbungsziel4
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Bewerbungsziele“ (Kuerzel)
 **Feldname**| BewerberStatus
 Typ| A
@@ -304,7 +304,7 @@ Größe| -
 Bemerkung| -
 **Feldname**| Fremdsprache1 / Fremdsprache2 / Fremdsprache3 / Fremdsprache4
 Typ| A
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Faecher“ (Kuerzel)
 **Feldname**| Fremdsprache1Von<br/>Fremdsprache2Von<br/>Fremdsprache3Von<br/>Fremdsprache4Von
 Typ| S
@@ -328,11 +328,11 @@ Größe| 1
 Bemerkung| Mögliche Werte: <br/>V = Vorzeitige Einschulung<br/>F = Fristgerechte Einschulung<br/>S = Verspätete Einschulung
 **Feldname**| HoechsterBildungsgangABS
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Bildungsgaenge“ (Kuerzel)
 **Feldname**| HoechsterAbschlussABS
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „AbschluesseExtern“ (Kuerzel)
 **Feldname**| HoechsterAbschlussABSAm
 Typ| D
@@ -340,11 +340,11 @@ Größe| 10
 Bemerkung| In der Form TT.MM.JJJJ
 **Feldname**| HoechsterBildungsgangBBS
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Bildungsgaenge“ (Kuerzel)
 **Feldname**| HoechsterAbschlussBBS
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „AbschluesseExtern“ (Kuerzel)
 **Feldname**| HoechsterAbschlussBBSAm
 Typ| D
@@ -352,7 +352,7 @@ Größe| 10
 Bemerkung| In der Form TT.MM.JJJJ
 **Feldname**| HoechsterAbschlussBBSBeruf
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Berufe“ (Kuerzel)
 **Feldname**| ZugangAm
 Typ| D
@@ -360,7 +360,7 @@ Größe| -
 Bemerkung| Zugangsdatum zur Schule in der Form TT.MM.JJJJ
 **Feldname**| Abgang
 Typ| A
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Abgangsarten“ (Kuerzel)
 **Feldname**| AbgangAm
 Typ| D
@@ -372,7 +372,7 @@ Größe| 255
 Bemerkung| -
 **Feldname**| MerkmalA1 / MerkmalA2 / MerkmalA3 / MerkmalA4 / MerkmalA5 / MerkmalA6
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „KlassenMerkmale“ (Kuerzel) <br/>Freies Merkmal
 **Feldname**| MerkmalB1 / MerkmalB2 / MerkmalB3 / MerkmalB4
 Typ| A
@@ -384,7 +384,7 @@ Größe| 10
 Bemerkung| Freies Datumsmerkmal in der Form TT.MM.JJJJ
 **Feldname**| MerkmalS1<br/>MerkmalS2<br/>MerkmalS3<br/>MerkmalS4<br/>MerkmalS5<br/>MerkmalS6<br/>MerkmalS7<br/>MerkmalS8<br/>MerkmalS9<br/>MerkmalS10
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „SchuelerMerkmale“ (Kuerzel) <br/>Statistikmerkmal
 **Feldname**| MerkmalT1<br/>MerkmalT2<br/>MerkmalT3<br/>MerkmalT4
 Typ| A
@@ -396,7 +396,7 @@ Größe| 10
 Bemerkung| Statistikmerkmal (Datum) in der Form TT.MM.JJJJ
 **Feldname**| Wahlfach1<br/>Wahlfach2<br/>Wahlfach3<br/>Wahlfach4
 Typ| A
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis "Faecher" (Kuerzel)
 
 ## Spaltenköpfe zur Vorlage für Importdateien

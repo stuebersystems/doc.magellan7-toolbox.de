@@ -38,7 +38,7 @@ Größe| -
 Bemerkung| -
 **Feldname**| Zustand
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „MedienZustaende“ (Kuerzel)
 **Feldname**| Eingangsdatum
 Typ| D
@@ -54,7 +54,7 @@ Größe| 30
 Bemerkung| Bitte derzeit nicht verwenden!
 **Feldname**| LieferantKuerzel
 Typ| A V
-Größe| 10
+Größe| 15
 Bemerkung| Verweis auf die „Lieferanten“ (Kuerzel)
 **Feldname**| Bemerkung
 Typ| M

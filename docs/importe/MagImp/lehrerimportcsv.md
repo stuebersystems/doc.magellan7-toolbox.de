@@ -12,8 +12,8 @@ Feldname| Typ| Größe| Bemerkung
 IDExtern |I P | |Bitte derzeit nicht verwenden!
 Kuerzel |A P |6| Lehrerkürzel
 GUIDExtern |A| 36 |Zum Speichern einer 36-stelligen GUID (Ermöglicht durch Abgleich das Update des entsprechenden Datensatzes)
-Vorname| A| 30| -
-Nachname |A| 50| -
+Vorname| A| 100| -
+Nachname |A| 100| -
 Anrede| A |3 |Mögliche Werte:<br/><br/>F = Frau<br/>H = Herr<br/>FD= Frau Dr.<br/>HD = Herr Dr.<br/>FP = Frau Prof.<br/>HP = Herr Prof.<br/>FPD = Frau Prof. Dr.<br/>HPD = Herr Prof. Dr.<br/>MS = Ms.<br/>MRS = Mrs.<br/>MR = Mr.
 Geschlecht| A |1| Mögliche Werte:<br/>W = weiblich<br/>M = männlich
 Geburtsdatum |D |10| In der Form TT.MM.JJJJ
@@ -34,26 +34,26 @@ TelefonDienst |A| 30 |-
 TelefaxDienst| A |30| -
 KFZ1| A| 15 |KFZ-Kennzeichen 1
 KFZ2| A| 15 |KFZ-Kennzeichen 2
-Kategorie |A V| 10| Verweis auf das Schlüsselverzeichnis „Lehrerkategorien“ (Kuerzel)
-Staatsangeh |A V |10| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
-Konfession |A V| 10 |Verweis auf das Schlüsselverzeichnis „Konfessionen“ (Kuerzel)
-Bevollmaechtigung| A V| 10| Verweis auf das Schlüsselverzeichnis „Bevollmaechtigungen“ (Kuerzel)
+Kategorie |A V| 20| Verweis auf das Schlüsselverzeichnis „Lehrerkategorien“ (Kuerzel)
+Staatsangeh |A V |20| Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
+Konfession |A V| 20 |Verweis auf das Schlüsselverzeichnis „Konfessionen“ (Kuerzel)
+Bevollmaechtigung| A V| 20| Verweis auf das Schlüsselverzeichnis „Bevollmaechtigungen“ (Kuerzel)
 Personalnr |A |15 |Personalnummer
 Statistiknr| A |15 |Statistiknummer
-ZugangDatum |D |10 |Zugangsdatum in der Form TT.MM.JJJJ
-ZugangGrund |A V |10| Verweis auf das Schlüsselverzeichnis „LehrerZugaenge“ (Kuerzel)
+ZugangDatum |D |20 |Zugangsdatum in der Form TT.MM.JJJJ
+ZugangGrund |A V |20| Verweis auf das Schlüsselverzeichnis „LehrerZugaenge“ (Kuerzel)
 AbgangDatum |D |10| Abgangsdatum in der Form TT.MM.JJJJ
 AbgangGrund |A V |10| Verweis auf das Schlüsselverzeichnis „LehrerAbgaenge“ (Kuerzel)
-Amtsbez| A V |10| Verweis auf das Schlüsselverzeichnis „Amtsbez“ (Kuerzel)
-Dienstbez| A V |10 |Verweis auf das Schlüsselverzeichnis „Dienstbez“ (Kuerzel)
-Dienstverh |A V |10 |Verweis auf das Schlüsselverzeichnis „Dienstverh“ (Kuerzel)
-Beschaeftigungsverh |A V |10 |Verweis auf das Schlüsselverzeichnis „Beschaeftigungsverh“ (Kuerzel)
-MerkmalA1,<br/>MerkmalA2,<br/>MerkmalA3,<br/>MerkmalA4,<br/>MerkmalA5,<br/>MerkmalA6 |A V |10| Verweis auf das Schlüsselverzeichnis „LehrerMerkmale“ (Kuerzel), <br/>Freies Merkmal
+Amtsbez| A V |20| Verweis auf das Schlüsselverzeichnis „Amtsbez“ (Kuerzel)
+Dienstbez| A V |20 |Verweis auf das Schlüsselverzeichnis „Dienstbez“ (Kuerzel)
+Dienstverh |A V |20 |Verweis auf das Schlüsselverzeichnis „Dienstverh“ (Kuerzel)
+Beschaeftigungsverh |A V |20 |Verweis auf das Schlüsselverzeichnis „Beschaeftigungsverh“ (Kuerzel)
+MerkmalA1,<br/>MerkmalA2,<br/>MerkmalA3,<br/>MerkmalA4,<br/>MerkmalA5,<br/>MerkmalA6 |A V |20| Verweis auf das Schlüsselverzeichnis „LehrerMerkmale“ (Kuerzel), <br/>Freies Merkmal
 MerkmalB1| A| 15| -
 MerkmalB2| A| 15| -
 MerkmalB3| A| 15| -
 MerkmalB4| A| |15| -
-MerkmalS1,<br/>MerkmalS2,<br/>MerkmalS3,<br/>MerkmalS4| A V |10 |Verweis auf das Schlüsselverzeichnis LehrerMerkmale“ (Kuerzel)<br/>Statistikmerkmal
+MerkmalS1,<br/>MerkmalS2,<br/>MerkmalS3,<br/>MerkmalS4| A V |20 |Verweis auf das Schlüsselverzeichnis LehrerMerkmale“ (Kuerzel)<br/>Statistikmerkmal
 Status| A |1| Mögliche Werte:<br/>N = inaktiv<br/>J = aktiv
 Bemerkung |M| 255 |-
 

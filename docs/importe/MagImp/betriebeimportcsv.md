@@ -63,15 +63,15 @@ Größe| 100
 Bemerkung| -
 **Feldname**| Branche
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Branchen (Kürzel)“
 **Feldname**| Kammer
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Kammern (Kürzel)“
 **Feldname**| Arbeitsamt
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis "Arbeitsaemter" (Kürzel)“
 **Feldname**| Status
 Typ| A

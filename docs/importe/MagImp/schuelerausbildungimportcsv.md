@@ -12,8 +12,8 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 Feldname                   | Typ   | Größe | Bemerkung
 -------------------------- | ----- | ----- | ---------
 SchuelerIDExtern           | I V P | -     | Bitte derzeit nicht verwenden!
-SchuelerVorname            | A V P | 30    | -
-SchuelerNachname           | A V P | 50    | -
+SchuelerVorname            | A V P | 100    | -
+SchuelerNachname           | A V P | 100    | -
 SchuelerGeburtsdatum       | D V P | 10    | In der Form TT.MM.JJJJ
 BetriebIDExtern            | I V P | -     | Bitte derzeit nicht verwenden!
 BetriebKuerzel             | A V P | 10    | Verweis auf „Betriebe“ (Kuerzel)
@@ -23,13 +23,13 @@ AusbildungVon              | D     | 10    | Beginn der Ausbildung <br/>In der F
 AusbildungBis              | D     | 10    | Ende der Ausbildung<br/>In der Form TT.MM.JJJJ
 Ausbildungsdauer           | N     | -     | -
 Vertrag                    | L     | -     | Ausbildungsvertrag
-Vertragsart                | A V   | 10    | Verweis auf das Schlüsselverzeichnis „Vertragsarten“ (Kuerzel)
+Vertragsart                | A V   | 20    | Verweis auf das Schlüsselverzeichnis „Vertragsarten“ (Kuerzel)
 Vertragsnr                 | A     | 10    | Vertragsnummer
 VertragVorgelegtAm         | D     | 10    | In der Form TT.MM.JJJJ
 Bemerkung                  | M     | 255   | -
 AusbilderKontaktIDExtern   | I V   | -     | Bitte derzeit nicht verwenden!
-AusbilderKontaktNachname   | A V   | 50    | -
-AusbilderKontaktVorname    | A V   | 30    | -
+AusbilderKontaktNachname   | A V   | 100    | -
+AusbilderKontaktVorname    | A V   | 100    | -
 AusbilderKontaktGeschlecht | A V   | 1     | Mögliche Werte:<br/>W = weiblich<br/>M = männlich
 AusbilderKontaktTelefon    | A     | 30    | -
 AusbilderKontaktMobil      | A     | 30    | -
@@ -40,8 +40,8 @@ PraxisVon                  | D     | 10    | In der Form TT.MM.JJJJ
 PraxisBis                  | D     | 10    | In der Form TT.MM.JJJJ
 Praxisdauer                | N     | -     | -  
 PraxisKontaktIDExtern      | I V   | -     | Bitte derzeit nicht verwenden!
-PraxisKontaktNachname      | A V   | 50    | -
-PraxisKontaktVorname       | A V   | 30    | -
+PraxisKontaktNachname      | A V   | 100    | -
+PraxisKontaktVorname       | A V   | 100    | -
 PraxisKontaktGeschlecht    | A V   | 1     | Mögliche Werte:<br/>W = weiblich<br/>M = männlich
 PraxisKontaktTelefon       | A     | 30    | -
 PraxisKontaktMobil         | A     | 30    | -

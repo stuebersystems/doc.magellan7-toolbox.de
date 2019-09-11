@@ -5,12 +5,12 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 Feldname |Typ |Größe| Bemerkung
 --|--|--|--
 SchuelerIDExtern |I V P || Bitte derzeit nicht verwenden!
-SchuelerVorname |A V P| 30|
-SchuelerNachname |A V P |50|
+SchuelerVorname |A V P| 100|
+SchuelerNachname |A V P |100|
 SchuelerGeburtsdatum |D V P |10| In der Form TT.MM.JJJJ
 SorgeIDExtern |I V P || Bitte derzeit nicht verwenden!
-SorgebeVorname| A V P |30|
-SorgebeNachname| A V P |50|
+SorgebeVorname| A V P |100|
+SorgebeNachname| A V P |100|
 SorgebeStrasse| A V P |100|
 SorgebeOrt |A V P| 100|
 Verhaeltnis |A P |2 |Mögliche Werte:<br/>M = Mutter<br/>V = Vater<br/>E = Eltern<br/>EB = Erziehungsberechtigte(r)<br/>SB = Sorgeberechtigte(r)<br/>AP = Ansprechpartner(in)<br/>VM = Vormund<br/>GM = Großmutter<br/>GV = Großvater<br/>PF = Pflegeeltern<br/>EL = Eheleute

@@ -30,15 +30,15 @@ Größe| 20
 Bemerkung| -
 **Feldname**| Medienart
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Medienarten“ (Kuerzel)
 **Feldname**| Medienkategorie
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Medienkategorien“ (Kuerzel)
 **Feldname**| Standort
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Standorte“ (Kuerzel)
 **Feldname**| VerlagIDExtern
 Typ| I V
@@ -78,19 +78,19 @@ Größe| 4
 Bemerkung| In der Form JJJJ
 **Feldname**| Erscheinungsland
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Staaten“ (Kuerzel)
 **Feldname**| Erscheinungsweise
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Erscheinungsweisen“ (Kuerzel)
 **Feldname**| Sprache
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Sprachen“ (Kuerzel)
 **Feldname**| Format
 Typ| A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Medienformate“ (Kuerzel)
 **Feldname**| Umfang
 Typ| S

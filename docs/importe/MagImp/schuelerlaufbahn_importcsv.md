@@ -6,8 +6,8 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 Feldname |Typ |Größe |Bemerkung
 --|--|--|--
 SchuelerIDExtern |I P| |Bitte derzeit nicht verwenden!
-SchuelerVorname |A P |30|-
-SchuelerNachname |A P |50|-
+SchuelerVorname |A P |100|-
+SchuelerNachname |A P |100|-
 SchuelerGeburtsdatum| D P |10| In der Form TT.MM.JJJJ
 KlasseIDExtern |I P | |Bitte derzeit nicht verwenden!
 KlasseKuerzel |A V P |10 |Verweis auf „Klassen“ (Kuerzel)
@@ -22,26 +22,26 @@ FehlstundenU |N P|  |-
 Zugang |D |10 |Zugang zur Klasse
 Abgang |D |10 |Abgang von der Klasse
 Versetzt |L||-|  
-Versetzungsart |A V |10 |Verweis auf das Schlüsselverzeichnis „Versetzungsarten“ (Kuerzel)
-Wiederholungsart|A |10 |Verweis auf das Schlüsselverzeichnis „Wiederholungsarten“ (Kuerzel)
+Versetzungsart |A V |20 |Verweis auf das Schlüsselverzeichnis „Versetzungsarten“ (Kuerzel)
+Wiederholungsart|A |20 |Verweis auf das Schlüsselverzeichnis „Wiederholungsarten“ (Kuerzel)
 VersetztAm |D |10 |In der Form TT.MM.JJJJ
 SchulformEintritt|D |10 |In der Form TT.MM.JJJJ
-Aufnahmepruefung |A V |10| Verweis auf das Schlüsselverzeichnis „Aufnahmepruefungen“ (Kuerzel)
+Aufnahmepruefung |A V |20| Verweis auf das Schlüsselverzeichnis „Aufnahmepruefungen“ (Kuerzel)
 AufnahmepruefungBestanden |L|-|-|  
 Nachpruefung |A| 10| Verweis auf das Schlüsselverzeichnis „Nachpruefungen“ (Kuerzel)
 NachpruefungBestanden| L||-|  
-Empfehlung |A V |10| Verweis auf das Schlüsselverzeichnis „Empfehlungen“ (Kuerzel)
-Elternwunsch |A V| 10| Verweis auf das Schlüsselverzeichnis „Empfehlungen“ (Kuerzel)
-Abschluss1 |A V| 10| Verweis auf das Schlüsselverzeichnis „AbschluesseIntern“ (Kuerzel)
-Abschluss1Art |A V| 10| Verweis auf das Schlüsselverzeichnis„Abschlussarten“ (Kuerzel)
+Empfehlung |A V |20| Verweis auf das Schlüsselverzeichnis „Empfehlungen“ (Kuerzel)
+Elternwunsch |A V| 20| Verweis auf das Schlüsselverzeichnis „Empfehlungen“ (Kuerzel)
+Abschluss1 |A V| 20| Verweis auf das Schlüsselverzeichnis „AbschluesseIntern“ (Kuerzel)
+Abschluss1Art |A V| 20| Verweis auf das Schlüsselverzeichnis„Abschlussarten“ (Kuerzel)
 Abschluss1Datum| D| 10| In der Form TT.MM.JJJJ
 Abschluss1Note| A V| 10| Verweis auf das Schlüsselverzeichnis „Noten“ (Kuerzel)
-Abschluss2 |A V| 10| Verweis auf das Schlüsselverzeichnis „AbschluesseIntern“ (Kuerzel)
-Abschluss2Art| A V| 10| Verweis auf das Schlüsselverzeichnis „Abschlussarten“ (Kuerzel)
+Abschluss2 |A V| 20| Verweis auf das Schlüsselverzeichnis „AbschluesseIntern“ (Kuerzel)
+Abschluss2Art| A V| 20| Verweis auf das Schlüsselverzeichnis „Abschlussarten“ (Kuerzel)
 Abschluss2Datum| D| 10| In der Form TT.MM.JJJJ
 Abschluss2Note |A V| 10| Verweis auf das Schlüsselverzeichnis „Noten“ (Kuerzel)
 TutorIDExtern |I V| | Bitte derzeit nicht verwenden!
-TutorKuerzel |A V |10| Verweis auf „Lehrer“ (Kuerzel)
+TutorKuerzel |A V |6| Verweis auf „Lehrer“ (Kuerzel)
 ZeugniskonferenzAm| D |10| In der Form TT.MM.JJJJ
 ZeugnisausgabeAm| D |10| In der Form TT.MM.JJJJ
 

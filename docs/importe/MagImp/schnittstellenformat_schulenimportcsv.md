@@ -62,7 +62,7 @@ Größe| 100
 Bemerkung| -
 **Feldname**|  Schulform
 Typ|  A V
-Größe| 10
+Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Schulformen“
 **Feldname**| Schulnummer
 Typ|  A

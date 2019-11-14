@@ -2,9 +2,7 @@
 
 Grundlage ist die Tabelle:
 
-* [Schueler](https://doc.magellan7.stueber.de/datenstruktur/tabellen/Schueler//)
-
-
+* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler//)
 
 | Feldname                      | Typ | Größe | Funktion | Bemerkung                  |
 |-------------------------------|-----|-------|----------|----------------------------|
@@ -326,4 +324,3 @@ Grundlage ist die Tabelle:
 | Durchschnitt3                 |     |       |          | Feld enthält keinen Wert!! |
 | Pruefungsvorsitz              |     |       |          | Feld enthält keinen Wert!! |
 | Jahrgang                      |     |       |          | Feld enthält keinen Wert!! |
-

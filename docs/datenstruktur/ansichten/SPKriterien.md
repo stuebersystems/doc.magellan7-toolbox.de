@@ -1,7 +1,6 @@
 # View SPKriterien
 
-Grundlage ist die Tabelle [SchuelerPruefungen](https://doc.magellan7.stueber.de/datenstruktur/tabellen/SchuelerPruefungen/).
-
+Grundlage ist die Tabelle [SchuelerPruefungen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerPruefungen/).
 
 | Feldname           | Typ | Größe | Funktion | Bemerkung |
 |--------------------|-----|-------|----------|-----------|
@@ -12,7 +11,3 @@ Grundlage ist die Tabelle [SchuelerPruefungen](https://doc.magellan7.stueber.de/
 | Wert1              | I   | -     | -        | -         |
 | Wert2              | I   | -     | -        | -         |
 | Wert3              | I   | -     | -        | -         |
-
-
-
-

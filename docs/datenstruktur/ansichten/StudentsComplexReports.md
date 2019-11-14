@@ -2,12 +2,10 @@
 
 Grundlage sind die Tabellen:
 
-* [tblStudentComplexReports](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblStudentComplexReports/)
-* [AchievementsProfiles](https://doc.magellan7.stueber.de/datenstruktur/tabellen/AchievementProfiles/)
-* [AssesmentGroups](https://doc.magellan7.stueber.de/datenstruktur/tabellen/AssessmentGroups/)
-* [AssesmentEntries](https://doc.magellan7.stueber.de/datenstruktur/tabellen/AssessmentEntries/)
-
-
+* [tblStudentComplexReports](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblStudentComplexReports/)
+* [AchievementsProfiles](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/AchievementProfiles/)
+* [AssesmentGroups](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/AssessmentGroups/)
+* [AssesmentEntries](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/AssessmentEntries/)
 
 | Feldname           | Typ | Größe | Funktion | Bemerkung |
 |--------------------|-----|-------|----------|-----------|
@@ -27,4 +25,3 @@ Grundlage sind die Tabellen:
 | Report             | M   | -     | -        | -         |
 | GroupPosition      | S   | -     | -        | -         |
 | EntryPosition      | S   | -     | -        | -         |
-

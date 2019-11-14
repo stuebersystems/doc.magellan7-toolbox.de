@@ -1,7 +1,6 @@
 # View SchuelerABI2
 
-Grundlage ist die Tabelle [SchuelerABI](https://doc.magellan7.stueber.de/datenstruktur/tabellen/SchuelerABI/).
-
+Grundlage ist die Tabelle [SchuelerABI](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerABI/).
 
 | Feldname                   | Typ | Größe | Funktion | Bemerkung |
 |----------------------------|-----|-------|----------|-----------|
@@ -139,5 +138,3 @@ Grundlage ist die Tabelle [SchuelerABI](https://doc.magellan7.stueber.de/datenst
 | Log_Datum                  | D   | -     | -        | -         |
 | Log_Uhrzeit                | T   | -     | -        | -         |
 | Log_Benutzer               | A   | 20    | -        | -         |
-
-

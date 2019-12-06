@@ -8,6 +8,7 @@
 | Schueler               | I   | -     | V        | Verweis auf Tabelle **Schueler**         |
 | Klasse                 | I   | -     | V        | Verweis auf Tabelle **Klassen**          |
 | Zeitraum               | I   | -     | V        | Verweis auf Tabelle **Zeitraeume**       |
+| SchuelerZeitraumID     | I   | -     | PV       | Verweis auf Tabelle **SchuelerZeitraeume** |
 | Fach                   | I   | -     | V        | Verweis auf Tabelle **Faecher**          |
 | Unterrichtsart         | A   | -     | V        | Verweis auf Tabelle **Unterrichtsarten** |
 | Fachstatus             | A   | -     | V        | Verweis auf Tabelle **Fachstati**        |

@@ -1,4 +1,4 @@
-# Ansicht ClassCourses
+# Tabelle tblClassCourses
 
 
 

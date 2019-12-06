@@ -1,10 +1,10 @@
 # View ClassCourses
 
 Grundlage sind:
-* [KlassenZeitraeume](https://doc.magellan7.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/)
-* [tblClassCourses](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblClassCourses/)
-* [tblCourses](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblCourses/)
 
+* [KlassenZeitraeume](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/)
+* [tblClassCourses](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblClassCourses/)
+* [tblCourses](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblCourses/)
 
 | Feldname       | Typ | Größe | Funktion | Bemerkung                                |
 |----------------|-----|-------|----------|------------------------------------------|
@@ -24,4 +24,3 @@ Grundlage sind:
 | CourseNo       | S   | -     | -        | Verweis auf Tabelle **tblCourses**       |
 | Bilingual      | A   | 10    | -        | Verweis auf Tabelle **tblCourses**       |
 | Attribute      | A   | 8     | -        | Verweis auf Tabelle **tblCourses**       |
-

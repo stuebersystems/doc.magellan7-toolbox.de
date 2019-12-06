@@ -1,7 +1,6 @@
 # View Lehrer
 
-Grundlage ist die Tabelle [tblLehrer](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblLehrer/).
-
+Grundlage ist die Tabelle [tblLehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblLehrer/).
 
 | Feldname                  | Typ | Größe | Funktion | Bemerkung                                |
 |---------------------------|-----|-------|----------|------------------------------------------|
@@ -176,4 +175,3 @@ Grundlage ist die Tabelle [tblLehrer](https://doc.magellan7.stueber.de/datenstru
 | Sozialversicherungsnummer | -   | -     | -        | -                                        |
 | Aufenthaltsbemerkung      | -   | -     | -        | -                                        |
 | SYNC                      | S   | -     | -        | -                                        |
-

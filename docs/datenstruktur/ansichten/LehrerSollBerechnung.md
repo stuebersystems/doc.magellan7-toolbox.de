@@ -1,7 +1,6 @@
 # View LehrerSollBerechnung
 
-Grundlage ist die Tabelle [tblLehrerSollBerechnung](https://doc.magellan7.stueber.de/datenstruktur/tabellen/LehrerSollBerechnung/).
-
+Grundlage ist die Tabelle [tblLehrerSollBerechnung](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/LehrerSollBerechnung/).
 
 | Feldname             | Typ | Größe | Funktion | Bemerkung                                |
 |----------------------|-----|-------|----------|------------------------------------------|
@@ -13,4 +12,3 @@ Grundlage ist die Tabelle [tblLehrerSollBerechnung](https://doc.magellan7.stuebe
 | Position             | S   | -     | -        | -                                        |
 | Dauer                | N   | -     | -        | -                                        |
 | LehrerSollSchluessel | I   | -     | V        | Verweis auf Tabelle **LehrerSollSchluessel** |
-

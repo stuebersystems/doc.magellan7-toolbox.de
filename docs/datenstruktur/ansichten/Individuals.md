@@ -2,12 +2,10 @@
 
 Grundlage sind:
 
-* [Personen](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Personen/)
-* [Lehrer](https://doc.magellan7-datenstruktur.stueber.de/ansichten/Lehrer/)
-* [Schueler](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Schueler/)
-* [Sorgeberechtigte](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Sorgeberechtigte/)
-
-
+* [Personen](https://doc.magellan7-toolbox.stueber.de/datenstrukture/tabellen/Personen/)
+* [Lehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/ansichten/Lehrer/)
+* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
+* [Sorgeberechtigte](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Sorgeberechtigte/)
 
 | Feldname  | Typ | Größe | Funktion | Bemerkung                                |
 |-----------|-----|-------|----------|------------------------------------------|
@@ -22,4 +20,3 @@ Grundlage sind:
 | City      | A   | -     | -        | -                                        |
 | Phone     | A   | -     | -        | -                                        |
 | Email     | A   | -     | -        | -                                        |
-

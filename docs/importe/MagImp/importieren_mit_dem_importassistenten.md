@@ -1,6 +1,6 @@
 # Importieren mit dem Importassistenten
 
-Der Importassistent kann im MAGELLAN-Administrator in der Ansicht ```Datenimporte``` über ```Daten über MAGELLAN-Importformat importieren``` aufgerufen werden. Der Import über das MAGELLAN-Importformat dient dem einmaligen Importieren von Daten nach MAGELLAN.
+Der Importassistent kann im MAGELLAN-Administrator in der Ansicht `Datenaustausch` über `Daten über MAGELLAN-Importformat importieren` aufgerufen werden. Der Import über das MAGELLAN-Importformat dient dem einmaligen Importieren von Daten nach MAGELLAN.
 
 ## Voraussetzungen
 

@@ -16,23 +16,17 @@ Es gelten folgende Voraussetzungen für den Import der Dateien:
 
 Es ist sehr wichtig, dass Sie vor dem Erstimport die Schlüsselverzeichnisse Ihres Bundeslandes importieren. Schlüsselverzeichnisse stellen Stammdaten dar, die in MAGELLAN oftmals über Dropdown-Comboboxen in den jeweiligen Masken ausgewählt werden. Zum einen dienen Sie zur Auswahl vieler Daten bei der allgemeinen Arbeit im Schulalltag, zum anderen werden die von uns vorgegebenen Schlüsselverzeichnisse von Ihnen zur Erstellung der Landesstatistiken oder für Berechnungsskripte und zum Ausdruck von Zeugnissen benötigt, je nachdem um welches Schlüsselverzeichnis es sich handelt und in welchem Bundesland Sie arbeiten. Wie Sie die Schlüsselverzeichnisse für Ihr Bundesland importieren, lesen Sie bitte in der Dokumentation [MAGELLAN 6](https://doc.magellan6.stueber.de/).
 
-## Schritt 2: Auswahl der Importart
+## Schritt 2: Der Import
 
-Sie haben die Möglichkeit, jede Importdatei einzeln zu importieren oder einen sogenannten Batch-Import auszuführen. Beide Methoden haben ihre Vor- und Nachteile.
+Beim Import wählen Sie eine zu importierende Importformatdatei aus und geben in einem weiteren Schritt an, welche Daten diese Importdatei beinhalten. Wenn Sie die Namenskonvention wie zuvor angegeben (z.B. schueler.import.csv) benutzen, erkennt der Importassistent anhand des Namens, dass es sich um zu importierende Schüler-Stammdaten handelt. Beachten Sie dabei bitte die Importreihenfolge.
 
-### Batch-Import
+![Verweisen Sie auf die zu importierende CSV-Datei](/assets/images/importe/importformatdialog.png)
 
-Der Batch-Import stellt eine Möglichkeit dar, das Verzeichnis in dem die Importdateien liegen, anzuge-ben und den restlichen Import automatisiert durchlaufen zu lassen. Voraussetzung hierfür ist, dass die Importdateien entsprechend der Namenskonvention (z.B. schueler.import.csv) vorliegen. Der Batch-Import kann, je nach Datenmenge und Anzahl der Importdateien die Sie importieren möchten, eine gewisse Zeit in Anspruch nehmen.
+![Geben Sie die Importdatei an, wenn der Dateiname nach der Vorgabe gewählt wurde, wird die Datei schon vormarkiert](/assets/images/importe/importformatdialog01.png)
 
-Die Möglichkeit der Datenprüfung ist bei einem Batch-Import nicht gegeben, da einige Daten auf andere Verweisen und die Prüfung aufgrund der fehlenden Einträge – da bei einer Prüfung nicht importiert wird – zu Fehlmeldungen führen würde.
+![Lassen Sie die Datei prüfen oder importieren direkt](/assets/images/importe/importformatdialog02.png)
 
-Wenn Sie sich sicher sind, dass Ihre Importdateien korrekt sind, oder den Import einfach mal austesten möchten und entsprechend **Sicherungen** ihrer MAGELLAN Datenbank gemacht haben, können Sie den Batch-Import nutzen.
-
-### Single-Import
-
-Beim Single-Import wählen Sie eine zu importierende Importformatdatei aus und geben in einem weiteren Schritt an, welche Daten diese Importdatei beinhalten. Wenn Sie die Namenskonvention wie zuvor angegeben (z.B. schueler.import.csv) benutzen, erkennt der Importassistent anhand des Namens, dass es sich um zu importierende Schüler-Stammdaten handelt. Beachten Sie dabei bitte die Importreihenfolge.
-
-![Abbildung 3: Auswahl der Importart](/assets/images/importe/magimp-2.png)
+![Führen Sie die Aktion durch, eventuelle Probleme werden Ihnen als nach Excel exportierbare Liste ausgegeben](/assets/images/importe/importformatdialog03.png)
 
 ## Schritt 3: Auswahl der Importdaten
 

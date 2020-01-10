@@ -10,49 +10,60 @@ Es gelten folgende Voraussetzungen für den Import der Dateien:
 2. In MAGELLAN muss mindestens ein Mandant angelegt sein.
 3. Bei Import von zeitraumbezogenen Daten (Klassen, Schüler-Laufbahn und Schüler-Fachdaten) müssen entsprechend der Importdaten in den Dateien die Zeiträume in MAGELLAN angelegt sein.
 
-## Schritt 1: Importieren der Schlüsselverzeichnisse
+## Importieren der Schlüsselverzeichnisse
 
 ![Abbildung 1: Hinweis zum Importieren der Schlüssel](/assets/images/importe/magimp-1.png)
 
 Es ist sehr wichtig, dass Sie vor dem Erstimport die Schlüsselverzeichnisse Ihres Bundeslandes importieren. Schlüsselverzeichnisse stellen Stammdaten dar, die in MAGELLAN oftmals über Dropdown-Comboboxen in den jeweiligen Masken ausgewählt werden. Zum einen dienen Sie zur Auswahl vieler Daten bei der allgemeinen Arbeit im Schulalltag, zum anderen werden die von uns vorgegebenen Schlüsselverzeichnisse von Ihnen zur Erstellung der Landesstatistiken oder für Berechnungsskripte und zum Ausdruck von Zeugnissen benötigt, je nachdem um welches Schlüsselverzeichnis es sich handelt und in welchem Bundesland Sie arbeiten. Wie Sie die Schlüsselverzeichnisse für Ihr Bundesland importieren, lesen Sie bitte in der Dokumentation [MAGELLAN 7](https://doc.magellan7.stueber.de/).
 
-## Schritt 2: Der Import
+## Der Import
 
-Beim Import wählen Sie eine zu importierende Importformatdatei aus und geben in einem weiteren Schritt an, welche Daten diese Importdatei beinhalten. Wenn Sie die Namenskonvention wie zuvor angegeben (z.B. schueler.import.csv) benutzen, erkennt der Importassistent anhand des Namens, dass es sich um zu importierende Schüler-Stammdaten handelt. Beachten Sie dabei bitte die Importreihenfolge.
+!!! warning "Wichtig"
 
-![Verweisen Sie auf die zu importierende CSV-Datei](/assets/images/importe/importformatdialog.png)
+    Die nachstehende Beschreibung setzt mindestens die MAGELLAN-Ausgabe 7.1.4 voraus.
 
-![Geben Sie die Importdatei an, wenn der Dateiname nach der Vorgabe gewählt wurde, wird die Datei schon vormarkiert](/assets/images/importe/importformatdialog01.png)
+Das MAGELLAN-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank.
 
-![Lassen Sie die Datei prüfen oder importieren direkt](/assets/images/importe/importformatdialog02.png)
+### Vorbereitung
 
-![Führen Sie die Aktion durch, eventuelle Probleme werden Ihnen als nach Excel exportierbare Liste ausgegeben](/assets/images/importe/importformatdialog03.png)
+Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan7-toolbox.stueber.de/importe/) vor.
 
-## Schritt 3: Auswahl der Importdaten
+!!! tip "Tipp"
 
-In der Auswahl der Importdaten erhalten Sie einen Überblick welche Daten nach MAGELLAN importiert werden könnten. Im oberen Abschnitt befinden sich Stammdaten, die Sie in wahlloser Reihenfolge importieren können und nicht aufeinander aufbauen.
+    Sie können den Dateinamen der *.csv-Dateien frei wählen, es ist aber sinnvoll die vorgeschlagenen Namen je Importdatei zu verwenden, der Assistent erkennt die Namen und sortiert diese automatisch in die inhaltlich aufeinander aufbauende Reihenfolge.
 
-![Abbildung 4: Auswahl der Importdaten](/assets/images/importe/magimp-3.png)
+Empfohlener Dateiname|Beschreibung
+--|--
+schulen.import.csv | Enthält die Stammdaten der Schulen
+betriebe.import.csv | Enthält die Stammdaten der Betriebe
+lehrer.import.csv | Enthält die Stammdaten der Lehrer
+schueler.import.csv | Enthält die Stammdaten der Schüler und Bewerber
+sorgebe.import.csv | Enthält die Stammdaten der Sorgeberechtigten
+verlage.import.csv | Enthält die Stammdaten der Verlage
+lieferanten.import.csv | Enthält die Stammdaten der Lieferanten
+medien.import.csv | Enthält die Stammdaten der Medien
+exemplare.import.csv | Enthält die Exemplardaten zu den Medien
+klassen.import.csv | Enthält die Stamm- und Zeitraumdaten der Klassen
+schueler_laufbahn.import.csv | Enthält die Laufbahndaten der Schüler
+schueler_fachdaten.import.csv | Enthält die Fachdaten der Schüler
+schueler_sorgebe.import.csv | Enthält die Zuordnung der Sorgeberechtigten zu den Schülern
+schueler_schulen.import.csv | Enthält die bereits besuchten Schulen der Schüler (Stichwort: Herkunftsschulen)
+schueler_ausbildung.import.csv | Enthält die Ausbildungsdaten der Schüler
 
-Im unteren Bereich befinden sich Importdaten, die aufeinander aufbauen, entweder auf Daten, die sich im oberen Bereich befinden oder auf Daten, die sich im gleichen Bereich befinden. Die Reihenfolge der Anordnung gibt auch bereits Auskunft über die empfohlene Importreihenfolge.
+### Einlesen oder Prüfen der Daten
 
-Eine Besonderheit stellen hier Medien und Medienexemplare dar. Medienexemplare erfordern den vorigen Import der Medien, aber keiner weiteren Daten.
+Ihre Dateien können im Modul MAGELLAN ADMINISTRATOR im Punkt `Datenaustausch > Daten über das MAGELLAN Importformat importieren` eingelesen werden. Starten Sie den Assistenten per Doppelklick auf den Bereich.
 
-Wenn die Importdatei der Namenskonvention entspricht (z.B. betriebe.import.csv), dann erkennt der Importassistent am Namen um welche Importdaten es sich handelt und wählt für Sie entsprechend vor
+|So gehen Sie vor:|
+|--|
+|**Importformatdatei wählen**<br/><br/>Klicken Sie auf das `Plus`-Symbol und verweisen auf eine oder mehrere zu importierende csv-Dateien. Erkennt der Assistent die Dateinamen, ordnet er in der ersten Spalte `Importart` die entsprechende Bezeichnung zu. Ist der Dateiname nicht zuzuordnen, erhält die Zeile den Wert `unbekannt`, die Schaltfläche `Weiter` bleibt in diesem Fall deaktiviert. Bitte ordnen Sie in diesem Fall die korrekte Auswahl zu. <br/>Sobald Sie die Auswahl vollständig getroffen haben, sortiert der Assistent die Dateien in die korrekte Reihenfolge für das Einlesen, die `Weiter`-Schaltfläche wird aktiviert.<br/>Eine versehentlich ausgewählte Datei können Sie über das `Minus`-Symbol wieder entfernen.<br/>Klicken Sie auf `Weiter`!|
+|**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import01.png">|
+|**Auswahl der Importparameter**<br/><br/>Wählen Sie bitte Ihren Zielmandanten im Feld `Importiere für den folgenden Mandanten` aus!<br/><br/>Je nach Dateiauswahl (Medien-Exemplare) auf der vorangegangenen Karte, kann das Feld `Importiere für den folgenden Medienkatalog` gezeigt werden, treffen Sie hier bitte Ihre Auswahl!<br/><br/>**Datenprüfung und Import**<br/><br/>Setzen Sie den Haken um Ihre gewählten Dateien im Anschluss prüfen zu lassen. Ist der Haken nicht aktiviert, wird versucht die Daten in Ihre Datenbank einzulesen.<br/>Treffen Sie Ihre Auswahl und klicken bitte auf `Weiter`!|
+|**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import02.png">|
+|Klicken Sie auf `Fertigstellen`! <br/>Das Einlesen oder Prüfen, je nach Ihrer Auswahl auf der vorangegangenen Seite, geschieht dateiweise. Es werden im Fenster die Meldungen des Einlesens oder des Prüfens für die Dateien gezeigt. Im Anschluss erscheint ein Fenster, in dem Sie entscheiden können, die nächste Datei einlesen oder prüfen zu lassen. Die eventuell zuvor ausgegebenen Meldungen bleiben in der Liste bestehen und werden ggfs. durch weitere Meldungen ergänzt.<br/>Entstandene Meldungen können Sie exportieren.<br/>Nach Abschluss der Prüfung oder des Einlesens schließen Sie den Assistenten.|
+|**Abbildung:**<br/><img src="/assets/images/magellan.administrator/import03.png">|
 
-## Schritt 4: Auswahl der Importparameter
-
-![Abbildung 5: Auswahl der Importparameter](/assets/images/importe/magimp-4.png)
-
-Für alle Importe muss der Mandant ausgewählt werden, in den die Daten importiert werden sollen. Bei Medienexemplaren geben Sie zusätzlich an, in welchen Medienkatalog die Exemplare gehören. Wenn Sie Medienexemplare haben, die in verschiedene Kataloge importiert werden sollen, müssen Sie die Daten pro Medienkatalog in eine Importdatei legen einzeln importieren und jeweils den Medienkatalog angeben.
-
-## Schritt 5: Übersicht und Datenprüfung
-
-Dies ist der letzte Schritt vor dem eigentlichen Import. Sie können hier nachlesen, welche Daten Sie für den Import ausgewählt haben und ob Sie eine reine Prüfung der Daten ohne Import wünschen. Klicken Sie auf ```Fertigstellen```, um den Import oder die Prüfung zu starten.
-
-![Abbildung 6: Übersicht und Datenprüfung](/assets/images/importe/magimp-5.png)
-
-## Schritt 6: Prüfung oder Import der Daten durchführen
+## Fehlermeldungen
 
 Während der Datenprüfung oder des Imports wird eine Liste mit Hinweisen gefüllt, wenn Daten nicht importiert werden können. Wenn es sich um kritische Probleme handelt, kann es sein, dass der Import mit entsprechenden Meldungen komplett abbricht.
 

@@ -22,8 +22,6 @@ Es ist sehr wichtig, dass Sie vor dem Erstimport die Schlüsselverzeichnisse Ihr
 
     Die nachstehende Beschreibung setzt mindestens die MAGELLAN-Ausgabe 7.1.4 voraus.
 
-Das MAGELLAN-Importformat ist die allgemeine Importschnittstelle für die Übernahme von Fremddaten in die MAGELLAN-Datenbank.
-
 ### Vorbereitung
 
 Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan7-toolbox.stueber.de/importe/) vor.

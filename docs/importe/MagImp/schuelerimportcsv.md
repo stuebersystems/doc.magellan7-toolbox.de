@@ -20,7 +20,7 @@ Es kann maximal nur ein Schüler/Bewerber die IDIntern eines anderen innehaben. 
 
 Wird beim Import ein Schüler (Bewerber, aktiver Schüler, inaktiver Schüler) anhand des `Vornamens, Nachnamens und des Geburtsdatums` identifiziert, wird eine Doublette, also ein Nebenschüler angelegt. Die ID des Stammschülers wird für den Nebenschüler in das Feld `IDIntern` eingetragen, beide Schüler sind damit verknüpft.
 Die Daten des Stammschülers (Beispielsweise Adressdaten auf Daten1 oder Herkunftsabschlüsse auf Daten2) werden mit den Daten des Nebenschülers aktualisiert.
-Dieses Vorgehen ist nur beim ersten Import und erkennen des Stammschülers gegeben, eine weitere Nebenlaufbahn kann auf diesem Weg nicht erzeugt werden.
+Dieses Vorgehen ist nur beim ersten Import und Erkennen des Stammschülers gegeben, eine weitere Nebenlaufbahn kann auf diesem Weg nicht erzeugt werden.
 
 ## Felder
 

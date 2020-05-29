@@ -2,13 +2,12 @@
 
 Grundlage sind die Tabellen:
 
-* [tblStudentAchievements](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblStudentAchievements/)
-* [AchievementsProfiles](https://doc.magellan7.stueber.de/datenstruktur/tabellen/AchievementProfiles/)
-* [GradeTypes](https://doc.magellan7.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/GradeTypes/)
-* [AssessmentProfiles](https://doc.magellan7.stueber.de/datenstruktur/tabellen/AssessmentProfiles/)
-* [tblCourses](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblCourses/)
-* [Faecher](https://doc.magellan7.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/faecher/)
-
+* [tblStudentAchievements](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblStudentAchievements/)
+* [AchievementsProfiles](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/AchievementProfiles/)
+* [GradeTypes](https://doc.magellan7-toolbox.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/GradeTypes/)
+* [AssessmentProfiles](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/AssessmentProfiles/)
+* [tblCourses](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblCourses/)
+* [Faecher](https://doc.magellan7-toolbox.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/faecher/)
 
 | Feldname           | Typ | Größe | Funktion | Bemerkung |
 |--------------------|-----|-------|----------|-----------|
@@ -35,5 +34,3 @@ Grundlage sind die Tabellen:
 | GradeFactor        | N   | -     | -        | -         |
 | Report             | M   | -     | -        | -         |
 | Position           | S   | -     | -        | -         |
-
-

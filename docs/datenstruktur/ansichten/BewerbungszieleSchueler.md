@@ -1,7 +1,6 @@
 # View BewerbungszieleSchueler
 
-Diese Ansicht listet alle Bewerbungsziele pro Schüler auf.  Grundlage ist die Tabelle [Schueler](https://doc.magellan7.stueber.de/datenstruktur/tabellen/Schueler/).
-
+Diese Ansicht listet alle Bewerbungsziele pro Schüler auf.  Grundlage ist die Tabelle [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/).
 
 | Feldname       | Typ | Größe | Funktion | Bemerkung                         |
 |----------------|-----|-------|----------|-----------------------------------|
@@ -9,5 +8,3 @@ Diese Ansicht listet alle Bewerbungsziele pro Schüler auf.  Grundlage ist die T
 | Schueler       | I   | -     | -        | Verweis auf Tabelle **Schueler**  |
 | Bewerbungsziel | A   | 100   | -        | Verweis auf Tabelle **Schueler**  |
 | Rangzahl       | N   | -     | -        | Verweis auf Tabelle **Schueler**  |
-
-

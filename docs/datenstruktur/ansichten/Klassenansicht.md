@@ -1,9 +1,9 @@
 # View Klassenansicht
 
-Grundlage der Daten sind 
-* [Klassen](https://doc.magellan7.stueber.de/datenstruktur/tabellen/Klassen/) 
-* [KlassenZeitraeume](https://doc.magellan7.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/).
+Grundlage der Daten sind
 
+* [Klassen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Klassen/)
+* [KlassenZeitraeume](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/).
 
 | Feldname               | Typ | Größe | Funktion | Bemerkung                                |
 |------------------------|-----|-------|----------|------------------------------------------|
@@ -64,6 +64,3 @@ Grundlage der Daten sind
 | Klassenwahlvertreter2  | I   | -     | V        | Verweis auf Tabelle **KlassenZeitraeume** |
 | Klassenelternsprecher1 | I   | -     | V        | Verweis auf Tabelle **KlassenZeitraeume** |
 | Klassenelternsprecher2 | I   | -     | V        | Verweis auf Tabelle **KlassenZeitraeume** |
-
-
-

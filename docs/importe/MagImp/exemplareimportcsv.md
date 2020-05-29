@@ -6,12 +6,12 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
     Das Einlesen der Medienexemplare ist nur für den einmaligen Import gedacht. Ein erneutes Einlesen der gleichen Daten führt nicht zu einem Update der bereits eingelesenen Medienexemplare.
 
-Feld|Anmerkung
----|---
+Feld        | Anmerkung
+----------- | ---------
 **Feldname**| IDExtern
-Typ| I P
-Größe| -
-Bemerkung| Bitte derzeit nicht verwenden
+Typ         | I P
+Größe       | -
+Bemerkung   | Bitte derzeit nicht verwenden
 **Feldname**| MediumIDExtern
 Typ| I V
 Größe| -
@@ -45,9 +45,9 @@ Typ| D
 Größe| 10
 Bemerkung| In der Form TT.MM.JJJ
 **Feldname**| Betrag
-Typ| A
-Größe| 18
-Bemerkung| -
+Typ         | N
+Größe       | -
+Bemerkung   | -
 **Feldname**| LieferantIDExtern
 Typ| I V
 Größe| 30

@@ -147,8 +147,8 @@ Typ| L
 Größe| -
 Bemerkung| -
 **Feldname**| Regelbetrag
-Typ| A
-Größe| 18
+Typ| N
+Größe| -
 Bemerkung| -
 **Feldname**| Schulartuebergreifend
 Typ| L  

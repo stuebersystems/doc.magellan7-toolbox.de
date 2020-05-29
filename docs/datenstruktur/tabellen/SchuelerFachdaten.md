@@ -1,6 +1,5 @@
 # Tabelle SchuelerFachdaten
 
-
 | Feldname               | Typ | Größe | Funktion | Bemerkung                                |
 |------------------------|-----|-------|----------|------------------------------------------|
 | Mandant                | I   | -     | PV       | Verweis auf Tabelle **Mandanten**        |
@@ -46,6 +45,4 @@
 | HausaufgabenVergessen  | S   | -     | -        | -                                        |
 | ArbeitsmittelVergessen | S   | -     | -        | -                                        |
 | Muendlich              | A   | 1     | -        | -                                        |
-
-
-
+| Leistungsart           | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |

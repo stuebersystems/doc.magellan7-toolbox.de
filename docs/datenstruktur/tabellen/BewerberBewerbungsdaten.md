@@ -1,8 +1,5 @@
 # Tabelle BewerberBewerbungsdaten
 
-
-
-
 | Feldname                   | Typ | Größe | Funktion | Bemerkung                                |
 |----------------------------|-----|-------|----------|------------------------------------------|
 | Mandant                    | I   | -     | PV       | Verweis auf Tabelle **Mandanten**        |
@@ -65,5 +62,4 @@
 | TestPunkte                 | I   | -     | -        | -                                        |
 | PunkteRanking              | I   | -     | -        | -                                        |
 | Bemerkung                  | M   | -     | -        | -                                        |
-
-
+| ExtPruefungFSP             | S   | -     | -        | Mögliche Werte:<br/>0 = bereits absolviert<br/>1 = angestrebt |

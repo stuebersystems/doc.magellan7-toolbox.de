@@ -1,8 +1,5 @@
 # Tabelle SchuelerABIDetails
 
-
-
-
 | Feldname           | Typ | Größe | Funktion | Bemerkung                                |
 |--------------------|-----|-------|----------|------------------------------------------|
 | Mandant            | I   | -     | PV       | Verweis auf Tabelle **Mandanten**        |
@@ -40,7 +37,15 @@
 | HJ4_Muendlich      | A   | 1     | -        | -                                        |
 | HJ5_Muendlich      | A   | 1     | -        | -                                        |
 | HJ6_Muendlich      | A   | 1     | -        | -                                        |
-
-
-
-
+| HJ1_Leistungsart   | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| HJ2_Leistungsart   | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| HJ3_Leistungsart   | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| HJ4_Leistungsart   | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| HJ5_Leistungsart   | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| HJ6_Leistungsart   | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| HJ1_Bestanden      | A   | 1     | -        | -                                        |
+| HJ2_Bestanden      | A   | 1     | -        | -                                        |
+| HJ3_Bestanden      | A   | 1     | -        | -                                        |
+| HJ4_Bestanden      | A   | 1     | -        | -                                        |
+| HJ5_Bestanden      | A   | 1     | -        | -                                        |
+| HJ6_Bestanden      | A   | 1     | -        | -                                        |

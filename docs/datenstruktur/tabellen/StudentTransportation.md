@@ -9,7 +9,7 @@
 | ID            | I+  | -     | P        | -                                        |
 | EnbreaID      | A   | 24    | -        | Externer Identifikator aus ENBREA        |
 | Student       | I   | -     | V        | Verweis auf Tabelle **Schueler**         |
-| InboundRoute  | I   | -     | V        | Verweis auf Tabelle **TransportationRoutes** |
-| OutboundRoute | I   | -     | V        | Verweis auf Tabelle **TransportationRoutes** |
+| InboundRoute  | I   | -     | V        | Verweis auf Tabelle **StudentRoutes** |
+| OutboundRoute | I   | -     | V        | Verweis auf Tabelle **StudentRoutes** |
 
 

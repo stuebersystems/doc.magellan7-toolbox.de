@@ -1,8 +1,5 @@
 # Tabelle StudentTransportation
 
-
-
-
 | Feldname      | Typ | Größe | Funktion | Bemerkung                                |
 |---------------|-----|-------|----------|------------------------------------------|
 | Mandant       | I   | -     | PV       | Verweis auf Tabelle **Mandanten**        |
@@ -11,5 +8,3 @@
 | Student       | I   | -     | V        | Verweis auf Tabelle **Schueler**         |
 | InboundRoute  | I   | -     | V        | Verweis auf Tabelle **StudentRoutes** |
 | OutboundRoute | I   | -     | V        | Verweis auf Tabelle **StudentRoutes** |
-
-

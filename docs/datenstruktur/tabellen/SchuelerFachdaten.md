@@ -46,3 +46,4 @@
 | ArbeitsmittelVergessen | S   | -     | -        | -                                        |
 | Muendlich              | A   | 1     | -        | -                                        |
 | Leistungsart           | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| Bestanden              | A   | 1     | V        | Mögliche Werte:<br/>P = Bestanden<br/>F = Nicht bestanden<br/>N = Nicht belegt |

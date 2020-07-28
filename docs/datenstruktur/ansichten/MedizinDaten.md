@@ -2,10 +2,9 @@
 
 Grundlage sind die Tabellen:
 
-* [SchuelerMedizinDaten](https://doc.magellan7.stueber.de/datenstruktur/tabellen/SchuelerMedizinDaten/)
-* [LehrerMedizinDaten](https://doc.magellan7.stueber.de/datenstruktur/tabellen/LehrerMedizinDaten/)
-* [PersonenMedizinDaten](https://doc.magellan7.stueber.de/datenstruktur/tabellen/PersonenMedizinDaten/)
-
+* [SchuelerMedizinDaten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerMedizinDaten/)
+* [LehrerMedizinDaten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/LehrerMedizinDaten/)
+* [PersonenMedizinDaten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/PersonenMedizinDaten/)
 
 | Feldname       | Typ | Größe | Funktion | Bemerkung |
 |----------------|-----|-------|----------|-----------|
@@ -22,6 +21,3 @@ Grundlage sind die Tabellen:
 | Bemerkung1     | M   | -     | -        | -         |
 | Bemerkung2     | M   | -     | -        | -         |
 | AblaufAm       | D   | -     | -        | -         |
-
-
-

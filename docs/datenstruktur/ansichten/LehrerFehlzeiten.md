@@ -1,8 +1,6 @@
 # View LehrerFehlzeiten
 
-Grundlage ist die Tabelle [tblLehrer](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblLehrerFehlzeiten/).
-
-
+Grundlage ist die Tabelle [tblLehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblLehrerFehlzeiten/).
 
 | Feldname        | Typ | Größe | Funktion | Bemerkung                                |
 |-----------------|-----|-------|----------|------------------------------------------|
@@ -17,5 +15,3 @@ Grundlage ist die Tabelle [tblLehrer](https://doc.magellan7.stueber.de/datenstru
 | Grund           | A   | 10    | V        | Verweis auf Tabelle **LehrerFehlgruende** |
 | Voranfrage      | A   | 1     | -        | -                                        |
 | Bemerkung       | M   | -     | -        | -                                        |
-
-

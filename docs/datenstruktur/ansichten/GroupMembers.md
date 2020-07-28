@@ -2,14 +2,12 @@
 
 Grundlage sind:
 
-* [tblGroupMembers](https://doc.magellan7-datenstruktur.stueber.de/tabellen/tblGroupMembers/)
-* [Groups](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Groups/)
-* [Personen](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Personen/)
-* [Lehrer](https://doc.magellan7-datenstruktur.stueber.de/ansichten/Lehrer/)
-* [Schueler](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Schueler/)
-* [Sorgeberechtigte](https://doc.magellan7-datenstruktur.stueber.de/tabellen/Sorgeberechtigte/)
-
-
+* [tblGroupMembers](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblGroupMembers/)
+* [Groups](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Groups/)
+* [Personen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Personen/)
+* [Lehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/ansichten/Lehrer/)
+* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
+* [Sorgeberechtigte](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Sorgeberechtigte/)
 
 | Feldname           | Typ | Größe | Funktion | Bemerkung                                |
 |--------------------|-----|-------|----------|------------------------------------------|
@@ -35,4 +33,3 @@ Grundlage sind:
 | ContributionPaidOn | D   | -     | -        | -                                        |
 | Function1          | A   | -     | -        | -                                        |
 | Function2          | A   | -     | -        | -                                        |
-

@@ -1,13 +1,12 @@
-#	Katalog der Schlüsseltabellen (Schlüsselverzeichnisse)
+# Katalog der Schlüsseltabellen (Schlüsselverzeichnisse)
 
-Schlüsseltabellen sind Tabellen die überwiegend dazu genutzt werden Listen von Stammdaten zu halten, um diese kontextbezogen anzuzeigen und einzugeben und in diesem Kontext in der Datenbank festzuhalten. Während die Schlüsseltabellen selbst nur die Liste dieser Daten halten, werden die Primärfelder (meistens das Feld „Kürzel“) in der entsprechenden Kontexttabelle mit dem Verweis auf die Schlüsseltabelle gespeichert. 
+Schlüsseltabellen sind Tabellen die überwiegend dazu genutzt werden Listen von Stammdaten zu halten, um diese kontextbezogen anzuzeigen und einzugeben und in diesem Kontext in der Datenbank festzuhalten. Während die Schlüsseltabellen selbst nur die Liste dieser Daten halten, werden die Primärfelder (meistens das Feld „Kürzel“) in der entsprechenden Kontexttabelle mit dem Verweis auf die Schlüsseltabelle gespeichert.
 
 Am Beispiel der Tabelle „Staatsangehoerigkeiten“. Diese wird kontextbezogen in den Tabellen „Schüler“ und „Lehrer“ und „Sorgeberechtigte“ gespeichert.
 Bei den Schülern und Lehrern in den entsprechenden Feldern für die Staatsangehörigkeit, bei den Sorgeberechtigten im Feld für das Geburtsland.
 Einige dieser Schlüsseltabellen sind speziell für Statistiken wichtig, deshalb halten diese die Felder „Schluessel“. Diese speziellen Tabellen benennen wir auch als „Schlüsselverzeichnisse“.
 
 ## Tabellenname und Name in der MAGELLAN-Oberfläche
-
 
 | Tabelle                    | Oberflächenbezeichnung            |
 |----------------------------|-----------------------------------|
@@ -101,6 +100,7 @@ Einige dieser Schlüsseltabellen sind speziell für Statistiken wichtig, deshalb
 | LehrerSollSchluessel       | Lehrer-Soll-Schlüssel             |
 | LehrerZugaenge             | Zugangsarten (Lehrer)             |
 | Lehrerkategorien           | Kategorien (Lehrer)               |
+| Leistungsarten             | Leistungsarten                    |
 | MandantenMerkmale          | Merkmale (Mandanten)              |
 | Mandantenkategorien        | Kategorien (Mandanten)            |
 | MedienKategorien           | Kategorie (Medien)                |
@@ -174,5 +174,3 @@ Einige dieser Schlüsseltabellen sind speziell für Statistiken wichtig, deshalb
 | Zeugnisbemerkungen         | Zeugnisbemerkungen                |
 | Zeugnisbeurteilungen       | Beurteilungen (Zeugnis)           |
 | Zeugnisformulare           | Zeugnisformulare                  |
-
-

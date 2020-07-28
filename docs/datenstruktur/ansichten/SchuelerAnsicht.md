@@ -2,11 +2,9 @@
 
 Grundlage sind die Tabellen:
 
-* [Schueler](https://doc.magellan7.stueber.de/datenstruktur/tabellen/Schueler/)
-* [SchuelerZeitraeume](https://doc.magellan7.stueber.de/datenstruktur/tabellen/SchuelerZeitraeume/)
-* [KlassenZeitraeume](https://doc.magellan7.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/)
-
-
+* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
+* [SchuelerZeitraeume](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerZeitraeume/)
+* [KlassenZeitraeume](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/)
 
 | Feldname                      | Typ | Größe | Funktion | Bemerkung |
 |-------------------------------|-----|-------|----------|-----------|
@@ -306,4 +304,3 @@ Grundlage sind die Tabellen:
 | Rechnung1Ort                  | A   | 100   | -        | -         |
 | Rechnung1Ortsteil             | A   | 100   | -        | -         |
 | Rechnung1Adressgebiet         | A   | 300   | -        | -         |
-

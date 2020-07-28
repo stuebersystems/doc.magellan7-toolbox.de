@@ -1,6 +1,5 @@
 # Tabelle SchuelerFachdaten
 
-
 | Feldname               | Typ | Größe | Funktion | Bemerkung                                |
 |------------------------|-----|-------|----------|------------------------------------------|
 | Mandant                | I   | -     | PV       | Verweis auf Tabelle **Mandanten**        |
@@ -8,6 +7,7 @@
 | Schueler               | I   | -     | V        | Verweis auf Tabelle **Schueler**         |
 | Klasse                 | I   | -     | V        | Verweis auf Tabelle **Klassen**          |
 | Zeitraum               | I   | -     | V        | Verweis auf Tabelle **Zeitraeume**       |
+| SchuelerZeitraumID     | I   | -     | PV       | Verweis auf Tabelle **SchuelerZeitraeume** |
 | Fach                   | I   | -     | V        | Verweis auf Tabelle **Faecher**          |
 | Unterrichtsart         | A   | -     | V        | Verweis auf Tabelle **Unterrichtsarten** |
 | Fachstatus             | A   | -     | V        | Verweis auf Tabelle **Fachstati**        |
@@ -45,6 +45,6 @@
 | HausaufgabenVergessen  | S   | -     | -        | -                                        |
 | ArbeitsmittelVergessen | S   | -     | -        | -                                        |
 | Muendlich              | A   | 1     | -        | -                                        |
-
-
-
+| Leistungsart           | A   | 20    | V        | Verweis auf Tabelle **Leistungarten**    |
+| Bestanden              | A   | 1     | -        | Mögliche Werte:<br/>P = Bestanden<br/>F = Nicht bestanden<br/>N = Nicht belegt |
+| Durchschnitt           | N   | -     | -        |                                          |

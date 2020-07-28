@@ -1,9 +1,7 @@
 
-
 # View Klassenleiter
 
-Grundlage ist die Tablelle [KlassenZeitraeume](https://doc.magellan7.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/).
-
+Grundlage ist die Tablelle [KlassenZeitraeume](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/).
 
 | Feldname | Typ | Größe | Funktion | Bemerkung |
 |----------|-----|-------|----------|-----------|
@@ -11,4 +9,3 @@ Grundlage ist die Tablelle [KlassenZeitraeume](https://doc.magellan7.stueber.de/
 | Klasse   | I   | -     | -        | -         |
 | Zeitraum | I   | -     | -        | -         |
 | Leiter   | I   | -     | -        | -         |
-

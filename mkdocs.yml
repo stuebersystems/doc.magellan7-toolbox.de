@@ -185,6 +185,7 @@ nav:
       - LehrerMerkmale: datenstruktur/schluesseltabellen/LehrerMerkmale.md
       - LehrerPruefungsbezuege: datenstruktur/schluesseltabellen/LehrerPruefungsbezuege.md
       - LehrerZugaenge: datenstruktur/schluesseltabellen/LehrerZugaenge.md
+      - Leistungsarten: datenstruktur/schluesseltabellen/Leistungsarten.md
       - Mandantenkategorien: datenstruktur/schluesseltabellen/Mandantenkategorien.md
       - MandantenMerkmale: datenstruktur/schluesseltabellen/MandantenMerkmale.md
       - Massnahmenkategorien: datenstruktur/schluesseltabellen/Massnahmenkategorien.md

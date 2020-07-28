@@ -1,9 +1,8 @@
-#  View LehrerLehraemter
+# View LehrerLehraemter
 
-Grundlage ist die Tabelle [tblLehrerLehraemter](https://doc.magellan7.stueber.de/datenstruktur/tabellen/tblLehrerLehraemter/).
+Grundlage ist die Tabelle [tblLehrerLehraemter](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblLehrerLehraemter/).
 
-
-| Feldname       | Typ | Größe | Funktion | Bemerkung                                |
+|Feldname       | Typ | Größe | Funktion | Bemerkung                                |
 |----------------|-----|-------|----------|------------------------------------------|
 | Mandant        | I   | -     | PV       | Verweis auf Tabelle Mandanten            |
 | ID             | I   | -     | P        | -                                        |
@@ -14,6 +13,3 @@ Grundlage ist die Tabelle [tblLehrerLehraemter](https://doc.magellan7.stueber.de
 | JahrgangVon    | S   | -     | -        | -                                        |
 | JahrgangBis    | S   | -     | -        | -                                        |
 | Bemerkung      | A   | 300   | -        | -                                        |
-
-
-	

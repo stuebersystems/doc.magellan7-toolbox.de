@@ -1,8 +1,8 @@
 # schueler.import.csv
 
-Die Datei schueler.import.csv dient dem Import der Schüler-Stammdaten. Grundsätzlich wird, wie in allen anderen Importdateien jeder Schüler einmalig in MAGELLAN hinzugefügt, übereinstimmende Schüler (Vorname, Nachname, Geburtsdatum) werden übersprungen.
+Die Datei schueler.import.csv dient dem Import der Schüler-Stammdaten.
 
-Eine Ausnahme stellt der Import der Schüler-Stammdaten dar, bei dem eine Aktualisierung unter vorgegebenen Bedingungen möglich ist.
+## Bestehende Schüler aktualisieren
 
 Durch eine Übereinstimmung des Wertes im Feld **GUIDExtern**, wird der entsprechende Datensatz nicht eingefügt, sondern ein bestehender Datensatz in der MAGELLAN Datenbank aktualisiert.
 
@@ -10,11 +10,18 @@ Somit erhalten Sie die Möglichkeit zwischen einem Fremdprogramm und MAGELLAN un
 
 Einschränkung: Der Status des Schülers kann nicht verändert werden.
 
+## Nebenlaufbahn erzeugen
+
+Wird beim Import ein Schüler (Bewerber, aktiver Schüler, inaktiver Schüler) anhand des `Vornamens, Nachnamens und des Geburtsdatums` identifiziert, wird eine Doublette, also ein Nebenschüler angelegt. Die ID des Stammschülers wird für den Nebenschüler in das Feld `IDIntern` eingetragen, beide Schüler sind damit verknüpft.
+Die Daten des Stammschülers (Beispielsweise Adressdaten auf Daten1 oder Herkunftsabschlüsse auf Daten2) werden mit den Daten des Nebenschülers aktualisiert.
+Dieses Vorgehen ist nur beim ersten Import und Erkennen des Stammschülers gegeben, eine weitere Nebenlaufbahn kann auf diesem Weg nicht erzeugt werden.
+
 ## Bewerber oder Schüler
 
 Der Unterschied zwischen Schüler Bewerber und Abgänger wird anhand des Feldes „Status“ hergestellt.
 Wenn das Feld „Status“ den Wert SB enthält, dann wird geprüft, ob der Schüler (mit Vornamen, Nachnamen, Geburtsdatum) bereits an der Schule aktiv war. In diesem Fall wird der Schüler als Bewerber importiert und Magellan merkt sich die ID des gefundenen Schülerdatensatzes im Feld „IDIntern“ in Magellan. Dies dient dem Zweck, die beiden getrennten Datensätze zu einem späteren Zeitpunkt in Magellan wieder vereinen zu können, um die Laufbahn zu komplettieren.
 Es kann maximal nur ein Schüler/Bewerber die IDIntern eines anderen innehaben. Wenn bereits ein Bewerber oder Schüler mit einer IDIntern besteht, wird der Import des Datensatzes übersprungen.
+
 
 ## Felder
 

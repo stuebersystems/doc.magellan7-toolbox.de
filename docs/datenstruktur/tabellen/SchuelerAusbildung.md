@@ -14,6 +14,7 @@
 | Bildungsgang       | A   | -     | V        | Verweis auf Tabelle **Bildungsgaenge**   |
 | AusbildungVon      | D   | -     | -        | -                                        |
 | AusbildungBis      | D   | -     | -        | -                                        |
+| Neuanfaenger       | L   | -     | -        | -                                        |
 | Ausbildungsdauer   | N   | -     | -        | -                                        |
 | PraxisVon          | D   | -     | -        | -                                        |
 | PraxisBis          | D   | -     | -        | -                                        |

@@ -22,7 +22,7 @@
 | Vorname2                      | A   | 100   | -        | -                                        |
 | Vorname2Native                | A   | 100   | -        | -                                        |
 | Anrede                        | A   | 1     | -        | **Mögliche Werte:**<br/>0 = Frau<br/>1 = Herr<br/>2 = Frau Dr.<br/>3 = Herr Dr.<br/>4 = Frau Prof.<br/>5 = Herr Prof.<br/>6 = Frau Prof. Dr.<br/>7 = HerrProf. Dr.<br/>: = Ms.<br/>; = Mrs.<br/>< = Mr. |
-| Geschlecht                    | A   | 1     | -        | **Mögliche Werte:**<br/>W = Weiblich<br/>M = Männlich |
+| Geschlecht                    | A   | 1     | -        | **Mögliche Werte:**<br/>W = Weiblich<br/>M = Männlich <br/>D = Divers|
 | Geburtsdatum                  | D   | -     | -        | -                                        |
 | Geburtsort                    | A   | 100   | -        | -                                        |
 | Geburtskreis                  | A   | 100   | -        | -                                        |

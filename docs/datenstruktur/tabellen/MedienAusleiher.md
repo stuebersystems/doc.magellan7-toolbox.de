@@ -8,7 +8,7 @@
 | Mandant      | I   | -     | PV       | Verweis auf Tabelle **Mandanten**        |
 | ID           | I+  | -     | P        | -                                        |
 | SVID         | I   | -     | V        | Verweis auf Tabelle **Schueler**, **Lehrer** oder **Personen** |
-| SVTyp        | S   | -     | -        | Mögliche Werte:<br/>0 = Person<br/>1 = Lehrer<br/>2 = Schüler |
+| SVTyp        | S   | -     | -        | Mögliche Werte:<br/>1 = Person<br/>2 = Lehrer<br/>3 = Schüler |
 | Barcode      | A   | 20    | -        | -                                        |
 | BarcodePrint | A   | 20    | -        | -                                        |
 | Vorname      | A   | 30    | -        | -                                        |

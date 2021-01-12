@@ -58,10 +58,10 @@ nav:
 - MAGELLAN Datenstruktur:
   - Einführung: datenstruktur/index.md
   - Struktur: datenstruktur/die-struktur.md
-  - Abkürzungen: datenstruktur/die-struktur/abkuerzungen.md
+  - Abkürzungen: datenstruktur/abkuerzungen.md
   - Auswahltabellen: datenstruktur/auswahltabellen-und-ansichten.md
   - Tabellen: datenstruktur/tabellen.md
-  - Schlüsselverzeichnisse: datenstruktur/schlusseltabellen-schlusselverzeichnisse.md
+  - Schlüsselverzeichnisse: datenstruktur/schluesseltabellen.md
   - Ansichten: datenstruktur/ansichten.md
   - Struktur der Version 7:
     - Auswahltabellen: 

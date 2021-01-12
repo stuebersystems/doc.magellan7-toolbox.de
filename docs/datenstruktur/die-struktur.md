@@ -1,6 +1,6 @@
 # Die Struktur
 
-Die Datengrundlage von MAGELLAN in der Version 7 ist eine Firebird-Datenbank. Firebird ist eine relationale Client/Server-Datenbank, auf die Sie unter anderem per ODBC direkt zugreifen können. Der standardmäßige Dateiname der Datenbank lautet MAGELLAN6.fdb
+Die Datengrundlage von MAGELLAN ist atuell eine Firebird-Datenbank. Firebird ist eine relationale Client/Server-Datenbank, auf die Sie unter anderem per ODBC direkt zugreifen können. Der standardmäßige Dateiname der Datenbank lautet MAGELLAN6.fdb
 Auch Crystal Reports greift über ODBC auf die MAGELLAN-Datenbank zu. Die dafür benötigte Datenquelle wird von MAGELLAN automatisch eingerichtet.
 
 Die aktuelle MAGELLAN-Datenbank besteht aus 298 Tabellen, 58 Ansichten sowie zahlreichen weiteren Datenbankobjekten (Trigger, Prozeduren usw.).

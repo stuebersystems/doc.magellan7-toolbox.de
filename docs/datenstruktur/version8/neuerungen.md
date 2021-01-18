@@ -31,7 +31,7 @@ T   | SchuelerFachdaten      | Thema             |                  | M   |     
 T   | BetriebeKontakte       | Anrede            |                  | A   | 1      | POSITION 7
 T   | Zeugnisbemerkungen     | Fortschreiben     |                  | L   | 1      |
 T   | Staatsangehoerigkeiten | Bezeichnung2      |                  | A   | 300    | POSITION 5
-
+T   | Faecher                | Bezeichnung3      |                  | A   | 300    | POSITION 8
 
 ## Änderung von Feldern
 
@@ -40,3 +40,4 @@ Art | Name               | Feldname           | Änderung
 T   | SchuelerABI        | LernleistungThema  | Feldgröße erweitert: 300
 T   | SchuelerABI        | ProjektThema       | Feldgröße erweitert: 300
 T   | SchuelerABI        | PraesentationThema | Feldgröße erweitert: 300
+T   | Schueler           | BewerberStatus     | Um Wert erweitert:  13 - Ablehnungsbescheid

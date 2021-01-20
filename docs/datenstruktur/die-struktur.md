@@ -19,7 +19,7 @@ Ansichten verhalten sich nach außen hin genauso wie Tabellen, so dass Sie in de
 
 ## Schlüsseltabellen
 
-Alle Tabellen und Ansichten, die den Feldaufbau „Kürzel“, „Schlüssel“, „Bezeichnung“ bzw. „Kürzel“, „Bezeichnung“ besitzen, sind sogenannte Schlüsseltabellen. Sie dienen dazu, die möglichen Werte bestimmter Felder auf eine vorgegebene Liste einzuschränken. Wenn Sie z.B. beim Schüler die Konfession eintragen wollen, so können Sie nur ein Kürzel eintragen, dass in der Schlüsseltabelle „Konfessionen“ definiert ist. 
+Alle Tabellen und Ansichten, die den Feldaufbau „Kürzel“, „Schlüssel“, „Bezeichnung“ bzw. „Kürzel“, „Bezeichnung“ besitzen, sind sogenannte Schlüsseltabellen. Sie dienen dazu, die möglichen Werte bestimmter Felder auf eine vorgegebene Liste einzuschränken. Wenn Sie z.B. beim Schüler die Konfession eintragen wollen, so können Sie nur ein Kürzel eintragen, dass in der Schlüsseltabelle „Konfessionen“ definiert ist.
 
 Einige Schlüsseltabellen haben einen etwas anderen Aufbau, sie dienen aber dem gleichen Zweck. Hierzu zählen u.a. die Tabellen `Abschlussjahrgaenge`,  `Abteilungen`, `Banken`, `Berufe`, `Bildungsgaenge`, `Bezirke`, `Bundeslaender`, `Faecher`, `Fachtafeln`, `Gemeinden`, `Kreise`, `Noten`, `Sportfeste`, `Wettkämpfe` und `Verordnungen`.
 
@@ -33,7 +33,7 @@ Mandanten spielen in MAGELLAN eine zentrale Rolle. Sie ermöglichen die Verwaltu
 
 Zeiträume spielen, ähnlich wie Mandanten, eine zentrale Rolle in MAGELLAN. Sie ermöglichen eine zeitraumbasierte Verwaltung Ihrer Schuldaten. In der Regel handelt es sich bei Zeiträumen um Schulhalbjahre. Durch das Wechseln der Zeiträume können Sie Daten aus dem Blickwinkel unterschiedlicher Halbjahre betrachten. So können Sie die Laufbahnentwicklung einzelner Schüler zurück bis zum Einschulungszeitpunkt betrachten, und das inklusive Fächerzuordnung, Noten und Zeugnisse. Alle Zeiträume sind in der Tabelle Zeitraeume definiert.
 
-## Lehrerdaten 
+## Lehrerdaten
 
 Pro Mandant können beliebig viele Lehrer definiert werden. Die Daten der Lehrer finden Sie in den Tabellen `tblLehrer`, `tblLehrerLehraemter`, `tblLehrerFehlzeiten `und `tblLehrerSollBerechnung`.
 

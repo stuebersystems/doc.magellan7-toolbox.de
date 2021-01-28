@@ -133,6 +133,7 @@
 | Gesamtpunktzahl                 | I   | -     | -        | -                                        |
 | Durchschnittsnote               | N   | -     | -        | -                                        |
 | Latinum                         | L   | -     | -        | -                                        |
+| LatinumMittel                   | L   | -     | -        | -                                        |
 | LatinumGross                    | L   | -     | -        | -                                        |
 | Graecum                         | L   | -     | -        | -                                        |
 | Hebraicum                       | L   | -     | -        | -                                        |

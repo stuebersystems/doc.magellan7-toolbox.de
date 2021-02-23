@@ -397,7 +397,8 @@ nav:
       - Vagabonds: datenstruktur/version7/ansichten/Vagabonds.md
   - Struktur der Version 8:
     - Neuerungen von Version 7 zu 8: 
-      - Auswahltabellen: datenstruktur/version8/neuerungen.md
+      - Auswahltabellen: 
+        - Neuerungen: datenstruktur/version8/neuerungen.md
         - tblAuswahlAdressen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahladressen.md
         - tblAuswahlBetriebe: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbetriebe.md
         - tblAuswahlBewerber: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbewerber.md

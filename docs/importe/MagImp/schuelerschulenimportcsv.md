@@ -25,24 +25,11 @@ Klassenstufe |A V |20| Verweis auf das Schlüsselverzeichnis „Klassenstufen“
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_schulen.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_schulen.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-SchuleIDExtern
-SchuleKuerzel
-Schulform
-Schulart
-Von
-Bis
-LetzteKlasse
-Klassenleiter
-Abschluss
-Herkunft
-Unterlagen
-Klassenstufe
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"SchuleKuerzel";"Schulform";"Schulart";"Von";"Bis";"LetzteKlasse";"Klassenleiter";"Abschluss";"Herkunft";"Unterlagen";"Klassenstufe"
+```
 
 !!! warning "Wichtig"
 

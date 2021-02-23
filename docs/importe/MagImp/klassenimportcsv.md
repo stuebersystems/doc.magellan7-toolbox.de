@@ -207,55 +207,11 @@ Bemerkung| Verweis auf das Schlüsselverzeichnis „KlassenMerkmale“ (Kuerzel)
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für klassen.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für klassen.import.csv, Stand: 23.02.2021
 
- IDExtern
- Kuerzel
- Klassenart
- Notenart
- ZeitraumVon
- ZeitraumBis
- Halbjahr
- KuerzelAlpha
- Kuerzelstatistik
- Langname1
- Langname2
- Abteilung
- Schulform
- Schulart
- Organisation
- Behinderung
- Beruf
- Bildungsgang
- Integration
- Berufsfeld
- Einzelintegration
- Laenderuebergreifend
- Regelbetrag
- Schulartuebergreifend
- Schulstelle
- Bemerkung
- Foerderung
- Klassenleiter1IDExtern
- Klassenleiter1Kuerzel
- Klassenleiter2IDExtern
- Klassenleiter2Kuerzel
- Jahrgang
- Klassenstufe
- MerkmalA1
- MerkmalA2
- MerkmalA3
- MerkmalA4
- MerkmalA5
- MerkmalA6
- MerkmalB1
- MerkmalB2
- MerkmalB3
- MerkmalB4
- MerkmalS1
- MerkmalS2
- MerkmalS3
- MerkmalS4
+ ```
+"Kuerzel";"Klassenart";"Notenart";"ZeitraumVon";"ZeitraumBis";"Halbjahr";"KuerzelAlpha";"Kuerzelstatistik";"Langname1";"Langname2";"Abteilung";"Schulform";"Schulart";"Organisation";"Behinderung";"Beruf";"Bildungsgang";"Integration";"Berufsfeld";"Einzelintegration";"Laenderuebergreifend";"Regelbetrag";"Schulartuebergreifend";"Schulstelle";"Bemerkung";"Foerderung";"Klassenleiter1Kuerzel";"Klassenleiter2Kuerzel";"Jahrgang";"Klassenstufe";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4" 
+```
 
 !!! warning "Wichtig"
 

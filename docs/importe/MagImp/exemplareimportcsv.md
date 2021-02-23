@@ -65,21 +65,11 @@ Bemerkung| -
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für exemplare.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für exemplare.import.csv, Stand: 23.02.2021
 
- IDExtern
- MediumIDExtern
- MediumTitel
- Signatur
- InventarNr
- BarcodeExtern
- Signaturnr
- Zustand
- Eingangsdatum
- Betrag
- LieferantIDExtern
- LieferantKuerzel
- Bemerkung
+```
+"MediumIDExtern";"MediumTitel";"Signatur";"InventarNr";"BarcodeExtern";"Signaturnr";"Zustand";"Eingangsdatum";"Betrag";"LieferantKuerzel";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

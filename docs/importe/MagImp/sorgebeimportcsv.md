@@ -101,37 +101,11 @@ Bemerkung| -
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für sorgebe.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für sorgebe.import.csv, Stand: 23.02.2021
 
- IDExtern
- Vorname
- Nachname
- Anrede
- Strasse
- Land
- PLZ
- Ort
- Ortsteil
- TelefonPrivat
- TelefonBeruf
- Mobil
- Email
- Beruf
- Geburtsland
- Staatsangeh1
- Staatsangeh2
- Muttersprache
- Verkehrssprache
- Funktion1
- Funktion2
- Funktion3
- Funktion4
- Funktion5
- Funktion6
- Funktion7
- Funktion8
- Status2
- Bemerkung
+```
+"Vorname";"Nachname";"Anrede";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"TelefonPrivat";"TelefonBeruf";"Mobil";"Email";"Beruf";"Geburtsland";"Staatsangeh1";"Staatsangeh2";"Muttersprache";"Verkehrssprache";"Funktion1";"Funktion2";"Funktion3";"Funktion4";"";"unktion5";"Funktion6";"Funktion7";"Funktion8";"Status2";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

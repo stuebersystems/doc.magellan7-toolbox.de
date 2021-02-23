@@ -64,47 +64,11 @@ Beispiel:
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_laufbahn.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_laufbahn.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-KlasseIDExtern
-KlasseKuerzel
-ZeitraumVon
-ZeitraumBis
-Halbjahr
-Gewechselt
-Wiederholer
-Ueberspringer
-Fehlstunden
-FehlstundenU
-Zugang
-Abgang
-Versetzt
-Versetzungsart
-Wiederholungsart
-VersetztAm
-SchulformEintritt
-Aufnahmepruefung
-AufnahmepruefungBestanden
-Nachpruefung
-NachpruefungBestanden
-Empfehlung
-Elternwunsch
-Abschluss1
-Abschluss1Art
-Abschluss1Datum
-Abschluss1Note
-Abschluss2
-Abschluss2Art
-Abschluss2Datum
-Abschluss2Note
-TutorIDExtern
-TutorKuerzel
-ZeugniskonferenzAm
-ZeugnisausgabeAm
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"KlasseKuerzel";"ZeitraumVon";"ZeitraumBis";"Halbjahr";"Gewechselt";"Wiederholer";"Ueberspringer";"Fehlstunden";"FehlstundenU";"Zugang";"Abgang";"Versetzt";"Versetzungsart";"Wiederholungsart";"VersetztAm";"SchulformEintritt";"Aufnahmepruefung";"AufnahmepruefungBestanden";"nachpruefung";"NachpruefungBestanden";"Empfehlung";"Elternwunsch";"Abschluss1";"Abschluss1Art";"Abschluss1Datum";"Abschluss1Note";"Abschluss2";"Abschluss2Art";"Abschluss2Datum";"Abschluss2Note";"TutorKuerzel";"ZeugniskonferenzAm";"ZeugnisausgabeAm"
+```
 
 !!! warning "Wichtig"
 

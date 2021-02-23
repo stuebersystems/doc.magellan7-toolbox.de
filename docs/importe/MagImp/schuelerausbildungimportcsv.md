@@ -51,43 +51,11 @@ PraxisKontaktEmail         | A     | 100   | -
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_ausbildung.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_ausbildung.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-BetriebIDExtern
-BetriebKuerzel
-Beruf
-Bildungsgang
-AusbildungVon
-AusbildungBis
-Ausbildungsdauer
-Vertrag
-Vertragsart
-Vertragsnr
-VertragVorgelegtAm
-Bemerkung
-AusbilderKontaktIDExtern
-AusbilderKontaktNachname
-AusbilderKontaktVorname
-AusbilderKontaktGeschlecht
-AusbilderKontaktTelefon
-AusbilderKontaktMobil
-AusbilderKontaktEmail
-PraxisBetriebIDExtern
-PraxisBetriebKuerzel
-PraxisVon
-PraxisBis
-Praxisdauer
-PraxisKontaktIDExtern
-PraxisKontaktNachname
-PraxisKontaktVorname
-PraxisKontaktGeschlecht
-PraxisKontaktTelefon
-PraxisKontaktMobil
-PraxisKontaktEmail
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"BetriebKuerzel";"Beruf";"Bildungsgang";"AusbildungVon";"AusbildungBis";"Ausbildungsdauer";"Vertrag";"Vertragsart";"Vertragsnr";"VertragVorgelegtAm";"Bemerkung";"AusbilderKontaktNachname";"AusbilderKontaktVorname";"AusbilderKontaktGeschlecht";"AusbilderKontaktTelefon";"AusbilderKontaktMobil";"AusbilderKontaktEmail";"";"PraxisBetriebKuerzel";"PraxisVon";"PraxisBis";"Praxisdauer";"PraxisKontaktNachname";"PraxisKontaktVorname";"PraxisKontaktGeschlecht";"PraxisKontaktTelefon";"PraxisKontaktMobil";"PraxisKontaktEmail"
+```
 
 !!! warning "Wichtig"
 

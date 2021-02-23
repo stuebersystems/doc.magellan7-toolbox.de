@@ -61,63 +61,11 @@ Bemerkung |M| 255 |-
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für lehrer.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für lehrer.import.csv, Stand: 23.02.2021
 
-IDExtern
-Kuerzel
-GUIDExtern
-Vorname
-Nachname
-Anrede
-Geschlecht
-Geburtsdatum
-Geburtsort
-Geburtsname
-Ehestand
-Strasse
-Land
-PLZ
-Ort
-Ortsteil
-Gemeinde
-Telefon
-Telefax
-Mobil
-Email
-TelefonDienst
-TelefaxDienst
-KFZ1
-KFZ2
-Kategorie
-Staatsangeh
-Konfession
-Bevollmaechtigung
-Personalnr
-Statistiknr
-ZugangDatum
-ZugangGrund
-AbgangDatum
-AbgangGrund
-Amtsbez
-Dienstbez
-Dienstverh
-Beschaeftigungsverh
-MerkmalA1
-MerkmalA2
-MerkmalA3
-MerkmalA4
-MerkmalA5
-MerkmalA6
-MerkmalB1
-MerkmalB2
-MerkmalB3
-MerkmalB4
-MerkmalS1
-MerkmalS2
-MerkmalS3
-MerkmalS4
-Status
-Bemerkung
+```
+"Kuerzel";"Vorname";"Nachname";"Anrede";"Geschlecht";"Geburtsdatum";"Geburtsort";"Geburtsname";"Ehestand";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Mobil";"Email";"TelefonDienst";"TelefaxDienst";"KFZ1";"KFZ2";"Kategorie";"Staatsangeh";"Konfession";"Bevollmaechtigung";"Personalnr";"Statistiknr";"ZugangDatum";"ZugangGrund";"AbgangDatum";"AbgangGrund";"Amtsbez";"Dienstbez";"Dienstverh";"Beschaeftigungsverh";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4";"Status";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

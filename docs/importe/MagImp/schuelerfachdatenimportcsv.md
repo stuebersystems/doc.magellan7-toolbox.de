@@ -51,32 +51,11 @@ Beispiel:
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_fachdaten.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_fachdaten.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-KlasseIDExtern
-KlasseKuerzel
-ZeitraumVon
-ZeitraumBis
-Halbjahr
-FachIDExtern
-FachKuerzel
-Fachstatus
-Unterrichtsart
-Schwerpunkt
-Niveau
-Kursnr
-Beurteilung
-Endnote1
-Endnote2
-Notenart
-Faktor
-Merkmal
-LehrerIDExtern
-LehrerKuerzel
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"KlasseKuerzel";"ZeitraumVon";"ZeitraumBis";"Halbjahr";"FachKuerzel";"Fachstatus";"Unterrichtsart";"Schwerpunkt";"Niveau";"Kursnr";"Beurteilung";"Endnote1";"Endnote2";"Notenart";"Faktor";"Merkmal";"LehrerKuerzel"
+```
 
 !!! info "Hinweis"
 

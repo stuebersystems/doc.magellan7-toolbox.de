@@ -4,11 +4,9 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feldname| Typ| Größe| Bemerkung
 --|--|--|--
-SchuelerIDExtern |I V P||  Bitte derzeit nicht verwenden!
 SchuelerVorname |A V P| 100|
 SchuelerNachname |A V P |100|
 SchuelerGeburtsdatum |D V P |10| 
-SchuleIDExtern |I V P  ||Bitte dereit nicht verwenden!
 SchuleKuerzel |A V P |10| Verweis auf „Schulen“ (Kuerzel)
 Schulform |A V| 20 |Verweis auf das Schlüsselverzeichnis „SchulformenHerkunft“ (Kuerzel)
 Schulart |A V |20| Verweis auf das Schlüsselverzeichnis „SchulartenHerkunft“ (Kuerzel)
@@ -18,7 +16,7 @@ LetzteKlasse| A |15 |Zuletzt besuchte Klasse der Schule
 Klassenleiter|A |50 |Klassenleiter der letzten Klasse
 Abschluss |A V| 20| Verweis auf das Schlüsselverzeichnis „AbschluesseExtern“ (Kuerzel)
 Herkunft |A V |20| Verweis auf das Schlüsselverzeichnis „Herkunftsarten“ (Kuerzel)
-Unterlagen |A V |20| Verweis auf das Schlüsselverzeichnis „Herkunftsunterla-gen“ (Kuerzel)
+Unterlagen |A V |20| Verweis auf das Schlüsselverzeichnis „Herkunftsunterlagen“ (Kuerzel)
 Klassenstufe |A V |20| Verweis auf das Schlüsselverzeichnis „Klassenstufen“ (Kuerzel)
 
 ## Spaltenköpfe zur Vorlage für Importdateien

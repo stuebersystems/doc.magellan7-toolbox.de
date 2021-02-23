@@ -8,14 +8,6 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feld        | Anmerkung
 ----------- | ---------
-**Feldname**| IDExtern
-Typ         | I P
-Größe       | -
-Bemerkung   | Bitte derzeit nicht verwenden
-**Feldname**| MediumIDExtern
-Typ| I V
-Größe| -
-Bemerkung| Bitte derzeit nicht verwenden!
 **Feldname**| MediumTitel
 Typ| A P
 Größe| 100
@@ -27,10 +19,6 @@ Bemerkung| -
 **Feldname**| InventarNr
 Typ| A
 Größe| 15
-Bemerkung| -
-**Feldname**| BarcodeExtern
-Typ| A
-Größe| 20
 Bemerkung| -
 **Feldname**| Signaturnr
 Typ| I
@@ -48,10 +36,6 @@ Bemerkung| In der Form TT.MM.JJJ
 Typ         | N
 Größe       | -
 Bemerkung   | -
-**Feldname**| LieferantIDExtern
-Typ| I V
-Größe| 30
-Bemerkung| Bitte derzeit nicht verwenden!
 **Feldname**| LieferantKuerzel
 Typ| A V
 Größe| 15
@@ -68,7 +52,7 @@ Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ih
 ### Spaltenköpfe für exemplare.import.csv, Stand: 23.02.2021
 
 ```
-"MediumIDExtern";"MediumTitel";"Signatur";"InventarNr";"BarcodeExtern";"Signaturnr";"Zustand";"Eingangsdatum";"Betrag";"LieferantKuerzel";"Bemerkung"
+"MediumTitel";"Signatur";"InventarNr";"Signaturnr";"Zustand";"Eingangsdatum";"Betrag";"LieferantKuerzel";"Bemerkung"
 ```
 
 !!! warning "Wichtig"

@@ -4,10 +4,6 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feld|Anmerkung
 ---|---
-**Feldname**| IDExtern
-Typ| I P
-Größe| -
-Bemerkung| Bitte derzeit nicht verwenden
 **Feldname**|  Kuerzel
 Typ|  A P
 Größe| 15

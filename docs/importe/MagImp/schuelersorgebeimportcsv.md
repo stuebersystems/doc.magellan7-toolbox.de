@@ -4,11 +4,9 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feldname |Typ |Größe| Bemerkung
 --|--|--|--
-SchuelerIDExtern |I V P || Bitte derzeit nicht verwenden!
 SchuelerVorname |A V P| 100|
 SchuelerNachname |A V P |100|
 SchuelerGeburtsdatum |D V P |10| In der Form TT.MM.JJJJ
-SorgeIDExtern |I V P || Bitte derzeit nicht verwenden!
 SorgebeVorname| A V P |100|
 SorgebeNachname| A V P |100|
 SorgebeStrasse| A V P |100|

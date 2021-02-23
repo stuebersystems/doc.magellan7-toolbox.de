@@ -58,10 +58,6 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feld|Anmerkung
 ---|---
-**Feldname**| IDExtern
-Typ| I
-Größe| -
-Bemerkung|  Bitte derzeit nicht verwenden!
 **Feldname**| Kuerzel
 Typ| A P
 Größe| 15
@@ -166,18 +162,10 @@ Bemerkung| -
 Typ| A V
 Größe| 20
 Bemerkung| Verweis auf das Schlüsselverzeichnis „Foerderungen“ (Kuerzel)
-**Feldname**| Klassenleiter1IDExtern
-Typ| I V
-Größe| -
-Bemerkung|  Bitte derzeit nicht verwenden!
 **Feldname**| Klassenleiter1Kuerzel
 Typ| A V
 Größe| 6
 Bemerkung| Verweis auf „Lehrer“ (Kuerzel)
-**Feldname**| Klassenleiter2IDExtern
-Typ| I V
-Größe| -
-Bemerkung|  Bitte derzeit nicht verwenden!
 **Feldname**| Klassenleiter2Kuerzel
 Typ| A V
 Größe| 6

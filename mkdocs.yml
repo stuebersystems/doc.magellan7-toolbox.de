@@ -742,7 +742,7 @@ nav:
   - schueler.import.csv: importe/MagImp/schuelerimportcsv.md
   - schueler_laufbahn.import.csv: importe/MagImp/schuelerlaufbahn_importcsv.md
   - schueler_fachdaten.import.csv: importe/MagImp/schuelerfachdatenimportcsv.md
-  - schueler_sorgebe.import.csv]: importe/MagImp/schuelersorgebeimportcsv.md
+  - schueler_sorgebe.import.csv: importe/MagImp/schuelersorgebeimportcsv.md
   - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
   - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
   - Importieren: importe/MagImp/importieren_mit_dem_importassistenten.md

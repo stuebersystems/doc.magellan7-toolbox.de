@@ -5,11 +5,9 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feldname |Typ |Größe |Bemerkung
 --|--|--|--
-SchuelerIDExtern |I P| |Bitte derzeit nicht verwenden!
 SchuelerVorname |A P |100|-
 SchuelerNachname |A P |100|-
 SchuelerGeburtsdatum| D P |10| In der Form TT.MM.JJJJ
-KlasseIDExtern |I P | |Bitte derzeit nicht verwenden!
 KlasseKuerzel |A V P |10 |Verweis auf „Klassen“ (Kuerzel)
 ZeitraumVon |D P |10 |In der Form TT.MM.JJJJ (bitte Hinweis unten lesen, das Datum ist immer der Start des Schuljahres)
 ZeitraumBis |D P |10 |In der Form TT.MM.JJJJ (bitte Hinweis unten lesen, das Datum ist immer das Ende des Schuljahres)
@@ -40,7 +38,6 @@ Abschluss2 |A V| 20| Verweis auf das Schlüsselverzeichnis „AbschluesseIntern�
 Abschluss2Art| A V| 20| Verweis auf das Schlüsselverzeichnis „Abschlussarten“ (Kuerzel)
 Abschluss2Datum| D| 10| In der Form TT.MM.JJJJ
 Abschluss2Note |A V| 10| Verweis auf das Schlüsselverzeichnis „Noten“ (Kuerzel)
-TutorIDExtern |I V| | Bitte derzeit nicht verwenden!
 TutorKuerzel |A V |6| Verweis auf „Lehrer“ (Kuerzel)
 ZeugniskonferenzAm| D |10| In der Form TT.MM.JJJJ
 ZeugnisausgabeAm| D |10| In der Form TT.MM.JJJJ
@@ -64,47 +61,11 @@ Beispiel:
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_laufbahn.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_laufbahn.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-KlasseIDExtern
-KlasseKuerzel
-ZeitraumVon
-ZeitraumBis
-Halbjahr
-Gewechselt
-Wiederholer
-Ueberspringer
-Fehlstunden
-FehlstundenU
-Zugang
-Abgang
-Versetzt
-Versetzungsart
-Wiederholungsart
-VersetztAm
-SchulformEintritt
-Aufnahmepruefung
-AufnahmepruefungBestanden
-Nachpruefung
-NachpruefungBestanden
-Empfehlung
-Elternwunsch
-Abschluss1
-Abschluss1Art
-Abschluss1Datum
-Abschluss1Note
-Abschluss2
-Abschluss2Art
-Abschluss2Datum
-Abschluss2Note
-TutorIDExtern
-TutorKuerzel
-ZeugniskonferenzAm
-ZeugnisausgabeAm
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"KlasseKuerzel";"ZeitraumVon";"ZeitraumBis";"Halbjahr";"Gewechselt";"Wiederholer";"Ueberspringer";"Fehlstunden";"FehlstundenU";"Zugang";"Abgang";"Versetzt";"Versetzungsart";"Wiederholungsart";"VersetztAm";"SchulformEintritt";"Aufnahmepruefung";"AufnahmepruefungBestanden";"nachpruefung";"NachpruefungBestanden";"Empfehlung";"Elternwunsch";"Abschluss1";"Abschluss1Art";"Abschluss1Datum";"Abschluss1Note";"Abschluss2";"Abschluss2Art";"Abschluss2Datum";"Abschluss2Note";"TutorKuerzel";"ZeugniskonferenzAm";"ZeugnisausgabeAm"
+```
 
 !!! warning "Wichtig"
 

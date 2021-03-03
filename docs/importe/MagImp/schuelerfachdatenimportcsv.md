@@ -4,16 +4,13 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feldname |Typ |Größe |Bemerkung
 --|--|--|--
-SchuelerIDExtern| I P||  Derzeit bitte nicht verwenden
 SchuelerVorname| A V P |100|-
 SchuelerNachname| A V P |100|-
 SchuelerGeburtsdatum| D V P |10| In der Form TT.MM.JJJJ
-KlasseIDExtern| I V P|  |Derzeit bitte nicht verwenden
 KlasseKuerzel| A V P |10 |Verweis auf „Klassen“ (Kuerzel)
 ZeitraumVon |D P| 10 |In der Form TT.MM.JJJJ
 ZeitraumBis |D P |10 |In der Form TT.MM.JJJJ
 Halbjahr |S P||  1,2,3 oder 4
-FachIDExtern |I V P || Derzeit bitte nicht verwenden
 FachKuerzel |A V P |20| Verweis auf „Faecher“ (Kuerzel)
 Fachstatus |A V |20| Verweis auf „Faechstati“ (Kuerzel)
 Unterrichtsart|A V |20| Verweis auf das Schlüsselverzeichnis „Unterrichtsarten“ (Kuerzel)
@@ -26,7 +23,6 @@ Endnote2 |N| |-
 Notenart |A| 1| Mögliche Werte:<br/>N = Notenwert<br/>P = Punktwert<br/>F = Füllwert<br/>Ist Voraussetzung, wenn Noten mit importiert werden sollen.
 Faktor| S|| -
 Merkmal| A| 8| -
-LehrerIDExtern |I V | |Derzeit bitte nicht verwenden
 LehrerKuerzel |A V |6| Verweis auf „Lehrer“ (Kuerzel)
 
 ## Erläuterungen zu den Zeitraum- und Halbjahr- Feldern
@@ -51,32 +47,11 @@ Beispiel:
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_fachdaten.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_fachdaten.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-KlasseIDExtern
-KlasseKuerzel
-ZeitraumVon
-ZeitraumBis
-Halbjahr
-FachIDExtern
-FachKuerzel
-Fachstatus
-Unterrichtsart
-Schwerpunkt
-Niveau
-Kursnr
-Beurteilung
-Endnote1
-Endnote2
-Notenart
-Faktor
-Merkmal
-LehrerIDExtern
-LehrerKuerzel
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"KlasseKuerzel";"ZeitraumVon";"ZeitraumBis";"Halbjahr";"FachKuerzel";"Fachstatus";"Unterrichtsart";"Schwerpunkt";"Niveau";"Kursnr";"Beurteilung";"Endnote1";"Endnote2";"Notenart";"Faktor";"Merkmal";"LehrerKuerzel"
+```
 
 !!! info "Hinweis"
 

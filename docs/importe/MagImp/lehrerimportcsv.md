@@ -2,16 +2,12 @@
 
 Die Datei lehrer.import.csv dient dem Import der Lehrer-Stammdaten. Grundsätzlich wird, wie in allen anderen Importdateien jeder Schüler einmalig in Magellan hinzugefügt, übereinstimmende Lehrer (Kürzel) werden übersprungen.
 Eine Ausnahme stellt der Import der Lehrer-Stammdaten dar, bei dem eine Aktualisierung unter vorgegebenen Bedingungen möglich ist.
-Durch eine Übereinstimmung des Wertes im Feld GUIDExtern wird der entsprechende Datensatz nicht eingefügt, sondern ein bestehender Datensatz in der Magellan Datenbank aktualisiert.
-Somit erhalten Sie die Möglichkeit zwischen einem Fremdprogramm und Magellan unter Verwendung einer 36-stelligen GUID (Bsp.: 0D27F45C-E53D-4E81-AC0A-19D0B1BFA798) bestehende Lehrer-Stammdaten wiederholt zu aktualisieren.
-Einschränkung: Der Status des Lehrers kann nicht verändert werden.
+
 Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feldname| Typ| Größe| Bemerkung
 --|--|--|--
-IDExtern |I P | |Bitte derzeit nicht verwenden!
 Kuerzel |A P |6| Lehrerkürzel
-GUIDExtern |A| 36 |Zum Speichern einer 36-stelligen GUID (Ermöglicht durch Abgleich das Update des entsprechenden Datensatzes)
 Vorname| A| 100| -
 Nachname |A| 100| -
 Anrede| A |3 |Mögliche Werte:<br/><br/>F = Frau<br/>H = Herr<br/>FD= Frau Dr.<br/>HD = Herr Dr.<br/>FP = Frau Prof.<br/>HP = Herr Prof.<br/>FPD = Frau Prof. Dr.<br/>HPD = Herr Prof. Dr.<br/>MS = Ms.<br/>MRS = Mrs.<br/>MR = Mr.
@@ -61,63 +57,11 @@ Bemerkung |M| 255 |-
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für lehrer.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für lehrer.import.csv, Stand: 23.02.2021
 
-IDExtern
-Kuerzel
-GUIDExtern
-Vorname
-Nachname
-Anrede
-Geschlecht
-Geburtsdatum
-Geburtsort
-Geburtsname
-Ehestand
-Strasse
-Land
-PLZ
-Ort
-Ortsteil
-Gemeinde
-Telefon
-Telefax
-Mobil
-Email
-TelefonDienst
-TelefaxDienst
-KFZ1
-KFZ2
-Kategorie
-Staatsangeh
-Konfession
-Bevollmaechtigung
-Personalnr
-Statistiknr
-ZugangDatum
-ZugangGrund
-AbgangDatum
-AbgangGrund
-Amtsbez
-Dienstbez
-Dienstverh
-Beschaeftigungsverh
-MerkmalA1
-MerkmalA2
-MerkmalA3
-MerkmalA4
-MerkmalA5
-MerkmalA6
-MerkmalB1
-MerkmalB2
-MerkmalB3
-MerkmalB4
-MerkmalS1
-MerkmalS2
-MerkmalS3
-MerkmalS4
-Status
-Bemerkung
+```
+"Kuerzel";"Vorname";"Nachname";"Anrede";"Geschlecht";"Geburtsdatum";"Geburtsort";"Geburtsname";"Ehestand";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Mobil";"Email";"TelefonDienst";"TelefaxDienst";"KFZ1";"KFZ2";"Kategorie";"Staatsangeh";"Konfession";"Bevollmaechtigung";"Personalnr";"Statistiknr";"ZugangDatum";"ZugangGrund";"AbgangDatum";"AbgangGrund";"Amtsbez";"Dienstbez";"Dienstverh";"Beschaeftigungsverh";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4";"Status";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

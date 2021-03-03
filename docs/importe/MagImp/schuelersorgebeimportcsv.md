@@ -4,11 +4,9 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feldname |Typ |Größe| Bemerkung
 --|--|--|--
-SchuelerIDExtern |I V P || Bitte derzeit nicht verwenden!
 SchuelerVorname |A V P| 100|
 SchuelerNachname |A V P |100|
 SchuelerGeburtsdatum |D V P |10| In der Form TT.MM.JJJJ
-SorgeIDExtern |I V P || Bitte derzeit nicht verwenden!
 SorgebeVorname| A V P |100|
 SorgebeNachname| A V P |100|
 SorgebeStrasse| A V P |100|
@@ -23,22 +21,11 @@ Bemerkung |M |255 |
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler_sorge.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für schueler_sorge.import.csv, Stand: 23.02.2021
 
-SchuelerIDExtern
-SchuelerVorname
-SchuelerNachname
-SchuelerGeburtsdatum
-SorgeIDExtern
-SorgebeVorname
-SorgebeNachname
-SorgebeStrasse
-SorgebeOrt
-Verhaeltnis
-Benachrichtigung
-TelefonPrioritaet
-Position
-Bemerkung
+```
+"SchuelerVorname";"SchuelerNachname";"SchuelerGeburtsdatum";"SorgebeVorname";"SorgebeNachname";"SorgebeStrasse";"SorgebeOrt";"Verhaeltnis";"Benachrichtigung";"TelefonPrioritaet";"Position";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

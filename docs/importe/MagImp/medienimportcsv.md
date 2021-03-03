@@ -135,38 +135,11 @@ Bemerkung| -
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für medien.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für medien.import.csv, Stand: 23.02.2021
 
-IDExtern
-Titel
-Mehrjahresband
-Status
-Untertitel
-Barcode
-Medienart
-Medienkategorie
-Standort
-VerlagIDExtern
-VerlagKuerzel
-Herausgeber
-Autor
-Signaturvorgabe
-Copyright
-ISBN
-ISSN
-Erscheinungsjahr
-Erscheinungsland
-Erscheinungsweise
-Sprache
-Format
-Umfang
-Serie
-Band
-Heft
-Ausgabe
-Jahrgang
-Zusammenfassung
-Bemerkung
+```
+"Titel";"Mehrjahresband";"Status";"Untertitel";"Barcode";"Medienart";"Medienkategorie";"Standort";"VerlagIDExternVerlagKuerzel";"Herausgeber";"Autor";"Signaturvorgabe";"Copyright";"ISBN";"ISSN";"Erscheinungsjahr";"Erscheinungsland";"Erscheinungsweise";"Sprache";"Format";"Umfang";"Serie";"Band";"Heft";"Ausgabe";"Jahrgang";"Zusammenfassung";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

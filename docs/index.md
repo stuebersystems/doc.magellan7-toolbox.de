@@ -1,6 +1,6 @@
 # Über diese Dokumentation
 
-Dies ist eine weiterführende Dokumentation zur Datenstruktur, zur Nutzung von Skripten und dem Importformat von [MAGELLAN](https://doc.magellan7.stueber.de/).
+Dies ist eine weiterführende Dokumentation zur Datenstruktur, zur Nutzung von Skripten und dem Importformat von [MAGELLAN](https://doc.magellan.stueber.de/).
 
 Diese Dokumentation ist unterteilt in die Bereiche:
 
@@ -10,7 +10,7 @@ Diese Dokumentation ist unterteilt in die Bereiche:
 
 Weitere Dokumentationen finden Sie unter nachfolgenden Links:
 
-* [MAGELLAN](https://doc.magellan7.stueber.de)
-* [MyMAGELLAN](https://doc.mymagellan7.stueber.de)
+* [MAGELLAN](https://doc.magellan.stueber.de)
+* [MyMAGELLAN](https://doc.mymagellan.stueber.de)
 * [MAGELLAN & DAVINCI Landesanpassungen](https://doc.la.stueber.de)
 * [MAGELLAN & DAVINCI Landesstatistik](https://doc.ls.stueber.de)

@@ -5,10 +5,6 @@ Die Importdatei kann maximal aus folgenden Feldern bestehen:
 
 Feld|Anmerkung
 ---|---
-**Feldname**| IDExtern
-Typ| I P
-Größe| -
-Bemerkung| Bitte derzeit nicht verwenden
 **Feldname**| Kuerzel
 Typ| A P
 Größe| 20
@@ -90,27 +86,11 @@ Bemerkung| -
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für betriebe.import.csv, Stand: 30.06.2017
+### Spaltenköpfe für betriebe.import.csv, Stand: 23.02.2021
 
- IDExtern
- Kuerzel
- Name1
- Name2
- Strasse
- Land
- PLZ
- Ort
- Ortsteil
- Gemeinde
- Telefon
- Telefax
- Email
- Internet
- Branche
- Kammer
- Arbeitsamt
- Status
-Bemerkung
+```
+"Kuerzel";"Name1";"Name2";"Strasse";"Land";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Email";"Internet";"Branche";"Kammer";"Arbeitsamt";"Status";"Bemerkung"
+```
 
 !!! warning "Wichtig"
 

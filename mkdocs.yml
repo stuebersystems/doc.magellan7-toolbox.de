@@ -1,6 +1,6 @@
 # Project information
-site_name: MAGELLAN 7 TOOLBOX
-site_description: 'MAGELLAN 7 TOOLBOX'
+site_name: MAGELLAN TOOLBOX
+site_description: 'MAGELLAN TOOLBOX'
 site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.magellan7-toolbox.stueber.de'
 
@@ -397,35 +397,36 @@ nav:
       - Vagabonds: datenstruktur/version7/ansichten/Vagabonds.md
   - Struktur der Version 8:
     - Neuerungen von Version 7 zu 8: 
-    - Auswahltabellen: datenstruktur/version8/neuerungen.md
-      - tblAuswahlAdressen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahladressen.md
-      - tblAuswahlBetriebe: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbetriebe.md
-      - tblAuswahlBewerber: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbewerber.md
-      - tblAuswahlBuchungen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbuchungen.md
-      - tblAuswahlGroups: datenstruktur/version8/auswahltabellen-und-ansichten/tblAuswahlGroups.md
-      - tblAuswahlHaushalt: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlhaushalt.md
-      - tblAuswahlInventar: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlinventar.md
-      - tblAuswahlKlassen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlklassen.md
-      - tblAuswahlKlassenbuchFaecher: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchfaecher.md
-      - tblAuswahlKlassenbuchKlassen: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchklassen.md
-      - tblAuswahlKlassenbuchKurse: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchkurse.md
-      - tblAuswahlKlassenbuchSchueler: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchschueler.md
-      - tblAuswahlKurslisten: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlkurslisten.md
-      - tblAuswahlLehrer: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahllehrer.md
-      - tblAuswahlLieferanten: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahllieferanten.md
-      - tblAuswahlMandanten: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlmandanten.md
-      - tblAuswahlMedien: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlmedien.md
-      - tblAuswahlMedienAusleihe: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlmedienausleihe.md
-      - tblAuswahlMedienAusleiher: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlmedienausleiher.md
-      - tblAuswahlMedienVorgaenge: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlmedienvorgaenge.md
-      - tblAuswahlPersonen: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlpersonen.md
-      - tblAuswahlPruefungslisten: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlpruefungslisten.md
-      - tblAuswahlSchueler: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlschueler.md
-      - tblAuswahlSchulen: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlschulen.md
-      - tblAuswahlSorgebe: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlsorgebe.md
-      - tblAuswahlSportfeste: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlsportfeste.md
-      - tblAuswahlVerlage: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlverlage.md
-      - tblAuswahlZeugnisse: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlzeugnisse.md
+      - Auswahltabellen: 
+        - Neuerungen: datenstruktur/version8/neuerungen.md
+        - tblAuswahlAdressen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahladressen.md
+        - tblAuswahlBetriebe: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbetriebe.md
+        - tblAuswahlBewerber: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbewerber.md
+        - tblAuswahlBuchungen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlbuchungen.md
+        - tblAuswahlGroups: datenstruktur/version8/auswahltabellen-und-ansichten/tblAuswahlGroups.md
+        - tblAuswahlHaushalt: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlhaushalt.md
+        - tblAuswahlInventar: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlinventar.md
+        - tblAuswahlKlassen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlklassen.md
+        - tblAuswahlKlassenbuchFaecher: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchfaecher.md
+        - tblAuswahlKlassenbuchKlassen: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchklassen.md
+        - tblAuswahlKlassenbuchKurse: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchkurse.md
+        - tblAuswahlKlassenbuchSchueler: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlklassenbuchschueler.md
+        - tblAuswahlKurslisten: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlkurslisten.md
+        - tblAuswahlLehrer: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahllehrer.md
+        - tblAuswahlLieferanten: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahllieferanten.md
+        - tblAuswahlMandanten: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlmandanten.md
+        - tblAuswahlMedien: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlmedien.md
+        - tblAuswahlMedienAusleihe: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlmedienausleihe.md
+        - tblAuswahlMedienAusleiher: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahlmedienausleiher.md
+        - tblAuswahlMedienVorgaenge: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlmedienvorgaenge.md
+        - tblAuswahlPersonen: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlpersonen.md
+        - tblAuswahlPruefungslisten: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlpruefungslisten.md
+        - tblAuswahlSchueler: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlschueler.md
+        - tblAuswahlSchulen: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlschulen.md
+        - tblAuswahlSorgebe: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlsorgebe.md
+        - tblAuswahlSportfeste: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlsportfeste.md
+        - tblAuswahlVerlage: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlverlage.md
+        - tblAuswahlZeugnisse: datenstruktur/version8/auswahltabellen-und-ansichten/tblauswahlzeugnisse.md
     - Schlüsseltabellen: 
       - Abgangsarten: datenstruktur/version8/schluesseltabellen/abgangsarten.md
       - Abordnungsarten: datenstruktur/version8/schluesseltabellen/abordnungsarten.md
@@ -742,7 +743,7 @@ nav:
   - schueler.import.csv: importe/MagImp/schuelerimportcsv.md
   - schueler_laufbahn.import.csv: importe/MagImp/schuelerlaufbahn_importcsv.md
   - schueler_fachdaten.import.csv: importe/MagImp/schuelerfachdatenimportcsv.md
-  - schueler_sorgebe.import.csv]: importe/MagImp/schuelersorgebeimportcsv.md
+  - schueler_sorgebe.import.csv: importe/MagImp/schuelersorgebeimportcsv.md
   - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
   - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
   - Importieren: importe/MagImp/importieren_mit_dem_importassistenten.md

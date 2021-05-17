@@ -157,17 +157,23 @@
 | Graecum                       | L   | -     | -        | -                                        |
 | Einschulung                   | S   | -     | -        | **Mögliche Werte:**<br/>0 = Vorzeitige Einschulung<br/>1 = Fristgerechte Einschulung<br/>2 = Verspätete Einschulung |
 | HoechsterBildungsgangABS      | A   | -     | V        | Verweis auf Tabelle **Bildungsgaenge**   |
+| HoechsterAbschlussABSSchulform| A   | -     | V        | Verweis auf Tabelle **SchulformenHerkunft**|
 | HoechsterAbschlussABS         | A   | -     | V        | Verweis auf Tabelle **AbschluesseExtern** |
 | HoechsterAbschlussABSAm       | D   | -     | -        | -                                        |
 | HoechsterAbschlussABSNote     | N   | -     | -        | -                                        |
 | HoechsterAbschlussABSSchule   | I   | -     | V        | Verweis auf Tabelle **SchuelerSchulen**  |
 | HoechsterBildungsgangBBS      | A   | -     | V        | Verweis auf Tabelle **Bildungsgaenge**   |
+| HoechsterAbschlussBBSSchulform| A   | -     | V        | Verweis auf Tabelle **SchulformenHerkunft**|
 | HoechsterAbschlussBBS         | A   | -     | V        | Verweis auf Tabelle **AbschluesseExtern** |
 | HoechsterAbschlussBBSAm       | D   | -     | -        | -                                        |
 | HoechsterAbschlussBBSBeruf    | A   | -     | V        | Verweis auf Tabelle **Berufe**           |
 | HoechsterAbschlussBBSNote     | N   | -     | -        | -                                        |
 | HoechsterAbschlussBBSSchule   | I   | -     | V        | Verweis auf Tabelle **SchuelerSchulen**  |
 | HoechsterAbschlussBBSAustritt | S   | -     | -        | **Mögliche Werte:**<br/>0 = Abschluss<br/>1 = Abgang<br/>2 = Abbruch |
+| HoechsterAbschluss2ABS        | A   | -     | V        | Verweis auf Tabelle **AbschluesseExtern** |
+| HoechsterAbschluss2ABSSchulform| A   | -     | V        | Verweis auf Tabelle **SchulformenHerkunft**|
+| HoechsterAbschluss2BBS        | A   | -     | V        | Verweis auf Tabelle **AbschluesseExtern** |
+| HoechsterAbschluss2BBSSchulform| A   | -     | V        | Verweis auf Tabelle **SchulformenHerkunft**|
 | Berufsjahre                   | N   | -     | -        | -                                        |
 | Ausbildung                    | I   | -     | V        | Verweis auf Tabelle **SchuelerAusbildung** |
 | ZugangAm                      | D   | -     | -        | 1. Zugangsdatum                          |

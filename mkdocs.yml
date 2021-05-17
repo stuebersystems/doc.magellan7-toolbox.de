@@ -396,7 +396,7 @@ nav:
       - StudentsComplexReports: datenstruktur/version7/ansichten/StudentsComplexReports.md
       - Vagabonds: datenstruktur/version7/ansichten/Vagabonds.md
   - Struktur der Version 8:
-    - Neuerungen von Version 7 zu 8: 
+    - Änderungen von 7 zu 8: 
       - Auswahltabellen: 
         - Neuerungen: datenstruktur/version8/neuerungen.md
         - tblAuswahlAdressen: datenstruktur/version8/auswahltabellen-und-ansichten/tabelle-tblauswahladressen.md

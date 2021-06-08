@@ -209,6 +209,10 @@
 | MerkmalA4                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
 | MerkmalA5                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
 | MerkmalA6                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
+| MerkmalA7                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
+| MerkmalA8                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
+| MerkmalA9                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
+| MerkmalA10                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
 | MerkmalS1                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
 | MerkmalS2                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |
 | MerkmalS3                     | A   | -     | V        | Verweis auf Tabelle **Schuelermerkmale** |

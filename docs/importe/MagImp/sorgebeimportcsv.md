@@ -91,7 +91,7 @@ Bemerkung| -
 
 !!! warning "Wichtig"
 
-    Das Einlesen der Sorgeberechtigten ist nur für den einmaligen Import gedacht. Ein erneutes Einlesen der gleichen Daten führt nicht zu einem Update der bereits eingelesenen Daten und auch nicht zu doppelten Datensätzen. Die Datensätze werden anhand des Vor- und Nachnamens identifiziert.
+    Das Einlesen der Sorgeberechtigten ist nur für den einmaligen Import gedacht. **Ein erneutes Einlesen der gleichen Daten führt nicht zu einem Update der bereits eingelesenen Daten, die Datensätzen werden mehrfach angelegt**.
 
 ## Spaltenköpfe zur Vorlage für Importdateien
 

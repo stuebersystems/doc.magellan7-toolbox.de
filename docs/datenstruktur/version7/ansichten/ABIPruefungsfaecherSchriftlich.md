@@ -1,6 +1,6 @@
 ## View ABIPruefungsfaecherSchriftlich
 
-Grundlagen sind:
+Grundlagen sind: 
 
 * [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
 * [Klassen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Klassen/)

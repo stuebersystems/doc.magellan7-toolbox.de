@@ -89,7 +89,7 @@ Importdatei|Beschreibung
 
 ### Aufbau der Importdateien
 
-Jede dieser Dateien muss als CSV-Datei aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch Semikolon getrennt und mit Anführungszeichen abgegrenzt.
+Jede dieser Dateien muss als CSV-Datei (ANSI) aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch Semikolon getrennt und mit Anführungszeichen abgegrenzt.
 
 Die Schülerdatei kann z.B. folgenden Aufbau haben
 

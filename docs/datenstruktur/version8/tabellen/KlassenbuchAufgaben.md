@@ -1,6 +1,4 @@
-#      Tabelle KlassenbuchAufgaben
-
-
+# Tabelle KlassenbuchAufgaben
 
 | Feldname                 | Typ | Größe | Funktion | Bemerkung                                |
 |--------------------------|-----|-------|----------|------------------------------------------|
@@ -14,5 +12,3 @@
 | LogErsteintrag_Benutzer  | A   | 20    | -        | -                                        |
 | LetzteAenderung          | DT  | -     | -        | -                                        |
 | LetzteAenderung_Benutzer | A   | 20    | -        | -                                        |
-
-

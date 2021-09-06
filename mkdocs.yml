@@ -122,7 +122,7 @@ nav:
       - Berufe: datenstruktur/version7/schluesseltabellen/berufe.md
       - Berufsfelder: datenstruktur/version7/schluesseltabellen/berufsfelder.md
       - Beschaeftigungsarten: datenstruktur/version7/schluesseltabellen/Beschaeftigungsarten.md
-      - Beschaeftigungsverh: datenstruktur/version7/schluesseltabellen/beschaeftigungsverh.md
+      - Beschaeftigungsverh: datenstruktur/version7/schluesseltabellen/beschaeftigungsverh.md      
       - Besoldungen: datenstruktur/version7/schluesseltabellen/besoldungen.md
       - BetreuungenAusserschulisch: datenstruktur/version7/schluesseltabellen/betreuungenausserschulisch.md
       - BetreuungenInnerschulisch: datenstruktur/version7/schluesseltabellen/betreuungeninnerschulisch.md
@@ -284,7 +284,7 @@ nav:
       - Haushaltstitel: datenstruktur/version7/tabellen/Haushaltstitel.md
       - Inventar: datenstruktur/version7/tabellen/Inventar.md
       - InventarExemplare: datenstruktur/version7/tabellen/InventarExemplare.md
-      - Klassen: datenstruktur/version7/tabellen/Klassen.md
+      - Klassen: datenstruktur/version7/tabellen/Klassen.md      
       - Klassenbuch: datenstruktur/version7/tabellen/Klassenbuch.md
       - KlassenbuchAufgaben: datenstruktur/version7/tabellen/KlassenbuchAufgaben.md
       - KlassenbuchKlassen: datenstruktur/version7/tabellen/KlassenbuchKlassen.md
@@ -318,7 +318,7 @@ nav:
       - SchuelerBBS: datenstruktur/version7/tabellen/SchuelerBBS.md
       - SchuelerBBSDetails: datenstruktur/version7/tabellen/SchuelerBBSDetails.md
       - SchuelerBBSZeugnisbemerkungen: datenstruktur/version7/tabellen/SchuelerBBSZeugnisbemerkungen.md
-      - SchuelerBBSZeugnisformulare: datenstruktur/version7/tabellen/SchuelerBBSZeugnisformulare.md
+      - SchuelerBBSZeugnisformulare: datenstruktur/version7/tabellen/SchuelerBBSZeugnisformulare.md      
       - SchuelerFachdaten: datenstruktur/version7/tabellen/SchuelerFachdaten.md
       - SchuelerFehlzeiten: datenstruktur/version7/tabellen/SchuelerFehlzeiten.md
       - SchuelerFoerderungen: datenstruktur/version7/tabellen/SchuelerFoerderungen.md
@@ -458,6 +458,7 @@ nav:
       - Beschaeftigungsarten: datenstruktur/version8/schluesseltabellen/Beschaeftigungsarten.md
       - Beschaeftigungsverh: datenstruktur/version8/schluesseltabellen/beschaeftigungsverh.md
       - Besoldungen: datenstruktur/version8/schluesseltabellen/besoldungen.md
+      - Besonderheiten: datenstruktur/version8/schluesseltabellen/besonderheiten.md
       - BetreuungenAusserschulisch: datenstruktur/version8/schluesseltabellen/betreuungenausserschulisch.md
       - BetreuungenInnerschulisch: datenstruktur/version8/schluesseltabellen/betreuungeninnerschulisch.md
       - Betreuungsformen: datenstruktur/version8/schluesseltabellen/betreuungsformen.md
@@ -619,6 +620,7 @@ nav:
       - Inventar: datenstruktur/version8/tabellen/Inventar.md
       - InventarExemplare: datenstruktur/version8/tabellen/InventarExemplare.md
       - Klassen: datenstruktur/version8/tabellen/Klassen.md
+      - KlassenBesonderheiten: datenstruktur/version8/tabellen/KlassenBesonderheiten.md
       - Klassenbuch: datenstruktur/version8/tabellen/Klassenbuch.md
       - KlassenbuchAufgaben: datenstruktur/version8/tabellen/KlassenbuchAufgaben.md
       - KlassenbuchKlassen: datenstruktur/version8/tabellen/KlassenbuchKlassen.md
@@ -653,6 +655,7 @@ nav:
       - SchuelerBBSDetails: datenstruktur/version8/tabellen/SchuelerBBSDetails.md
       - SchuelerBBSZeugnisbemerkungen: datenstruktur/version8/tabellen/SchuelerBBSZeugnisbemerkungen.md
       - SchuelerBBSZeugnisformulare: datenstruktur/version8/tabellen/SchuelerBBSZeugnisformulare.md
+      - SchuelerBesonderheiten: datenstruktur/version8/tabellen/SchuelerBesonderheiten.md
       - SchuelerFachdaten: datenstruktur/version8/tabellen/SchuelerFachdaten.md
       - SchuelerFehlzeiten: datenstruktur/version8/tabellen/SchuelerFehlzeiten.md
       - SchuelerFoerderungen: datenstruktur/version8/tabellen/SchuelerFoerderungen.md

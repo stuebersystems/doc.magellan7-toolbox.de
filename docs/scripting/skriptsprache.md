@@ -227,27 +227,27 @@ NUM =
 
 Die folgenden Worte sind reserviert und können nicht beliebig im Skript verwendet werden. So dürfen Sie beispielsweise keine Variable deklarieren, die BEGIN heißt.
 
-Buchstabe|Reservierter Begriff
---|--
-A| and   array   as
-B|begin  
-C|case   class   const   const   constructor
-D|destructor   div    do     downto
-E|else   end   except
-F|finally     for    forward    function
-I|if     inherited    is
-L|label
-M|mod
+Buchstabe | Reservierte Begriffe
+--------- | --------------------
+A         | and   array   as
+B         | begin  
+C         | case   class   const   const   constructor
+D         | destructor   div    do     downto
+E         | else   end   except
+F         | finally     for    forward    function
+I         | if     inherited    is
+L         | label
+M| mod
 N| nil    not  
-O|of     or  
-P|procedure     property  
+O| of     or  
+P| procedure     property  
 R| raise    record   repeat
-S|string
+S| string
 T| then   to    try     type
 U| until  
 V| var  
-W|while  
-X|xor  
+W| while  
+X| xor  
 
 ## Besonderheiten
 
@@ -293,58 +293,65 @@ Proc(x);
 
 Sie können innerhalb einer Prozedur-Deklaration keine Deklaration platzieren.
 
-**Beispiel:**
+#### Beispiel 1
 
 ```dws
 // FALSCH
 procedure Proc(x: Integer);
-type
-TMyRec = record a, b: string end;
-begin end;
+type TMyRec = record a, b: string end;
+begin 
+  ...
+end;
 ```
 
 ```dws
 // RICHTIG
 procedure Proc(x: Integer);
 begin
-type TMyRec = record a, b: string end;
+  type TMyRec = record a, b: string end;
 end;
 ```
 
 Dafür kann man Variablen auch innerhalb eines Blocks (BEGIN..END) deklarieren. Die Deklaration ist nur innerhalb dieses Blocks und inner- halb der entsprechenden Unterblöcke sichtbar.
 
-**Beispiel:**
+#### Beispiel 2
 
 ```dws
-var i: Integer;
-if i = 0 then begin
-var j: Integer;
-j := 2;
-while j > 0 do
+procedure Schleife;
 begin
-var k: Integer;
-k := 2;
-j := j - k;
-end;
-end;
+  var i: Integer;
 
-var j: String;
-// Variable "j"´, die innerhalb des
-// if-Blocks deklariert wurde, ist hier nicht sichtbar!
+  if i = 0 then 
+  begin
+    var j: Integer;
+    j := 2;
+
+    while j > 0 do
+    begin
+      var k: Integer;
+      k := 2;
+      j := j - k;
+    end;
+  end;
+
+  var j: String;
+  // Variable "j"´, die innerhalb des
+  // if-Blocks deklariert wurde, ist hier nicht sichtbar!     
+end;
 ```
 
 ### Datentypen
 
 DelphiWebScript unterstützt nur folgende elementare Datentypen:
 
-Typ|Beschreibung
----|-----------
-Integer| 32Bit-Integer
-Float|64Bit-Fließkommawert
-String| Textfeld beliebiger Länge
-Boolean|Kann die Werte TRUE oder FALSE annehmen.
-DateTime|Datum-Zeit-Angabe, ist kompatibel zu Float.
-Variant|Umfasst alle anderen Typen. Sie können einer Variable des Typs Variant jeden anderen elementaren Typ zuweisen.
+Typ      | Beschreibung
+-------- | ------------
+Integer  | 32Bit-Integer
+Float    | 64Bit-Fließkommawert
+String   | Textfeld beliebiger Länge
+Boolean  | Kann die Werte TRUE oder FALSE annehmen.
+DateTime | Datum-Zeit-Angabe, ist kompatibel zu Float.
+Variant  | Umfasst alle anderen Typen. Sie können einer Variable des Typs Variant jeden anderen elementaren Typ zuweisen.
 
 ### Mengentypen
 
@@ -354,7 +361,7 @@ DelphiWebScript unterstützt keine Mengentypen und keine Aufzählungstypen.
 
 In DelphiWebSkript können Sie innerhalb einer CASE-Anweisung alle Datentypen verwenden:
 
-**Beispiel:**
+##### Beispiel
 
 ```dws
 var s: string;
@@ -362,8 +369,8 @@ var s: string;
 s := 'Alpha';
 
 case s of
-'Alpha': DoSomething;
-'Beta', 'Gamma': DoSomethingElse;
+  'Alpha': DoSomething;
+  'Beta', 'Gamma': DoSomethingElse;
 end;
 ```
 
@@ -371,7 +378,7 @@ end;
 
 Sie können eine Variable mit einer modifizierten VAR-Anweisung initialisieren:
 
-**Beispiel:**
+###### Beispiel 1
 
 ```dws
 var s: Integer = 2;
@@ -381,7 +388,7 @@ var i: Integer = 12;
 
 Eine Initialisierung entspricht einer Deklaration gefolgt von einer Zuweisung. Sie ist lediglich eine Abkürzung dafür. Der Unterschied besteht allerdings in der Ausführung der Anweisung: Die Initialisierung wird nur genau einmal vom Compiler durchlaufen. Die Anweisung wird zur Ausführungszeit des Programms ggf. mehrmals durchlaufen.
 
-**Beispiel:**
+###### Beispiel 2
 
 ```dws
 var i: Integer = 12;

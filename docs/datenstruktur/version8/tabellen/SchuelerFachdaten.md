@@ -20,18 +20,18 @@
 | Note3                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
 | Note4                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
 | Note5                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note6                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note7                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note8                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note9                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note10                 | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note11                 | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note12                 | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note13                 | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note14                 | I   | -     | V        | Verweis auf Tabelle **Noten**            |
+| Note6                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote1`|
+| Note7                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote2`|
+| Note8                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote3`|
+| Note9                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote4`|
+| Note10                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote5`|
+| Note11                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote6`|
+| Note12                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote7`|
+| Note13                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote8`|
+| Note14                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote9`|
 | Vornote                | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Endnote1               | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Endnote2               | I   | -     | V        | Verweis auf Tabelle **Noten**            |
+| Endnote1               | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Endnote`|
+| Endnote2               | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Endnote gesamt`|
 | Faktor                 | N   | -     | -        | -                                        |
 | Position               | S   | -     | -        | -                                        |
 | Merkmal                | A   | 8     | -        | -                                        |

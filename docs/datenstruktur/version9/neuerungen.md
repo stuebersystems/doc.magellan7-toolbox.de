@@ -1,7 +1,5 @@
 # Änderungen der Datenstruktur von MAGELLAN 8 auf MAGELLAN 9
 
-Dieser Teil der Dokumentation wird aktuell überarbeitet.
-
 ## Legende
 
 **T** = Tabelle

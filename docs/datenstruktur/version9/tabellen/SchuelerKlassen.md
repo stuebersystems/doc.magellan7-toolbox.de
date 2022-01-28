@@ -16,6 +16,7 @@
 | VersetztAm                | D   | -     | -        | -                                        |
 | SchulformEintritt         | D   | -     | -        | -                                        |
 | Fachtafel                 | A   | -     | V        | Verweis auf Tabelle ** Fachtafeln**      |
+| Hauptklasse               | A   | -     | -        | -    |
 | Aufnahmepruefung          | A   | 10    | -        | Verweis auf Tabelle **Aufnahmepruefungen** |
 | AufnahmepruefungBestanden | L   | -     | -        | -                                        |
 | Nachpruefung              | A   | 10    | -        | Verweis auf Tabelle ** Nachpruefungen**  |

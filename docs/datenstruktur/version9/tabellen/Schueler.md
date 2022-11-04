@@ -4,7 +4,7 @@ Feldname                      | Typ | Größe | Funktion | Bemerkung
 ----------------------------- | --- | ----- | -------- | ---------
 Mandant                       | I   |       | PV       | Verweis auf Tabelle<br/> **Mandanten**
 ID                            | I+  |       | P        |  
-EnbreaID                      | A   | 24    |          | Externer Identifikator aus ENBREA
+EnbreaID                      | A   | 24    | -        | Externer Identifikator aus ENBREA
 GUID                          | A   | 32    |          |  
 IDIntern                      | I   |       |          |  
 IDExtern                      | I   |       |          |  
@@ -125,7 +125,7 @@ BewerberRangzahlZiel4         | S   |       |          |
 Fremdsprache1                 | I   |       | V        | Verweis auf Tabelle **Faecher**
 Fremdsprache1Von              | S   |       |          |  
 Fremdsprache1Bis              | S   |       |          |  
-Fremdsprache1Note             | N   |       |          |  
+Fremdsprache1Note             | A   |       | V        | Verweis auf Tabelle **FremdsprachenNoten**
 Fremdsprache1Status           | S   |       |          | Mögliche Werte:<br/>0 = Unterricht an berichtender Schule<br/>1 = Unterricht an anderer Schule<br/>2 = Unterricht anerkannt<br/>3 =Unterricht abgewählt<br/>4 = Wahlunterricht<br/>5 = Fach<br/>6 = Hauptfach<br/>7 = Ergänzendes Fach
 Fremdsprache1Status2          | S   |       |          | **Mögliche Werte:**<br/>0 = Pflichtfach/Wahlpflichtfach<br/>1 = Wahlfach (fakultative FS)<br/>2 = Arbeitsgemeinschaft<br/>3 = Förderunterricht<br/>4 = Pflichtfach<br/>5 = Wahlpflichtfach<br/>6 = Neigungsunterricht<br/>7 = Muttersprachl. Unterricht<br/>8 = Basiskurs<br/>9 = Erweiterungskurs<br/>10 = Gymnasialkurs
 Fremdsprache1Referenz         | I   |       | V        | Verweis auf Tabelle **Sprachreferenzen**
@@ -133,7 +133,7 @@ Fremdsprache1Erteilt          | S   |       |          | Mögliche werte:<br/>1 
 Fremdsprache2                 | I   |       | V        | Verweis auf Tabelle **Faecher**
 Fremdsprache2Von              | S   |       |          |  
 Fremdsprache2Bis              | S   |       |          |  
-Fremdsprache2Note             | N   |       |          |  
+Fremdsprache2Note             | A   |       | V        | Verweis auf Tabelle **FremdsprachenNoten**
 Fremdsprache2Status           | S   |       |          | **Mögliche Werte:**<br/>0 = Unterricht an berichtender Schule<br/>1 = Unterricht an anderer Schule<br/>2 = Unterricht anerkannt<br/>3 = Unterricht abgewählt<br/>4 = Wahlunterricht<br/>5 = Fach<br/>6 = Hauptfach<br/>7 = Ergänzendes Fach
 Fremdsprache2Status2          | S   |       |          | **Mögliche Werte:**<br/>0 = Pflichtfach/Wahlpflichtfach<br/>1 = Wahlfach (fakultative FS)<br/>2 = Arbeitsgemeinschaft<br/>3 = Förderunterricht<br/>4 = Pflichtfach<br/>5 = Wahlpflichtfach<br/>6 = Neigungsunterricht<br/>7 = Muttersprachl. Unterricht<br/>8 = Basiskurs<br/>9 = Erweiterungskurs<br/>10 = Gymnasialkurs
 Fremdsprache2Referenz         | I   |       | V        | Verweis auf Tabelle **Sprachreferenzen**
@@ -141,7 +141,7 @@ Fremdsprache2Erteilt          | S   |       |          | Mögliche werte:<br/>1 
 Fremdsprache3                 | I   |       | V        | Verweis auf Tabelle **Faecher**
 Fremdsprache3Von              | S   |       |          |  
 Fremdsprache3Bis              | S   |       |          |  
-Fremdsprache3Note             | N   |       |          |  
+Fremdsprache3Note             | A   |       | V        | Verweis auf Tabelle **FremdsprachenNoten**
 Fremdsprache3Status           | S   |       |          | **Mögliche Werte:**<br/>0 = Unterricht an berichtender Schule<br/>1 = Unterricht an anderer Schule<br/>2 = Unterricht anerkannt<br/>3 = Unterricht abgewählt<br/>4 = Wahlunterricht<br/>5 = Fach<br/>6 = Hauptfach<br/>7 = Ergänzendes Fach
 Fremdsprache3Status2          | S   |       |          | **Mögliche Werte:**<br/>0 = Pflichtfach/Wahlpflichtfach<br/>1 = Wahlfach (fakultative FS)<br/>2 = Arbeitsgemeinschaft<br/>3 = Förderunterricht<br/>4 = Pflichtfach<br/>5 = Wahlpflichtfach<br/>6 = Neigungsunterricht<br/>7 = Muttersprachl. Unterricht<br/>8 = Basiskurs<br/>9 = Erweiterungskurs<br/>10 = Gymnasialkurs
 Fremdsprache3Referenz         | I   |       | V        | Verweis auf Tabelle **Sprachreferenzen**
@@ -149,7 +149,7 @@ Fremdsprache3Erteilt          | S   |       |          | Mögliche werte:<br/>1 
 Fremdsprache4                 | I   |       | V        | Verweis auf Tabelle **Faecher**
 Fremdsprache4Von              | S   |       |          |  
 Fremdsprache4Bis              | S   |       |          |  
-Fremdsprache4Note             | N   |       |          |  
+Fremdsprache4Note             | A   |       | V        | Verweis auf Tabelle **FremdsprachenNoten**
 Fremdsprache4Status           | S   |       |          | **Mögliche Werte:**<br/>0 = Unterricht an berichtender Schule<br/>1 = Unterricht an anderer Schule<br/>2 = Unterricht anerkannt<br/>3 = Unterricht abgewählt<br/>4 = Wahlunterricht<br/>5 = Fach<br/>6 = Hauptfach<br/>7 = Ergänzendes Fach
 Fremdsprache4Status2          | S   |       |          | **Mögliche Werte:**<br/>0 = Pflichtfach/Wahlpflichtfach<br/>1 = Wahlfach (fakultative FS)<br/>2 = Arbeitsgemeinschaft<br/>3 = Förderunterricht<br/>4 = Pflichtfach<br/>5 = Wahlpflichtfach<br/>6 = Neigungsunterricht<br/>7 = Muttersprachl. Unterricht<br/>8 = Basiskurs<br/>9 = Erweiterungskurs<br/>10 = Gymnasialkurs
 Fremdsprache4Referenz         | I   |       | V        | Verweis auf Tabelle **Sprachreferenzen**

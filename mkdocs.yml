@@ -161,6 +161,7 @@ nav:
       - Fahrkarten: datenstruktur/version9/schluesseltabellen/fahrkarten.md
       - FoerderSchwerpunkte: datenstruktur/version9/schluesseltabellen/FoerderSchwerpunkte.md
       - Foerderungen: datenstruktur/version9/schluesseltabellen/foerderungen.md
+      - FremdsprachenNoten: datenstruktur/version9/schluesseltabellen/fremdsprachennoten.md
       - Gebaeude: datenstruktur/version9/schluesseltabellen/gebaeude.md
       - Gemeinden: datenstruktur/version9/schluesseltabellen/gemeinden.md
       - GradeEntries: datenstruktur/version9/schluesseltabellen/GradeEntries.md

@@ -103,6 +103,6 @@ Kopieren Sie anschließend die Spalte mit den Feldnamen erneut, wechseln auf ein
 
 ### Das Ergebnis wird waagerecht, aber nicht in Spalten angezeigt?
 
-Wechseln Sie auf `Daten > Text in Spalten`. Bestätigen Sie als erstes, dass die Inhalte `getrennt` dargestellt werden sollen, wählen Sie auf der nächsten Karte als Trennzeichen bitte das ``Leerzeichen`` aus.
+Wechseln Sie auf `Daten > Text in Spalten`. Bestätigen Sie als erstes, dass die Inhalte `getrennt` dargestellt werden sollen, wählen Sie auf der nächsten Karte als Trennzeichen bitte das ``Semikolon`` aus.
 
 ![Teilen Sie die Werte auf Spalten auf](/assets/images/importe/magimp-9.png)

@@ -73,6 +73,7 @@ Einige dieser Schlüsseltabellen sind speziell für Statistiken wichtig, deshalb
 | Fahrkarten                 | Fahrkarten                        |
 | FoerderSchwerpunkte        | Förderschwerpunkte                |
 | Foerderungen               | Förderungen                       |
+| FremdsprachenNoten         | Fremdsprachenoten                 |
 | Gemeinden                  | Gemeinden                         |
 | GradeEntries               | Notensystemeinträge               |
 | GradeSystems               | Notensysteme                      |

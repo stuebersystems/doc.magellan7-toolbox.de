@@ -84,7 +84,7 @@ Bemerkung| -
 
 ## Spaltenköpfe zur Vorlage für Importdateien
 
-Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
+Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen. 
 
 ### Spaltenköpfe für betriebe.import.csv, Stand: 23.02.2021
 

@@ -90,6 +90,7 @@ Importdatei|Beschreibung
 ### Aufbau der Importdateien
 
 Jede dieser Dateien muss als CSV-Datei (ANSI) aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch Semikolon getrennt und mit Anführungszeichen abgegrenzt.
+> Speichern Sie Ihre Daten aus Excel heraus, können Sie eine Datei mit `Speichern unter` und dem Dateityp `CSV Trennzeichen getrennt *.csv` erzeugen.  
 
 Die Schülerdatei kann z.B. folgenden Aufbau haben
 

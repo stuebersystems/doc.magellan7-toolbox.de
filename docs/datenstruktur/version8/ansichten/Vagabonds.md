@@ -2,7 +2,7 @@
 
 Grundlage ist die Tabelle:
 
-* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler//)
+* [Schueler](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Schueler//)
 
 | Feldname                      | Typ | Größe | Funktion | Bemerkung                  |
 |-------------------------------|-----|-------|----------|----------------------------|

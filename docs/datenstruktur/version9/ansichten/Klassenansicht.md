@@ -2,8 +2,8 @@
 
 Grundlage der Daten sind
 
-* [Klassen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Klassen/)
-* [KlassenZeitraeume](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/).
+* [Klassen](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Klassen/)
+* [KlassenZeitraeume](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/KlassenZeitraeume/).
 
 | Feldname               | Typ | Größe | Funktion | Bemerkung                                |
 |------------------------|-----|-------|----------|------------------------------------------|

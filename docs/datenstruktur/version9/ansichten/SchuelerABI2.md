@@ -1,6 +1,6 @@
 # View SchuelerABI2
 
-Grundlage ist die Tabelle [SchuelerABI](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerABI/).
+Grundlage ist die Tabelle [SchuelerABI](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/SchuelerABI/).
 
 | Feldname                   | Typ | Größe | Funktion | Bemerkung |
 |----------------------------|-----|-------|----------|-----------|

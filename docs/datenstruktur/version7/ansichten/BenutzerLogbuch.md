@@ -1,6 +1,6 @@
 # View BenutzerLogbuch
 
-Grundlage ist die Tabelle [tblBenutzerLogbuch](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblBenutzerLogbuch/).
+Grundlage ist die Tabelle [tblBenutzerLogbuch](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/tblBenutzerLogbuch/).
 
 | Feldname       | Typ | Größe | Funktion | Bemerkung                                |
 |----------------|-----|-------|----------|------------------------------------------|

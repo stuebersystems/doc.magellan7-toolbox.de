@@ -1,6 +1,6 @@
 # View LehrerSollBerechnung
 
-Grundlage ist die Tabelle [tblLehrerSollBerechnung](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/LehrerSollBerechnung/).
+Grundlage ist die Tabelle [tblLehrerSollBerechnung](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/LehrerSollBerechnung/).
 
 | Feldname             | Typ | Größe | Funktion | Bemerkung                                |
 |----------------------|-----|-------|----------|------------------------------------------|

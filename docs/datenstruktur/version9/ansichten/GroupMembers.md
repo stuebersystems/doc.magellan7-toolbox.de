@@ -2,12 +2,12 @@
 
 Grundlage sind:
 
-* [tblGroupMembers](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblGroupMembers/)
-* [Groups](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Groups/)
-* [Personen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Personen/)
-* [Lehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/ansichten/Lehrer/)
-* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
-* [Sorgeberechtigte](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Sorgeberechtigte/)
+* [tblGroupMembers](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/tblGroupMembers/)
+* [Groups](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Groups/)
+* [Personen](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Personen/)
+* [Lehrer](https://doc.magellan-toolbox.stueber.de/datenstruktur/ansichten/Lehrer/)
+* [Schueler](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
+* [Sorgeberechtigte](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Sorgeberechtigte/)
 
 | Feldname           | Typ | Größe | Funktion | Bemerkung                                |
 |--------------------|-----|-------|----------|------------------------------------------|

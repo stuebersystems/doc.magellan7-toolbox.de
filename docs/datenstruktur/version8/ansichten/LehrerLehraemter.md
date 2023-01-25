@@ -1,6 +1,6 @@
 # View LehrerLehraemter
 
-Grundlage ist die Tabelle [tblLehrerLehraemter](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblLehrerLehraemter/).
+Grundlage ist die Tabelle [tblLehrerLehraemter](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/tblLehrerLehraemter/).
 
 |Feldname       | Typ | Größe | Funktion | Bemerkung                                |
 |----------------|-----|-------|----------|------------------------------------------|

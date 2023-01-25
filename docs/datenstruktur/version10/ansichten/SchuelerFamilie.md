@@ -2,10 +2,10 @@
 
 Grundlage sind:
 
-* [SchuelerSorgebe](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerSorgebe/)
-* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
-* [Personen](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Personen/)
-* [tblLehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/tblLehrer/)
+* [SchuelerSorgebe](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/SchuelerSorgebe/)
+* [Schueler](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
+* [Personen](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Personen/)
+* [tblLehrer](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/tblLehrer/)
 
 Feldname           | Typ | Größe | Funktion | Bemerkung
 ------------------ | --- | ----- | -------- | ---------

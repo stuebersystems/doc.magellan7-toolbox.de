@@ -2,7 +2,7 @@
 
 Grundlage ist die Tabelle:
 
-* [SchuelerFehlzeiten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerFehlzeiten/).
+* [SchuelerFehlzeiten](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/SchuelerFehlzeiten/).
 
 | Feldname  | Typ | Größe | Funktion | Bemerkung                                |
 |-----------|-----|-------|----------|------------------------------------------|

@@ -9,5 +9,6 @@
 
 Art | Name                   | Feldname             | Verweis auf      | Typ | Grösse | Position
 --- | ---------------------- | -------------------- | ---------------- | --- | ------ | --------
-T   | Tabellenname1          | Feldname1            |                  |  S  |        | POSITION 124
-A   | Viewname2              | Feldname2            |                  |  A  | 1      | POSITION 24
+T   | tblBenutzer          | Email                  |                  |  A  |    100 | POSITION 7
+A   | Benutzer             | Email                  |                  |  A  |    100 | POSITION 7
+  

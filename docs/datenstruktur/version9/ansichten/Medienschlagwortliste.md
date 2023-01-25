@@ -2,8 +2,8 @@
 
 Grundlage sind die Tabellen:
 
-* [Schlagworte](https://doc.magellan7-toolbox.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/Schlagworte/)
-* [MedienSchlagworte](https://doc.magellan7-toolbox.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/MedienSchlagworte/)
+* [Schlagworte](https://doc.magellan-toolbox.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/Schlagworte/)
+* [MedienSchlagworte](https://doc.magellan-toolbox.stueber.de/datenstruktur/schlusseltabellen-schlusselverzeichnisse/MedienSchlagworte/)
 
 | Feldname   | Typ | Größe | Funktion | Bemerkung |
 |------------|-----|-------|----------|-----------|

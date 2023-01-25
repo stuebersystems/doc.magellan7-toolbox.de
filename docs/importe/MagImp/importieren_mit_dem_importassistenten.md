@@ -22,7 +22,7 @@ Es ist sehr wichtig, dass Sie vor dem Erstimport die Schlüsselverzeichnisse Ihr
 
 ### Vorbereitung
 
-Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan7-toolbox.stueber.de/importe/) vor.
+Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan-toolbox.stueber.de/importe/) vor.
 
 !!! tip "Tipp"
 

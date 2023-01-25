@@ -2,10 +2,10 @@
 
 Grundlage sind:
 
-* [Personen](https://doc.magellan7-toolbox.stueber.de/datenstrukture/tabellen/Personen/)
-* [Lehrer](https://doc.magellan7-toolbox.stueber.de/datenstruktur/ansichten/Lehrer/)
-* [Schueler](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
-* [Sorgeberechtigte](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/Sorgeberechtigte/)
+* [Personen](https://doc.magellan-toolbox.stueber.de/datenstrukture/tabellen/Personen/)
+* [Lehrer](https://doc.magellan-toolbox.stueber.de/datenstruktur/ansichten/Lehrer/)
+* [Schueler](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Schueler/)
+* [Sorgeberechtigte](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/Sorgeberechtigte/)
 
 | Feldname  | Typ | Größe | Funktion | Bemerkung                                |
 |-----------|-----|-------|----------|------------------------------------------|

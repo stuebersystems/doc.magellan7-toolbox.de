@@ -2,9 +2,9 @@
 
 Grundlage sind die Tabellen:
 
-* [SchuelerMedizinDaten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/SchuelerMedizinDaten/)
-* [LehrerMedizinDaten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/LehrerMedizinDaten/)
-* [PersonenMedizinDaten](https://doc.magellan7-toolbox.stueber.de/datenstruktur/tabellen/PersonenMedizinDaten/)
+* [SchuelerMedizinDaten](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/SchuelerMedizinDaten/)
+* [LehrerMedizinDaten](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/LehrerMedizinDaten/)
+* [PersonenMedizinDaten](https://doc.magellan-toolbox.stueber.de/datenstruktur/tabellen/PersonenMedizinDaten/)
 
 | Feldname       | Typ | Größe | Funktion | Bemerkung |
 |----------------|-----|-------|----------|-----------|

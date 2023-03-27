@@ -64,11 +64,11 @@ Importdatei|Beschreibung
 [schulen.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/schnittstellenformat_schulenimportcsv)|Enthält die Stammdaten der Schulen
 [betriebe.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/betriebeimportcsv)|Enthält die Stammdaten der Betriebe
 [lehrer.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/lehrerimportcsv)|Enthält die Stammdaten der Lehrer
-[schueler.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/lehrerimportcsv)|Enthält die Stammdaten der Schüler und Bewerber
+[schueler.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/schuelerimportcsv)|Enthält die Stammdaten der Schüler und Bewerber
 [sorgebe.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/sorgebeimportcsv)|Enthält die Stammdaten der Sorgeberechtigten
 [verlage.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/verlageimportcsv)|Enthält die Stammdaten der Verlage
 [lieferanten.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/lieferantenimportcsv)|Enthält die Stammdaten der Lieferanten
-[medien.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/lieferantenimportcsv)|Enthält die Stammdaten der Medien
+[medien.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/medienimportcsv)|Enthält die Stammdaten der Medien
 
 Alle nachfolgenden Dateien verbinden vorab importierte Daten miteinander:
 

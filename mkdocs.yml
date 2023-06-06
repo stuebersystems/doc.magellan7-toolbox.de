@@ -280,6 +280,7 @@ nav:
       - BetriebeBildungsgaenge: datenstruktur/version10/tabellen/BetriebeBildungsgaenge.md
       - BetriebeKontakte: datenstruktur/version10/tabellen/BetriebeKontakte.md
       - BewerberBewerbungsdaten: datenstruktur/version10/tabellen/BewerberBewerbungsdaten.md
+      - BewerberVerfahren: datenstruktur/version10/tabellen/BewerberVerfahren.md
       - Buchungen: datenstruktur/version10/tabellen/Buchungen.md
       - Groups: datenstruktur/version10/tabellen/Groups.md
       - Haushaltsmittel: datenstruktur/version10/tabellen/Haushaltsmittel.md

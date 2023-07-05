@@ -15,11 +15,11 @@
 | Niveau                 | A   | -     | V        | Verweis auf Tabelle **Fachniveaus**      |
 | KursNr                 | S   | -     | -        | -                                        |
 | Beurteilung            | M   | -     | -        | -                                        |
-| Note1                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note2                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note3                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note4                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
-| Note5                  | I   | -     | V        | Verweis auf Tabelle **Noten**            |
+| Note1                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Schriftl. Note 1`|
+| Note2                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Schriftl. Note 2`|
+| Note3                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Schriftl. Note 3`|
+| Note4                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Schriftl. Note 4`|
+| Note5                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Mdl. Note`|
 | Note6                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote1`|
 | Note7                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote2`|
 | Note8                  | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote3`|

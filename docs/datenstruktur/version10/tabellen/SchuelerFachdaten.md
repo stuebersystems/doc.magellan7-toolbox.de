@@ -29,7 +29,7 @@
 | Note12                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote7`|
 | Note13                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote8`|
 | Note14                 | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Zusatznote9`|
-| Vornote                | I   | -     | V        | Verweis auf Tabelle **Noten**            |
+| Vornote                | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Vornote`
 | Endnote1               | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Endnote`|
 | Endnote2               | I   | -     | V        | Verweis auf Tabelle **Noten**<br/>Name in der Oberfläche: `Endnote gesamt`|
 | Faktor                 | N   | -     | -        | -                                        |

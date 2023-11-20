@@ -58,9 +58,9 @@ Feldname      | **EMail**                      | A   | 100
 Feldname      | **Wohnform**                   | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Wohnformen“ (Kuerzel)
 Feldname      | **NichtDeutscheHerkunft**           | L   | 1
-Feldname      | **Staatsangeh1 / Staatsangeh2**     | A V | 20
+Feldname      | **Staatsangeh1**<br/>**Staatsangeh2**     | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Staatsangehoerigkeiten“ (Kuerzel)
-Feldname      | **Muttersprache / Verkehrssprache** | A V | 20
+Feldname      | **Muttersprache**<br/>**Verkehrssprache** | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Muttersprachen“ (Kuerzel)
 Feldname      | **Sprachgruppe**               | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Sprachgruppen“ (Kuerzel)
@@ -133,19 +133,19 @@ Feldname      | **Unterstuetzung**             | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Unterstuetzungen“ (Kuerzel)
 Feldname      | **BewerbungAm**                | D   | 10
 Bemerkung     | In der Form TT.MM.JJJJ
-Feldname      | **Bewerbungsziel1 / Bewerbungsziel2 / Bewerbungsziel3 / Bewerbungsziel4** | A V | 20
+Feldname      | **Bewerbungsziel1**<br/>**Bewerbungsziel2**<br/>**Bewerbungsziel3**<br/>**Bewerbungsziel4** | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Bewerbungsziele“ (Kuerzel)
 Feldname      | **BewerberStatus**             | A   | 2
 Bemerkung     | Mögliche Werte: <br/>WA = Auf Warteliste<br/>B1 = Angenommen für Bewerbungsziel 1<br/>B2 = Angenommen für Bewerbungsziel 2<br/>B3 = Angenommen für Bewerbungsziel 3<br/>B4 = Angenommen für Bewerbungsziel 4<br/>NA = nicht angenommen<br/>BT = Beratungstest<br/>BG = Beratungsgespräch<br/>NE = Nicht zum Gespräch/Test erschienen<br/>AB = Aufnahmebescheid<br/>ZN = Zusage nicht zurück<br/>AG = Abgemeldet
 Feldname      | **BewerberNote**               | N   | -
 Feldname      | **BewerberPunkte**             | N   | -
-Feldname      | **Fremdsprache1 / Fremdsprache2 / Fremdsprache3 / Fremdsprache4** | A   | 20
+Feldname      | **Fremdsprache1**<br/>**Fremdsprache2**<br/>**Fremdsprache3**<br/>**Fremdsprache4** | A   | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „Faecher“ (Kuerzel)
-Feldname      | **Fremdsprache1Von / Fremdsprache2Von / Fremdsprache3Von / Fremdsprache4Von** | S   | -
+Feldname      | **Fremdsprache1Von**<br/>**Fremdsprache2Von**<br/>**Fremdsprache3Von**<br/>**Fremdsprache4Von** | S   | -
 Bemerkung     | Von-Wert der Klassenstufe
-Feldname      | **Fremdsprache1Bis / Fremdsprache2Bis / Fremdsprache3Bis / Fremdsprache4Bis** | S   | -
+Feldname      | **Fremdsprache1Bis**<br/>**Fremdsprache2Bis**<br/>**Fremdsprache3Bis**<br/>**Fremdsprache4Bis** | S   | -
 Bemerkung     | Bis-Wert der Klassenstufe
-Feldname      | **Fremdsprache1Status / Fremdsprache2Status / Fremdsprache3Status / Fremdsprache4Status** | A   | 2
+Feldname      | **Fremdsprache1Status**<br/>**Fremdsprache2Status**<br/>**Fremdsprache3Status**<br/>**Fremdsprache4Status** | A   | 2
 Bemerkung     | Mögliche Werte: <br/>BS = Unterricht an berichtender Schule<br/>AS = Unterricht an anderer Schule<br/>AN = Unterricht anerkannt<br/>AB = Unterricht abgewählt<br/>WU = Wahlunterricht<br/>FA = Fach<br/>HF = Hauptfach<br/>ER = Ergänzendes Fach
 Feldname      | **Grundschuleintritt**         | D   | 10
 Bemerkung     | In der Form TT.MM.JJJJ
@@ -172,26 +172,36 @@ Bemerkung     | Verweis auf das Schlüsselverzeichnis „Abgangsarten“ (Kuerze
 Feldname      | **AbgangAm**                   | D   | 10
 Bemerkung     | Abgangsdatum in der Form TT.MM.JJJJ
 Feldname      | **Bemerkung**                  | M   | 255
-Feldname      | **MerkmalA1 / MerkmalA2 / MerkmalA3 / MerkmalA4 / MerkmalA5 / MerkmalA6** | A V | 20
+Feldname      |  **MerkmalA1**<br/>**MerkmalA2**<br/>**MerkmalA3**<br/>**MerkmalA4**<br/>**MerkmalA5**<br/>**MerkmalA6** | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „SchuelerMerkmale“ (Kuerzel) <br/>Freies Merkmal
-Feldname      | **MerkmalB1 / MerkmalB2 / MerkmalB3 / MerkmalB4** | A   | 100
+Feldname      | **MerkmalB1**<br/>**MerkmalB2**<br/>**MerkmalB3**<br/>**MerkmalB4** | A   | 100
 Bemerkung     | Freies Textmerkmal
-Feldname      | **MerkmalD1 / MerkmalD2 / MerkmalD3 / MerkmalD4** | D   | 10
+Feldname      | **MerkmalD1**<br/>**MerkmalD2**<br/>**MerkmalD3**<br/>**MerkmalD4** | D   | 10
 Bemerkung     | Freies Datumsmerkmal in der Form TT.MM.JJJJ
-Feldname      | **MerkmalS1 / MerkmalS2 / MerkmalS3 / MerkmalS4 / MerkmalS5 / MerkmalS6 / MerkmalS7 / MerkmalS8 / MerkmalS9 / MerkmalS10** | A V | 20
+Feldname      | **MerkmalS1**<br/>**MerkmalS2**<br/>**MerkmalS3**<br/>**MerkmalS4**<br/>**MerkmalS5**<br/>**MerkmalS6**<br/>**MerkmalS7**<br/>**MerkmalS8**<br/>**MerkmalS9**<br/>**MerkmalS10** | A V | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis „SchuelerMerkmale“ (Kuerzel) <br/>Statistikmerkmal
-Feldname      | **MerkmalT1 / MerkmalT2 / MerkmalT3 / MerkmalT4** | A   | 15
+Feldname      | **MerkmalT1**<br/>**MerkmalT2**<br/>**MerkmalT3**<br/>**MerkmalT4** | A   | 15
 Bemerkung     | eventuell reserveriert als Statistikmerkmal (Text): bitte schauen Sie in der Dokumentation Landesstatistiken nach, ob das Feld für statistische Eingaben reserviert ist
 Feldname      | **MerkmalU1<br/>MerkmalU2**    | D   | 10
 Bemerkung     | Statistikmerkmal (Datum) in der Form TT.MM.JJJJ
-Feldname      | **Wahlfach1 / Wahlfach2 / Wahlfach3 / Wahlfach4** | A   | 20
+Feldname      | **Wahlfach1**<br/>**Wahlfach2**<br/>**Wahlfach3**<br/>**Wahlfach4** | A   | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis "Faecher" (Kuerzel)
+Feldname      | **VoraussichtlichesEnde** | D   | 10
+Bemerkung     | [Ab MAGELLAN 11] Datum in der Form TT.MM.JJJJ
+Feldname      | **Fremdsprache1Referenz**<br/>**Fremdsprache2Referenz**<br/>**Fremdsprache3Referenz**<br/>**Fremdsprache4Referenz**| A V | 20
+Bemerkung     | [Ab MAGELLAN 11] Verweis auf das Schlüsselverzeichnis Sprachreferenzen (Kuerzel)
 
 ## Spaltenköpfe zur Vorlage für Importdateien
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-### Spaltenköpfe für schueler.import.csv, Stand: 23.02.2021
+#### Stand: 20.11.2023 [ ab MAGELLAN 11]
+
+```csv
+"Vorname";"Nachname";"Status";"Geburtsdatum";"Anrede";"Geschlecht";"Geburtsort";"Geburtsland";"Geburtsname";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Mobil";"EMail";"Wohnform";"Staatsangeh1";"Staatsangeh2";"NichtDeutscheHerkunft";"Muttersprache";"Verkehrssprache";"Sprachgruppe";"Konfession";"RelWunsch";"RelTeilnahme";"RelGrund";"RelAbmeldungVon";"RelAbmeldungBis";"Umschulung";"Personalnr";"Krankenkasse";"Versicherungsart";"Fahrschueler";"Fahrstrecke";"FahrstreckeKM";"Einstiegsstelle";"Verkehrsmittel";"Fahrgeld";"FahrgeldbewVon";"FahrgeldbewBis";"Fahrkarte";"FahrkarteGueltigVon";"FahrkarteGueltigBis";"KFZ";"Aussiedler";"SchulpflichtErfuellt";"Bafoeg";"BafoegBis";"Integrationsschueler";"Gastschueler";"GastschulgeldUeberwiesen";"Bildungskarte";"BildungskarteBis";"Foerderung";"Foerdernr";"Foerderbetrag";"Unterstuetzung";"BewerbungAm";"Bewerbungsziel1";"Bewerbungsziel2";"Bewerbungsziel3";"Bewerbungsziel4";"BewerberStatus";"Bewerbernote";"Bewerberpunkte";"Fremdsprache1";"Fremdsprache2";"Fremdsprache3";"Fremdsprache4";"Fremdsprache1Von";"Fremdsprache2Von";"Fremdsprache3Von";"Fremdsprache4Von";"Fremdsprache1Bis";"Fremdsprache2Bis";"Fremdsprache3Bis";"Fremdsprache4Bis";"Fremdsprache1Status";"Fremdsprache2Status";"Fremdsprache3Status";"Fremdsprache4Status";"Grundschuleintritt";"Einschulung";"HoechsterBildungsgangABS";"HoechsterAbschlussABS";"HoechsterAbschlussABSAm";"HoechsterBildungsgangBBS";"HoechsterAbschlussBBS";"HoechsterAbschlussBBSAm";"HoechsterAbschlussBBSBeruf";"ZugangAm";"Abgang";"AbgangAm";"Bemerkung";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalD1";"MerkmalD2";"MerkmalD3";"MerkmalD4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4";"MerkmalS5";"MerkmalS6";"MerkmalS7";"MerkmalS8";"MerkmalS9";"MerkmalS10";"MerkmalT1";"MerkmalT2";"MerkmalT3";"MerkmalT4";"MerkmalU1";"MerkmalU2";"VoraussichtlichesEnde";"Fremdsprache1Referenz";"Fremdsprache2Referenz";"Fremdsprache3Referenz";"Fremdsprache4Referenz"
+```
+
+#### Stand: 23.02.2021 [MAGELLAN 8, 9 und 10]
 
 ```csv
 "Vorname";"Nachname";"Status";"Geburtsdatum";"Anrede";"Geschlecht";"Geburtsort";"Geburtsland";"Geburtsname";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Mobil";"EMail";"Wohnform";"Staatsangeh1";"Staatsangeh2";"NichtDeutscheHerkunft";"Muttersprache";"Verkehrssprache";"Sprachgruppe";"Konfession";"RelWunsch";"RelTeilnahme";"RelGrund";"RelAbmeldungVon";"RelAbmeldungBis";"Umschulung";"Personalnr";"Krankenkasse";"Versicherungsart";"Fahrschueler";"Fahrstrecke";"FahrstreckeKM";"Einstiegsstelle";"Verkehrsmittel";"Fahrgeld";"FahrgeldbewVon";"FahrgeldbewBis";"Fahrkarte";"FahrkarteGueltigVon";"FahrkarteGueltigBis";"KFZ";"Aussiedler";"SchulpflichtErfuellt";"Bafoeg";"BafoegBis";"Integrationsschueler";"Gastschueler";"GastschulgeldUeberwiesen";"Bildungskarte";"BildungskarteBis";"Foerderung";"Foerdernr";"Foerderbetrag";"Unterstuetzung";"BewerbungAm";"Bewerbungsziel1";"Bewerbungsziel2";"Bewerbungsziel3";"Bewerbungsziel4";"BewerberStatus";"Bewerbernote";"Bewerberpunkte";"Fremdsprache1";"Fremdsprache2";"Fremdsprache3";"Fremdsprache4";"Fremdsprache1Von";"Fremdsprache2Von";"Fremdsprache3Von";"Fremdsprache4Von";"Fremdsprache1Bis";"Fremdsprache2Bis";"Fremdsprache3Bis";"Fremdsprache4Bis";"Fremdsprache1Status";"Fremdsprache2Status";"Fremdsprache3Status";"Fremdsprache4Status";"Grundschuleintritt";"Einschulung";"HoechsterBildungsgangABS";"HoechsterAbschlussABS";"HoechsterAbschlussABSAm";"HoechsterBildungsgangBBS";"HoechsterAbschlussBBS";"HoechsterAbschlussBBSAm";"HoechsterAbschlussBBSBeruf";"ZugangAm";"Abgang";"AbgangAm";"Bemerkung";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalD1";"MerkmalD2";"MerkmalD3";"MerkmalD4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4";"MerkmalS5";"MerkmalS6";"MerkmalS7";"MerkmalS8";"MerkmalS9";"MerkmalS10";"MerkmalT1";"MerkmalT2";"MerkmalT3";"MerkmalT4";"MerkmalU1";"MerkmalU2"

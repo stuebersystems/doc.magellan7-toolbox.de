@@ -15,7 +15,7 @@ Einschränkung: Der Status des Schülers kann nicht verändert werden.
 ## Bewerber oder Schüler
 
 Der Unterschied zwischen Schüler Bewerber und Abgänger wird anhand des Feldes „Status“ hergestellt.
-Wenn das Feld „Status“ den Wert `SB` enthält, dann wird geprüft, ob der Schüler (mit `Vornamen`, `Nachnamen`, `Geburtsdatum`) bereits an der Schule aktiv war. In diesem Fall wird der Schüler als Bewerber importiert und Magellan merkt sich die ID des gefundenen Schülerdatensatzes im Feld „IDIntern“ in Magellan. Dies dient dem Zweck, die beiden getrennten Datensätze zu einem späteren Zeitpunkt in Magellan wieder vereinen zu können, um die Laufbahn zu komplettieren.
+Wenn das Feld „Status“ den Wert `SB` enthält, dann wird geprüft, ob der Schüler (mit `Vornamen`, `Nachnamen`, `Geburtsdatum`) bereits an der Schule aktiv war. In diesem Fall wird der Schüler als Bewerber importiert und MAGELLAN merkt sich die ID des gefundenen Schülerdatensatzes im Feld „IDIntern“ in MAGELLAN. Dies dient dem Zweck, die beiden getrennten Datensätze zu einem späteren Zeitpunkt in MAGELLAN wieder vereinen zu können, um die Laufbahn zu komplettieren.
 Die Daten des Stammschülers (Beispielsweise Adressdaten auf `Daten1` oder Herkunftsabschlüsse auf `Daten2`) werden mit den Daten des Nebenschülers aktualisiert.
 Dieses Vorgehen ist nur beim ersten Import und Erkennen des Stammschülers gegeben, eine weitere Nebenlaufbahn kann auf diesem Weg nicht erzeugt werden.
 

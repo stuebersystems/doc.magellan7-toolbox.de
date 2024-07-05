@@ -2,15 +2,15 @@
 
 ## Archiv
 
-### MAGELLAN 6.5.x
+### Magellan 6.5.x
 
-Mit der MAGELLAN-Version 6.5 wurde der Skriptingmechanismus auf eine neue Version aktualisiert.
+Mit der Magellan-Version 6.5 wurde der Skriptingmechanismus auf eine neue Version aktualisiert.
 Darüber hinaus haben wir Korrekturen vorgenommen, da unter bestimmten Umständen Skripte im Netzwerk nicht
 korrekt ausgeführt wurden.
 
 #### Verbindungsaufruf bei ODBC_Skripten
 
-Wenn Sie in Ihren Skripten die ODBC_ Aufrufe verwenden, dann müssen Sie die Anbindung an die MAGELLAN Datenbank wie folgt ändern.
+Wenn Sie in Ihren Skripten die ODBC_ Aufrufe verwenden, dann müssen Sie die Anbindung an die Magellan Datenbank wie folgt ändern.
 
 Der Aufruf `odbc_ConnectToFirebird` müsste wie folgt geändert werden:
 

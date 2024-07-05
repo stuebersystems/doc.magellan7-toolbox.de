@@ -1,6 +1,6 @@
 # Project information
-site_name: MAGELLAN TOOLBOX
-site_description: 'MAGELLAN TOOLBOX'
+site_name: Magellan TOOLBOX
+site_description: 'Magellan TOOLBOX'
 site_author: 'STÜBER SYSTEMS GmbH'
 site_url: 'https://doc.magellan7-toolbox.stueber.de'
 
@@ -55,8 +55,8 @@ markdown_extensions:
 nav:
 - Allgemein:
   - Einführung: index.md
-- MAGELLAN Datenstruktur: datenstruktur/index.md
-- MAGELLAN-Importformat:
+- Magellan Datenstruktur: datenstruktur/index.md
+- Magellan-Importformat:
   - Einführung: importe/index.md
   - schulen.import.csv: importe/MagImp/schnittstellenformat_schulenimportcsv.md
   - betriebe.import.csv: importe/MagImp/betriebeimportcsv.md
@@ -74,7 +74,7 @@ nav:
   - schueler_schulen.import.csv: importe/MagImp/schuelerschulenimportcsv.md
   - schueler_ausbildung.import.csv: importe/MagImp/schuelerausbildungimportcsv.md
   - Importieren: importe/MagImp/importieren_mit_dem_importassistenten.md
-- MAGELLAN-Scripting:
+- Magellan-Scripting:
   - Einführung: scripting/index.md
   - Skripteditor: scripting/skripteditor.md
   - Skriptsprache: scripting/skriptsprache.md

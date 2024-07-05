@@ -1,16 +1,16 @@
 # Einführung
 
-MAGELLAN kann Daten aus entsprechend aufbereiteten CSV-Dateien übernehmen. In diesem Dokument finden Sie dazu die nötigen Informationen, um den Import erfolgreich durchführen zu können. Lesen Sie sich die entsprechenden Abschnitte sorgfältig durch, um mögliche Fehler zu vermeiden.
+Magellan kann Daten aus entsprechend aufbereiteten CSV-Dateien übernehmen. In diesem Dokument finden Sie dazu die nötigen Informationen, um den Import erfolgreich durchführen zu können. Lesen Sie sich die entsprechenden Abschnitte sorgfältig durch, um mögliche Fehler zu vermeiden.
 
 ## Daten selbst übernehmen
 
-Wenn Sie selbst Daten nach MAGELLAN übernehmen wollen, stehen Ihnen mehrere Wege zur Verfügung:
+Wenn Sie selbst Daten nach Magellan übernehmen wollen, stehen Ihnen mehrere Wege zur Verfügung:
 
-* Mit Hilfe von Microsoft Access können Sie direkt auf die Datenbanktabellen von MAGELLAN zugreifen. Damit haben Sie die Möglichkeit, Daten aus anderen Datenquellen in die entsprechenden Tabellen zu importieren.
+* Mit Hilfe von Microsoft Access können Sie direkt auf die Datenbanktabellen von Magellan zugreifen. Damit haben Sie die Möglichkeit, Daten aus anderen Datenquellen in die entsprechenden Tabellen zu importieren.
 
-* Sie bringen die Daten, die Sie nach MAGELLAN übernehmen wollen in das MAGELLAN-Importformat beschriebene Format und importieren die Daten mit Hilfe des MAGELLAN-Administrators.
+* Sie bringen die Daten, die Sie nach Magellan übernehmen wollen in das Magellan-Importformat beschriebene Format und importieren die Daten mit Hilfe des Magellan-Administrators.
 
-* Sie nutzen die MAGELLAN-Skripting-Technologie. Dies hat den Vorteil, dass Sie die Datenübernahme genau nach Ihren Wünschen durchführen können. Sie müssen sich jedoch in diesem Fall mit der Programmiersprache der MAGELLAN-Skripte und der Datenstruktur von MAGELLAN beschäftigen.
+* Sie nutzen die Magellan-Skripting-Technologie. Dies hat den Vorteil, dass Sie die Datenübernahme genau nach Ihren Wünschen durchführen können. Sie müssen sich jedoch in diesem Fall mit der Programmiersprache der Magellan-Skripte und der Datenstruktur von Magellan beschäftigen.
 
 Für welche Form des Imports Sie sich letztendlich entscheiden, hängt hauptsächlich von Ihren Vorkenntnissen und der Ihnen zur Verfügung stehenden Zeit ab.
 
@@ -31,25 +31,25 @@ Das Paket besteht aus:
  Schlüsselverzeichnissen des Bundeslandes und der
  Schulart (soweit vorhanden),
 
-* dem Einspielen der erstellten MAGELLAN-Importformat-Dateien in eine Kopie der vorbereiteten Datenbank (abhängig von der Qualität der Ausgangsdaten),
+* dem Einspielen der erstellten Magellan-Importformat-Dateien in eine Kopie der vorbereiteten Datenbank (abhängig von der Qualität der Ausgangsdaten),
 
-* ggfs. der Erweiterung/Anpassung des Importprojektes im MAGELLAN-DataCenter] Zusätzlich können Sie unsere Unterstützung per Teamviewer oder telefonisch für die individuelle Datenanpassung buchen.
+* ggfs. der Erweiterung/Anpassung des Importprojektes im Magellan-DataCenter] Zusätzlich können Sie unsere Unterstützung per Teamviewer oder telefonisch für die individuelle Datenanpassung buchen.
 
 !!! warning "Wichtig"
 
     Wir nehmen keine Korrekturen an den Daten der Kunden vor. Diese Leistung muss vom Kunden übernommen werden. Auf explizite Anfrage im Rahmen der 5 Stunden können konkrete Datenbestände angepasst werden. Wir ändern auf unsere Verantwortung hin keine einzelnen Datenwerte ab, da wir für die Richtigkeit der Daten keine Gewähr geben können und auch von uns aus keine Bewertung über die Richtigkeit der Daten machen können.
 
-## MAGELLAN-Skriptingtechnologie
+## Magellan-Skriptingtechnologie
 
-Eine Datenübernahme aus einer anderen Anwendung nach MAGELLAN ist auch mit Hilfe der MAGELLAN-Skripting-Technologie möglich. Dies hat den Vorteil, dass Sie die Datenübernahme genau nach Ihren Wünschen durchführen können. Sie müssen sich jedoch in diesem Fall mit der Programmiersprache der MAGELLAN-Skripte und der Datenstruktur von MAGELLAN beschäftigen.
+Eine Datenübernahme aus einer anderen Anwendung nach Magellan ist auch mit Hilfe der Magellan-Skripting-Technologie möglich. Dies hat den Vorteil, dass Sie die Datenübernahme genau nach Ihren Wünschen durchführen können. Sie müssen sich jedoch in diesem Fall mit der Programmiersprache der Magellan-Skripte und der Datenstruktur von Magellan beschäftigen.
 
-Bei einer Datenübernahme über das MAGELLAN-Importformat entfällt der Aufwand der Programmierung. Jedoch müssen Sie Ihre Daten zunächst in das geforderte MAGELLAN-Importformat bringen. Zusätzlich sind Sie auf die im MAGELLAN-Importformat enthaltenen Felder eingeschränkt, die nur eine Teilmenge aller Datenfelder der MAGELLAN-Datenstruktur darstellen.
+Bei einer Datenübernahme über das Magellan-Importformat entfällt der Aufwand der Programmierung. Jedoch müssen Sie Ihre Daten zunächst in das geforderte Magellan-Importformat bringen. Zusätzlich sind Sie auf die im Magellan-Importformat enthaltenen Felder eingeschränkt, die nur eine Teilmenge aller Datenfelder der Magellan-Datenstruktur darstellen.
 
 Für welche Form des Imports Sie sich letztendlich entscheiden, hängt hauptsächlich von Ihren Vorkenntnissen und der Ihnen zur Verfügung stehenden Zeit ab.
 
-## MAGELLAN-Importformat
+## Magellan-Importformat
 
-Das MAGELLAN-Importformat ermöglicht den Import von Daten aus Textdateien nach Magellan. Diese Textdateien müssen dazu dem im Folgenden beschriebenen Format entsprechen. Der eigentliche Import erfolgt mit Hilfe des Magellan-Administrators.
+Das Magellan-Importformat ermöglicht den Import von Daten aus Textdateien nach Magellan. Diese Textdateien müssen dazu dem im Folgenden beschriebenen Format entsprechen. Der eigentliche Import erfolgt mit Hilfe des Magellan-Administrators.
 
 ### Übersicht der Importdateien
 
@@ -75,7 +75,7 @@ Alle nachfolgenden Dateien verbinden vorab importierte Daten miteinander:
 Importdatei|Beschreibung
 ---|---
 [exemplare.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/exemplareimportcsv)|Enthält die Exemplardaten zu den Medien<br/>Bedingung:<br/> Import der medien.import.csv
-[klassen.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/klassenimportcsv)|Enthält die Stamm- und Zeitraumdaten der Klassen<br/>Bedingung: <br/>Vorhandensein der Zeiträume und Lehrer (Verweis auf Klassenleiter) in MAGELLAN.
+[klassen.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/klassenimportcsv)|Enthält die Stamm- und Zeitraumdaten der Klassen<br/>Bedingung: <br/>Vorhandensein der Zeiträume und Lehrer (Verweis auf Klassenleiter) in Magellan.
 [schueler_laufbahn.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/schuelerlaufbahn_importcsv) |Enthält die Laufbahndaten der Schüler <br/>Weitere Bedingung: <br/>Import der klassen.import.csv und schueler.import.csv
 [schueler_fachdaten.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/schuelerfachdatenimportcsv) |Enthält die Fachdaten der Schüler<br/>Weitere Bedingung:<br/> Import der klassen.import.csv, schueler.import.csv und schueler_laufbahn.import.csv
 [schueler_sorgebe.import.csv](https://doc.magellan-toolbox.stueber.de/importe/MagImp/schuelersorgebeimportcsv)|Enthält die Zuordnung der Sorgeberechtigten zu den Schülern<br/>Weitere Bedingung:<br/> Import der schueler.import.csv und sorgebe.import.csv
@@ -172,7 +172,7 @@ Die maximale Größe der Schulnummer sind demnach 8 Zeichen. Die Schulnummer
 
 #### Zeiträume anlegen
 
-Klassen- und Schülerdaten erfordern Zeiträume in Form von Halbjahren. Bitte tragen Sie vor dem Import dieser Daten entsprechend des MAGELLAN-Handbuchs alle notwendigen Zeiträume in MAGELLAN ein.
+Klassen- und Schülerdaten erfordern Zeiträume in Form von Halbjahren. Bitte tragen Sie vor dem Import dieser Daten entsprechend des Magellan-Handbuchs alle notwendigen Zeiträume in Magellan ein.
 Besonderheit des Imports: Die Halbjahre müssen wie folgt lauten:
 
 1. HJ: 01.08.XXXX – 31.01.XXXX
@@ -188,7 +188,7 @@ Für Ihr Bundesland existiert das Schlüsselverzeichnis „Konfessionen“. Wenn
 
 Damit beim Import der Schülerdaten auf diese bereits bestehende Konfession verwiesen werden kann, muss in Ihrer Importdatei in der Spalte „Konfession“ das Kürzel „rk“ verwendet werden, anderenfalls würde der abweichende Wert als zusätzlicher Eintrag in Ihrem Schlüsselverzeichnis in Magellan hinzugefügt werden, leider ohne einen Statistikschlüssel, da dieser beim Import nicht ersichtlich ist.
 
-Wie Sie die Schlüsselverzeichnisse Ihres Bundeslandes nach Magellan einlesen, entnehmen Sie bitte dem Abschnitt [Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#kataloge-schlusselverzeichnisse-importieren) der allgemeinen [MAGELLAN-Dokumentation](https://doc.magellan7.stueber.de/).
+Wie Sie die Schlüsselverzeichnisse Ihres Bundeslandes nach Magellan einlesen, entnehmen Sie bitte dem Abschnitt [Schlüsselverzeichnisse importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#kataloge-schlusselverzeichnisse-importieren) der allgemeinen [Magellan-Dokumentation](https://doc.magellan7.stueber.de/).
 
 #### Weitere wichtige Einstellungen
 

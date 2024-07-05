@@ -4,18 +4,18 @@ Die Datei schueler.import.csv dient dem Import der Schüler-Stammdaten.
 
 ## Bestehende Schüler aktualisieren
 
-Durch eine Übereinstimmung des Wertes im Feld **GUIDExtern**, wird der entsprechende Datensatz nicht eingefügt, sondern ein bestehender Datensatz in der MAGELLAN Datenbank aktualisiert.
+Durch eine Übereinstimmung des Wertes im Feld **GUIDExtern**, wird der entsprechende Datensatz nicht eingefügt, sondern ein bestehender Datensatz in der Magellan Datenbank aktualisiert.
 
-Somit erhalten Sie die Möglichkeit zwischen einem Fremdprogramm und MAGELLAN unter Verwendung einer GUID (Bsp.für eine 36-stellige GUID: 0D27F45C-E53D-4E81-AC0A-19D0B1BFA798) bestehende Schüler-Stammdaten wiederholt zu aktualisieren. 
+Somit erhalten Sie die Möglichkeit zwischen einem Fremdprogramm und Magellan unter Verwendung einer GUID (Bsp.für eine 36-stellige GUID: 0D27F45C-E53D-4E81-AC0A-19D0B1BFA798) bestehende Schüler-Stammdaten wiederholt zu aktualisieren. 
 Beim ersten Einlesen übergeben Sie den Wert für die GUID-Extern, eine späterer Nachtrag ist auf diesem Weg nicht möglich. 
-Wenn Aktualsisierungen des bestehenden Datensatzes erfolgen sollen, dann beachten Sie bitte, das Felder (Spalten), die nicht aktualisiert werden sollen, nicht in der CSV-Datei enthalten sein dürfen. Ein Einlesen eines leeren Feldes, würde in MAGELLAN Daten aktualisieren, also leeren. Pflichtspalten können vom Übertrag nicht ausgenommen werden, würden also immer aktualisiert werden.
+Wenn Aktualsisierungen des bestehenden Datensatzes erfolgen sollen, dann beachten Sie bitte, das Felder (Spalten), die nicht aktualisiert werden sollen, nicht in der CSV-Datei enthalten sein dürfen. Ein Einlesen eines leeren Feldes, würde in Magellan Daten aktualisieren, also leeren. Pflichtspalten können vom Übertrag nicht ausgenommen werden, würden also immer aktualisiert werden.
 
 Einschränkung: Der Status des Schülers kann nicht verändert werden.
 
 ## Bewerber oder Schüler
 
 Der Unterschied zwischen Schüler Bewerber und Abgänger wird anhand des Feldes „Status“ hergestellt.
-Wenn das Feld „Status“ den Wert `SB` enthält, dann wird geprüft, ob der Schüler (mit `Vornamen`, `Nachnamen`, `Geburtsdatum`) bereits an der Schule aktiv war. In diesem Fall wird der Schüler als Bewerber importiert und MAGELLAN merkt sich die ID des gefundenen Schülerdatensatzes im Feld „IDIntern“ in MAGELLAN. Dies dient dem Zweck, die beiden getrennten Datensätze zu einem späteren Zeitpunkt in MAGELLAN wieder vereinen zu können, um die Laufbahn zu komplettieren.
+Wenn das Feld „Status“ den Wert `SB` enthält, dann wird geprüft, ob der Schüler (mit `Vornamen`, `Nachnamen`, `Geburtsdatum`) bereits an der Schule aktiv war. In diesem Fall wird der Schüler als Bewerber importiert und Magellan merkt sich die ID des gefundenen Schülerdatensatzes im Feld „IDIntern“ in Magellan. Dies dient dem Zweck, die beiden getrennten Datensätze zu einem späteren Zeitpunkt in Magellan wieder vereinen zu können, um die Laufbahn zu komplettieren.
 Die Daten des Stammschülers (Beispielsweise Adressdaten auf `Daten1` oder Herkunftsabschlüsse auf `Daten2`) werden mit den Daten des Nebenschülers aktualisiert.
 Dieses Vorgehen ist nur beim ersten Import und Erkennen des Stammschülers gegeben, eine weitere Nebenlaufbahn kann auf diesem Weg nicht erzeugt werden.
 
@@ -189,21 +189,21 @@ Bemerkung     | Statistikmerkmal (Datum) in der Form TT.MM.JJJJ
 Feldname      | **Wahlfach1**<br/>**Wahlfach2**<br/>**Wahlfach3**<br/>**Wahlfach4** | A   | 20
 Bemerkung     | Verweis auf das Schlüsselverzeichnis "Faecher" (Kuerzel)
 Feldname      | **VoraussichtlichesEnde** | D   | 10
-Bemerkung     | [Ab MAGELLAN 11] Datum in der Form TT.MM.JJJJ
+Bemerkung     | [Ab Magellan 11] Datum in der Form TT.MM.JJJJ
 Feldname      | **Fremdsprache1Referenz**<br/>**Fremdsprache2Referenz**<br/>**Fremdsprache3Referenz**<br/>**Fremdsprache4Referenz**| A V | 20
-Bemerkung     | [Ab MAGELLAN 11] Verweis auf das Schlüsselverzeichnis Sprachreferenzen (Kuerzel)
+Bemerkung     | [Ab Magellan 11] Verweis auf das Schlüsselverzeichnis Sprachreferenzen (Kuerzel)
 
 ## Spaltenköpfe zur Vorlage für Importdateien
 
 Um eine Importdatei vorzubereiten, können Sie die nachfolgenden Feldnamen in Ihre Zwischenablage kopieren, zum Beispiel in eine Exceltabelle einfügen.
 
-#### Stand: 20.11.2023 [ ab MAGELLAN 11]
+#### Stand: 20.11.2023 [ ab Magellan 11]
 
 ```csv
 "GUIDExtern";"Vorname";"Nachname";"Status";"Geburtsdatum";"Anrede";"Geschlecht";"Geburtsort";"Geburtsland";"Geburtsname";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Mobil";"EMail";"Wohnform";"Staatsangeh1";"Staatsangeh2";"NichtDeutscheHerkunft";"Muttersprache";"Verkehrssprache";"Sprachgruppe";"Konfession";"RelWunsch";"RelTeilnahme";"RelGrund";"RelAbmeldungVon";"RelAbmeldungBis";"Umschulung";"Personalnr";"Krankenkasse";"Versicherungsart";"Fahrschueler";"Fahrstrecke";"FahrstreckeKM";"Einstiegsstelle";"Verkehrsmittel";"Fahrgeld";"FahrgeldbewVon";"FahrgeldbewBis";"Fahrkarte";"FahrkarteGueltigVon";"FahrkarteGueltigBis";"KFZ";"Aussiedler";"SchulpflichtErfuellt";"Bafoeg";"BafoegBis";"Integrationsschueler";"Gastschueler";"GastschulgeldUeberwiesen";"Bildungskarte";"BildungskarteBis";"Foerderung";"Foerdernr";"Foerderbetrag";"Unterstuetzung";"BewerbungAm";"Bewerbungsziel1";"Bewerbungsziel2";"Bewerbungsziel3";"Bewerbungsziel4";"BewerberStatus";"Bewerbernote";"Bewerberpunkte";"Fremdsprache1";"Fremdsprache2";"Fremdsprache3";"Fremdsprache4";"Fremdsprache1Von";"Fremdsprache2Von";"Fremdsprache3Von";"Fremdsprache4Von";"Fremdsprache1Bis";"Fremdsprache2Bis";"Fremdsprache3Bis";"Fremdsprache4Bis";"Fremdsprache1Status";"Fremdsprache2Status";"Fremdsprache3Status";"Fremdsprache4Status";"Grundschuleintritt";"Einschulung";"HoechsterBildungsgangABS";"HoechsterAbschlussABS";"HoechsterAbschlussABSAm";"HoechsterBildungsgangBBS";"HoechsterAbschlussBBS";"HoechsterAbschlussBBSAm";"HoechsterAbschlussBBSBeruf";"ZugangAm";"Abgang";"AbgangAm";"Bemerkung";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalD1";"MerkmalD2";"MerkmalD3";"MerkmalD4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4";"MerkmalS5";"MerkmalS6";"MerkmalS7";"MerkmalS8";"MerkmalS9";"MerkmalS10";"MerkmalT1";"MerkmalT2";"MerkmalT3";"MerkmalT4";"MerkmalU1";"MerkmalU2";"VoraussichtlichesEnde";"Fremdsprache1Referenz";"Fremdsprache2Referenz";"Fremdsprache3Referenz";"Fremdsprache4Referenz"
 ```
 
-#### Stand: 23.02.2021 [MAGELLAN 8, 9 und 10]
+#### Stand: 23.02.2021 [Magellan 8, 9 und 10]
 
 ```csv
 "Vorname";"Nachname";"Status";"Geburtsdatum";"Anrede";"Geschlecht";"Geburtsort";"Geburtsland";"Geburtsname";"Strasse";"Land";"PLZ";"Ort";"Ortsteil";"Gemeinde";"Telefon";"Telefax";"Mobil";"EMail";"Wohnform";"Staatsangeh1";"Staatsangeh2";"NichtDeutscheHerkunft";"Muttersprache";"Verkehrssprache";"Sprachgruppe";"Konfession";"RelWunsch";"RelTeilnahme";"RelGrund";"RelAbmeldungVon";"RelAbmeldungBis";"Umschulung";"Personalnr";"Krankenkasse";"Versicherungsart";"Fahrschueler";"Fahrstrecke";"FahrstreckeKM";"Einstiegsstelle";"Verkehrsmittel";"Fahrgeld";"FahrgeldbewVon";"FahrgeldbewBis";"Fahrkarte";"FahrkarteGueltigVon";"FahrkarteGueltigBis";"KFZ";"Aussiedler";"SchulpflichtErfuellt";"Bafoeg";"BafoegBis";"Integrationsschueler";"Gastschueler";"GastschulgeldUeberwiesen";"Bildungskarte";"BildungskarteBis";"Foerderung";"Foerdernr";"Foerderbetrag";"Unterstuetzung";"BewerbungAm";"Bewerbungsziel1";"Bewerbungsziel2";"Bewerbungsziel3";"Bewerbungsziel4";"BewerberStatus";"Bewerbernote";"Bewerberpunkte";"Fremdsprache1";"Fremdsprache2";"Fremdsprache3";"Fremdsprache4";"Fremdsprache1Von";"Fremdsprache2Von";"Fremdsprache3Von";"Fremdsprache4Von";"Fremdsprache1Bis";"Fremdsprache2Bis";"Fremdsprache3Bis";"Fremdsprache4Bis";"Fremdsprache1Status";"Fremdsprache2Status";"Fremdsprache3Status";"Fremdsprache4Status";"Grundschuleintritt";"Einschulung";"HoechsterBildungsgangABS";"HoechsterAbschlussABS";"HoechsterAbschlussABSAm";"HoechsterBildungsgangBBS";"HoechsterAbschlussBBS";"HoechsterAbschlussBBSAm";"HoechsterAbschlussBBSBeruf";"ZugangAm";"Abgang";"AbgangAm";"Bemerkung";"MerkmalA1";"MerkmalA2";"MerkmalA3";"MerkmalA4";"MerkmalA5";"MerkmalA6";"MerkmalB1";"MerkmalB2";"MerkmalB3";"MerkmalB4";"MerkmalD1";"MerkmalD2";"MerkmalD3";"MerkmalD4";"MerkmalS1";"MerkmalS2";"MerkmalS3";"MerkmalS4";"MerkmalS5";"MerkmalS6";"MerkmalS7";"MerkmalS8";"MerkmalS9";"MerkmalS10";"MerkmalT1";"MerkmalT2";"MerkmalT3";"MerkmalT4";"MerkmalU1";"MerkmalU2"

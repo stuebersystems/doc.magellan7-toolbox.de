@@ -1,20 +1,20 @@
 # Skripteditor
 
-Der MAGELLAN-Skripteditor ist das Werkzeug, mit dem Sie Skripte editieren oder neu erstellen können.
+Der Magellan-Skripteditor ist das Werkzeug, mit dem Sie Skripte editieren oder neu erstellen können.
 
 ![Der Skripteditor](/assets/images/scripting/skripteditor.png)
 
 ## Starten des Editors
 
-Um den MAGELLAN Skripteditor zu starten, gehen Sie in den Windows-Explorer und starten Sie die Datei MagScriptEditor.exe. Sie finden diese Datei in Abhängigkeit vom Betriebssystem unter folgendem Verzeichnis:
+Um den Magellan Skripteditor zu starten, gehen Sie in den Windows-Explorer und starten Sie die Datei MagScriptEditor.exe. Sie finden diese Datei in Abhängigkeit vom Betriebssystem unter folgendem Verzeichnis:
 
 Betriebssystem|Pfad
 --|--
-Windows Vista|C:\Program Files\Stueber Systems\MAGELLAN 7
-Windows Windows 7 (32-bit)|C:\Programme\Stueber Systems\MAGELLAN 7
-Windows Server 2008/Windows 7 (64-bit)|C:\Program Files (x86)\Stueber Systems\MAGELLAN 7
+Windows Vista|C:\Program Files\Stueber Systems\Magellan 7
+Windows Windows 7 (32-bit)|C:\Programme\Stueber Systems\Magellan 7
+Windows Server 2008/Windows 7 (64-bit)|C:\Program Files (x86)\Stueber Systems\Magellan 7
 
-Sie können nun ein MAGELLAN-Skript auswählen, indem Sie im Menü ```Datei``` auf ```Öffnen``` klicken. Der Skripteditor versucht automatisch das gerade aktuelle Skripteverzeichnis anzuzeigen, so dass Sie sofort alle verfügbaren Skripte angezeigt bekommen.
+Sie können nun ein Magellan-Skript auswählen, indem Sie im Menü ```Datei``` auf ```Öffnen``` klicken. Der Skripteditor versucht automatisch das gerade aktuelle Skripteverzeichnis anzuzeigen, so dass Sie sofort alle verfügbaren Skripte angezeigt bekommen.
 
 Wenn Sie beispielsweise die Datei Schüler einschulen.dws auswählen, dann wird das Skript zum Einschulen von Schülern geladen.
 
@@ -22,22 +22,22 @@ Sie können nun das Skript durchblättern, um sich den Quellcode anzuschauen. Di
 
 ## Skriptstruktur
 
-Bei einem MAGELLAN-Skript wird zwischen dem Quellcode-Teil und dem Interface-Teil unterschieden.
-Der Quellcode-Teil enthält den eigentlichen Skriptcode. Damit sind die Prorammanweisungen gemeint, die später im Kontext von MAGELLAN ausgeführt werden.
+Bei einem Magellan-Skript wird zwischen dem Quellcode-Teil und dem Interface-Teil unterschieden.
+Der Quellcode-Teil enthält den eigentlichen Skriptcode. Damit sind die Prorammanweisungen gemeint, die später im Kontext von Magellan ausgeführt werden.
 
-Der Interface-Teil dagegen dient als Bindeglied zwischen MAGELLAN und dem Skripteditor. Hier wird die Schnittstelle zwischen MAGELLAN und dem Skript definiert, d.h. es werden Konstanten und zum Teil auch Funktionen deklariert, die später von MAGELLAN automatisch zur Verfügung gestellt werden.
+Der Interface-Teil dagegen dient als Bindeglied zwischen Magellan und dem Skripteditor. Hier wird die Schnittstelle zwischen Magellan und dem Skript definiert, d.h. es werden Konstanten und zum Teil auch Funktionen deklariert, die später von Magellan automatisch zur Verfügung gestellt werden.
 
 ![2 Der Skripteditor mit dem Interface-Teil des geöffnetem Skript in der Ansicht “Interface-Emulation“](/assets/images/scripting/interface-emulation.png)
 
-Betrachten wir uns beispielsweise den Interface-Teil des bereits erwähnten Importskripts für das Einschulen von Schülern. Sie finden dort die Deklaration von diversen Variablen des Objektes TSchueler. Dies sind genau jene Variablen, die durch den MAGELLAN-Administrator beim Aufruf des Einschulens von Schülern zur Verfügung gestellt werden, d.h. die Angaben werden automatisch ermittelt und übergeben.
+Betrachten wir uns beispielsweise den Interface-Teil des bereits erwähnten Importskripts für das Einschulen von Schülern. Sie finden dort die Deklaration von diversen Variablen des Objektes TSchueler. Dies sind genau jene Variablen, die durch den Magellan-Administrator beim Aufruf des Einschulens von Schülern zur Verfügung gestellt werden, d.h. die Angaben werden automatisch ermittelt und übergeben.
 
-Während Sie mit dem Skripteditor arbeiten, steht MAGELLAN aber nicht zur Verfügung. In diesem Fall werden die Variablen einfach „von Hand“ gesetzt, um einen Stand-alone-Einsatz des Skripts zu gewährleisten.
+Während Sie mit dem Skripteditor arbeiten, steht Magellan aber nicht zur Verfügung. In diesem Fall werden die Variablen einfach „von Hand“ gesetzt, um einen Stand-alone-Einsatz des Skripts zu gewährleisten.
 
-Dieser Ansatz hat zudem den Vorteil, dass Sie sehr schnell die Eingabeparameter für Testzwecke umsetzen können, indem Sie einfach andere Werte eintragen. Sie müssen in diesem Fall nicht erst MAGELLAN aufrufen, um eine Änderung am Skript auszutesten.
+Dieser Ansatz hat zudem den Vorteil, dass Sie sehr schnell die Eingabeparameter für Testzwecke umsetzen können, indem Sie einfach andere Werte eintragen. Sie müssen in diesem Fall nicht erst Magellan aufrufen, um eine Änderung am Skript auszutesten.
 
 Es gilt, dass alles, was Sie im Interface-Teil des Skripts eintippen, später nicht mehr genutzt wird.
-Die Trennung zwischen eigentlichem Quellcode und der Interface-Definition spiegelt sich auch in der Dateiaufteilung wieder. Jedes MAGELLAN- Skript wird immer in Form von zwei Dateien gespeichert.
->Der Quellcode befindet sich in einer Datei mit der Endung .dws und der Interface-Teil in einer Datei mit der Endung .int. Wenn MAGELLAN auf das Skript zugreift, dann wird die Interface-Datei einfach ignoriert.
+Die Trennung zwischen eigentlichem Quellcode und der Interface-Definition spiegelt sich auch in der Dateiaufteilung wieder. Jedes Magellan- Skript wird immer in Form von zwei Dateien gespeichert.
+>Der Quellcode befindet sich in einer Datei mit der Endung .dws und der Interface-Teil in einer Datei mit der Endung .int. Wenn Magellan auf das Skript zugreift, dann wird die Interface-Datei einfach ignoriert.
 
 ## Skripte ändern und testen
 
@@ -53,7 +53,7 @@ Sie können auch auf den Befehl ```Ausführen```  klicken, um das gesamte Skript
 
 * Beim ersten Ausführen eines Skripts wird das Skript wahrscheinlich kein sinnvolles Ergebnis liefern. Das liegt daran, dass die Vorgabewerte im Interface-Teil nicht zu Ihrem System passen. Womöglich ist Ihre Datenbankdatei in einem ganz anderen Verzeichnis untergebracht oder das Passwort ist geändert worden. Sie müssen also darauf achten, dass die Werte richtig gesetzt sind.
 
-* Einige Skripte führen ohne Ihre MAGELLAN-Host-Anwendung schlichtweg keine Operationen aus. Dies ist immer dann der Fall, wenn der Datenbankzugriff ausschließlich im Kontext von MAGELLAN erfolgen kann. Diese Skripte setzen eine bereits offene Datenbankverbindung voraus, die der Skripteditor nicht liefern kann. Hierzu gehören z.B. die Skripte für die Notenberechnungen (Abitur, Berufsschule usw.). In diesen Fällen müssen Sie das Skript doch aus MAGELLAN heraus aufrufen, um Änderungen testen zu können.
+* Einige Skripte führen ohne Ihre Magellan-Host-Anwendung schlichtweg keine Operationen aus. Dies ist immer dann der Fall, wenn der Datenbankzugriff ausschließlich im Kontext von Magellan erfolgen kann. Diese Skripte setzen eine bereits offene Datenbankverbindung voraus, die der Skripteditor nicht liefern kann. Hierzu gehören z.B. die Skripte für die Notenberechnungen (Abitur, Berufsschule usw.). In diesen Fällen müssen Sie das Skript doch aus Magellan heraus aufrufen, um Änderungen testen zu können.
 
 * Ein syntaktisch korrektes Skript muss nicht immer ein sinnvolles Ergebnis liefern. Wenn Sie eine Endlosschleife programmiert haben, dann „hängt“ das Skript, obwohl die Kompilierung keine Fehler angezeigt hat.
 
@@ -61,7 +61,7 @@ Wenn Sie ein wenig mit dem Skripteditor gearbeitet haben, werden Sie sehr schnel
 
 ## Weitere Funktionen
 
-Der MAGELLAN-Skripteditor bietet für die Skriptprogrammierung eine ganze Reihe von Annehmlichkeiten:
+Der Magellan-Skripteditor bietet für die Skriptprogrammierung eine ganze Reihe von Annehmlichkeiten:
 
 Funktion|Inhalt
 --|--

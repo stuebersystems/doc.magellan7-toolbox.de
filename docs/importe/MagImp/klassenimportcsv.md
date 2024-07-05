@@ -50,7 +50,7 @@ Ergebnis: |Die Klasse wird in 6 Halbjahren angelegt
 !!! info "Hinweis"
 
     Pflichtfelder sind Kuerzel, Klassenart, Notenart, ZeitraumVon, ZeitraumBis und Halbjahr.
-    Das Schuljahr muss für den Import (in der Importdatei und im Verzeichnis Zeiträume in MAGELLAN) im ersten Halbjahr am 01.08 starten und im zweiten Halbjahr mit dem 31.07. enden
+    Das Schuljahr muss für den Import (in der Importdatei und im Verzeichnis Zeiträume in Magellan) im ersten Halbjahr am 01.08 starten und im zweiten Halbjahr mit dem 31.07. enden
 
 ## Importfelder
 

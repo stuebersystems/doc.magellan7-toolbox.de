@@ -127,7 +127,7 @@ Bemerkung| -
 
 !!! warning "Wichtig"
 
-    Importierte Medien aus der Datei „medien.import.csv“ können erst in der MAGELLAN-Bibliothek angezeigt werden, wenn die dazugehörige Datei „exemplare.import.csv“ importiert wurde.
+    Importierte Medien aus der Datei „medien.import.csv“ können erst in der Magellan-Bibliothek angezeigt werden, wenn die dazugehörige Datei „exemplare.import.csv“ importiert wurde.
     
     Das Einlesen der Medien ist nur für den einmaligen Import gedacht. Ein erneutes Einlesen der gleichen Daten führt nicht zu einem Update der bereits eingelesenen Mediendaten
 

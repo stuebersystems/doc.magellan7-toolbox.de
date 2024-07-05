@@ -1,17 +1,17 @@
 # Bibliotheken
 
-Die Leistungsfähigkeit eines Scripting-Mechanismus hängt vor allem von den integrierten Funktionsbibliotheken ab. Den Skripten in MAGELLAN stehen folgende Bibliotheken zur Verfügung.
+Die Leistungsfähigkeit eines Scripting-Mechanismus hängt vor allem von den integrierten Funktionsbibliotheken ab. Den Skripten in Magellan stehen folgende Bibliotheken zur Verfügung.
 
 ## ODBC-Bibliothek
 
 Diese Bibliothek stellt Funktionen für den Zugriff auf ODBC zur Verfügung. ODBC steht für Open Database Connectivity und ist eine Datenbank-Middleware, die einen universellen SQL-Zugriff auf verschiedene Datenbank- und Dateisysteme ermöglicht (z.B. Excel, Access, Firebird, SQL-Server usw.).
-ODBC wird in MAGELLAN vor allem für den Import und Export von Daten verwendet. So ist beispielsweise ein Import aus einer alten dBase-Schulverwaltung nach MAGELLAN problemlos möglich.
+ODBC wird in Magellan vor allem für den Import und Export von Daten verwendet. So ist beispielsweise ein Import aus einer alten dBase-Schulverwaltung nach Magellan problemlos möglich.
 
 ## IB-Bibliothek
 
 Diese Bibliothek stellt die wichtigsten Zugriffsroutinen zur Verfügung, um direkt mit Firebird kommunizieren zu können. Dabei wird eine offene Datenbankverbindung von Seiten der Host-Anwendung vorausgesetzt. Das Nutzen dieser bereits vorhandenen Verbindung ermöglicht einen schnellen Zugriff auf die Datenbank, ohne dass eine separate Verbindung aufgebaut werden muss. Außerdem laufen alle Datenbankoperationen im Transaktionskontext der Host-Anwendung ab.
 
-In MAGELLAN werden diese Funktionen überall dort verwendet, wo ausschließlich auf die MAGELLAN-Datenbank zugegriffen wird (z.B. beim Synchronisieren oder Versetzen von Schülern).
+In Magellan werden diese Funktionen überall dort verwendet, wo ausschließlich auf die Magellan-Datenbank zugegriffen wird (z.B. beim Synchronisieren oder Versetzen von Schülern).
 
 ## SDTF-Bibliothek
 
@@ -21,7 +21,7 @@ Diese Bibliothek stellt Funktionen für den Zugriff auf SDTF-Dateien zur Verfüg
 <LineType>;<Field_1>;<Field_2>;...;<Field_n>
 ````
 
-In MAGELLAN wird ein Zugriff auf diese Dateien vor allem bei der Kommunikation mit daVinci gebraucht.
+In Magellan wird ein Zugriff auf diese Dateien vor allem bei der Kommunikation mit daVinci gebraucht.
 
 ## OBOX-Bibliothek
 
@@ -185,7 +185,7 @@ Titel|Inhalt
 
 ## IB-Bibliothek
 
-Die IB-Bibliothek stellt Funktionen für den direkten Zugriff auf die aktuelle MAGELLAN-Datenbank zur Verfügung. Dies sind vor allem Funktionen zum Ausführen von SQL-Anweisungen (z.B. DELETE, UPDATE, INSERT oder SELECT).
+Die IB-Bibliothek stellt Funktionen für den direkten Zugriff auf die aktuelle Magellan-Datenbank zur Verfügung. Dies sind vor allem Funktionen zum Ausführen von SQL-Anweisungen (z.B. DELETE, UPDATE, INSERT oder SELECT).
 
 Alle Funktionen besitzen den Präfix ib_.
 

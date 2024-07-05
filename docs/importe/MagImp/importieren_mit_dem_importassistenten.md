@@ -1,28 +1,28 @@
 # Importieren mit dem Importassistenten
 
-Der Importassistent kann im MAGELLAN-Administrator in der Ansicht `Datenaustausch` über `Daten über MAGELLAN-Importformat importieren` aufgerufen werden. Der Import über das MAGELLAN-Importformat dient dem einmaligen Importieren von Daten nach MAGELLAN.
+Der Importassistent kann im Magellan-Administrator in der Ansicht `Datenaustausch` über `Daten über Magellan-Importformat importieren` aufgerufen werden. Der Import über das Magellan-Importformat dient dem einmaligen Importieren von Daten nach Magellan.
 
 ## Voraussetzungen
 
 Es gelten folgende Voraussetzungen für den Import der Dateien:
 
 1. Die Dateien müssen den im vorherigen Abschnitt beschriebenen Formaten entsprechen.
-2. In MAGELLAN muss mindestens ein Mandant angelegt sein.
-3. Bei Import von zeitraumbezogenen Daten (Klassen, Schüler-Laufbahn und Schüler-Fachdaten) müssen entsprechend der Importdaten in den Dateien die Zeiträume in MAGELLAN angelegt sein.
+2. In Magellan muss mindestens ein Mandant angelegt sein.
+3. Bei Import von zeitraumbezogenen Daten (Klassen, Schüler-Laufbahn und Schüler-Fachdaten) müssen entsprechend der Importdaten in den Dateien die Zeiträume in Magellan angelegt sein.
 
 ## Importieren der Schlüsselverzeichnisse
 
-Es ist sehr wichtig, dass Sie vor dem Erstimport die Schlüsselverzeichnisse Ihres Bundeslandes importieren. Schlüsselverzeichnisse stellen Stammdaten dar, die in MAGELLAN oftmals über Dropdown-Comboboxen in den jeweiligen Masken ausgewählt werden. Zum einen dienen Sie zur Auswahl vieler Daten bei der allgemeinen Arbeit im Schulalltag, zum anderen werden die von uns vorgegebenen Schlüsselverzeichnisse von Ihnen zur Erstellung der Landesstatistiken oder für Berechnungsskripte und zum Ausdruck von Zeugnissen benötigt, je nachdem um welches Schlüsselverzeichnis es sich handelt und in welchem Bundesland Sie arbeiten. Wie Sie die Schlüsselverzeichnisse für Ihr Bundesland importieren, lesen Sie bitte in der Dokumentation [Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#kataloge-schlusselverzeichnisse-importieren).
+Es ist sehr wichtig, dass Sie vor dem Erstimport die Schlüsselverzeichnisse Ihres Bundeslandes importieren. Schlüsselverzeichnisse stellen Stammdaten dar, die in Magellan oftmals über Dropdown-Comboboxen in den jeweiligen Masken ausgewählt werden. Zum einen dienen Sie zur Auswahl vieler Daten bei der allgemeinen Arbeit im Schulalltag, zum anderen werden die von uns vorgegebenen Schlüsselverzeichnisse von Ihnen zur Erstellung der Landesstatistiken oder für Berechnungsskripte und zum Ausdruck von Zeugnissen benötigt, je nachdem um welches Schlüsselverzeichnis es sich handelt und in welchem Bundesland Sie arbeiten. Wie Sie die Schlüsselverzeichnisse für Ihr Bundesland importieren, lesen Sie bitte in der Dokumentation [Datenaustausch > Kataloge (Schlüsselverzeichnisse) importieren](https://doc.magellan7.stueber.de/schulverwaltung/admin/datenaustausch/#kataloge-schlusselverzeichnisse-importieren).
 
 ## Der Import
 
 !!! warning "Wichtig"
 
-    Die nachstehende Beschreibung setzt mindestens die MAGELLAN-Ausgabe 7.1.4 voraus.
+    Die nachstehende Beschreibung setzt mindestens die Magellan-Ausgabe 7.1.4 voraus.
 
 ### Vorbereitung
 
-Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [MAGELLAN-Importformat](https://doc.magellan-toolbox.stueber.de/importe/) vor.
+Bereiten Sie Ihre einzulesenden Daten bitte entsprechend unserer Beschreibung im [Magellan-Importformat](https://doc.magellan-toolbox.stueber.de/importe/) vor.
 
 !!! tip "Tipp"
 
@@ -48,7 +48,7 @@ schueler_ausbildung.import.csv | Enthält die Ausbildungsdaten der Schüler
 
 ### Einlesen oder Prüfen der Daten
 
-Ihre Dateien können im Modul MAGELLAN ADMINISTRATOR im Punkt `Datenaustausch > Daten über das MAGELLAN Importformat importieren` eingelesen werden. Starten Sie den Assistenten per Doppelklick auf den Bereich.
+Ihre Dateien können im Modul Magellan Administrator im Punkt `Datenaustausch > Daten über das Magellan Importformat importieren` eingelesen werden. Starten Sie den Assistenten per Doppelklick auf den Bereich.
 
 |So gehen Sie vor:|
 |--|
@@ -75,7 +75,7 @@ Zweck: Sie können mit dieser Prüfung vorab klären, ob Ihre zu importierenden 
 
 * Alle anderen Importe
 
-Es wird geprüft, ob ein der Datensatz mit angegebenem Wert in einer Schlüssel- oder Verweistabelle existiert. Beispiel: schüler.import.csv – Spalte „Geburtsland“ enthält den Importwert „DEU“. Es wird geprüft, ob in der Schlüsseltabelle „Staatsangehoerigkeiten“ ein Datensatz mit dem Kürzel „DEU“ existiert. Wenn nicht, dann wird eine Warnung ausgegeben und Sie haben die Möglichkeit, ggf. den Wert zu korrigieren, diesen mit vollständigen Daten in MAGELLAN einzutragen, oder einfach zu ignorieren und den Datensatz beim Import in das Schlüsselverzeichnis mit dem Kürzel importieren zu lassen (Achtung: Dadurch fehlen Ihnen Felder wie Schlüssel und Bezeichnung in der Schlüsseltabelle; Schlüssel sind für die Statistiken wichtig).
+Es wird geprüft, ob ein der Datensatz mit angegebenem Wert in einer Schlüssel- oder Verweistabelle existiert. Beispiel: schüler.import.csv – Spalte „Geburtsland“ enthält den Importwert „DEU“. Es wird geprüft, ob in der Schlüsseltabelle „Staatsangehoerigkeiten“ ein Datensatz mit dem Kürzel „DEU“ existiert. Wenn nicht, dann wird eine Warnung ausgegeben und Sie haben die Möglichkeit, ggf. den Wert zu korrigieren, diesen mit vollständigen Daten in Magellan einzutragen, oder einfach zu ignorieren und den Datensatz beim Import in das Schlüsselverzeichnis mit dem Kürzel importieren zu lassen (Achtung: Dadurch fehlen Ihnen Felder wie Schlüssel und Bezeichnung in der Schlüsseltabelle; Schlüssel sind für die Statistiken wichtig).
 
 !!! warning "Wichtig"
 

@@ -89,12 +89,11 @@ Importdatei|Beschreibung
 
 ### Aufbau der Importdateien
 
-Jede dieser Dateien muss als CSV-Datei (ANSI) aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch Semikolon getrennt und mit Anführungszeichen abgegrenzt.
+Jede dieser Dateien muss als CSV-Datei (UTF-8) aufgebaut sein, d.h. sie besteht jeweils aus einer Kopfzeile und ein oder mehreren Zeilen mit den zu importierenden Inhalten. Die einzelnen Felder sind durch Semikolon getrennt und mit Anführungszeichen abgegrenzt.
 
 !!! note "Hinweis!"    
 
-    Speichern Sie Ihre Daten aus Excel heraus, können Sie eine Datei mit `Speichern unter` und dem Dateityp `CSV Trennzeichen getrennt *.csv` erzeugen. Excel erzeugt als Trennzeichen ein `;`, grenzt die Daten aber nicht mit `"` (also `;"Daten";""` uws. ab). Das muss kein Problem sein, wird aber eins, sollten Ihre Daten selbst ein `;` enthalten. Ohne Anführungszeichen wird das Semikolon mit interpretiert werden, die Daten können nicht eingelesen werden. 
-    Wie man die Daten im korrekten Format mit OpenOffice speichern kann, beschreiben wir [hier](https://doc.kb.stueber.de/magellan/import-csvdateien/).
+    Speichern Sie Ihre Daten aus Excel heraus, können Sie eine Datei mit `Speichern unter` und dem Dateityp `CSV UTF-8 (Trennzeichen getrennt) (*.csv)` erzeugen. Excel erzeugt als Trennzeichen ein `;`, grenzt die Daten aber nicht mit `"` (also `;"Daten";""` uws. ab). Das muss kein Problem sein, wird aber eins, sollten Ihre Daten selbst ein `;` enthalten. Ohne Anführungszeichen wird das Semikolon mit interpretiert werden, die Daten können nicht eingelesen werden.
 
 
 Die Schülerdatei kann z.B. folgenden Aufbau haben
@@ -121,6 +120,10 @@ Besitzt der Inhalt selbst Anführungszeichen, so sind doppelte Anführungszeiche
 
 angeben.
 Welche Felder pro Datei eingelesen werden, ist den nachfolgenden Abschnitten pro Datei zu entnehmen.
+
+!!! warning "Wichtig"
+
+    Die CSV-Dateien müssen im UTF-8 Format abgespeichert sein! Ein Einlesen im ANSI-Format wird nicht unterstützt.
 
 !!! warning "Wichtig"
 
